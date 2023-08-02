@@ -13,12 +13,32 @@
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
+                        {{ __('Painel') }}
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('supports.index')" :active="request()->routeIs('supports.index')">
-                        {{ __('Fórum') }}
+                        {{ __('Consultoria') }}
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('supports.index')" :active="request()->routeIs('supports.index')">
+                        {{ __('Veiculos') }}
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('supports.index')" :active="request()->routeIs('supports.index')">
+                        {{ __('Historico Veicular') }}
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('supports.index')" :active="request()->routeIs('supports.index')">
+                        {{ __('Lojas Parceiras') }}
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('supports.index')" :active="request()->routeIs('supports.index')">
+                        {{ __('FIPE') }}
                     </x-nav-link>
                 </div>
             </div>
