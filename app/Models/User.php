@@ -7,6 +7,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
@@ -48,5 +49,20 @@ class User extends Authenticatable
     public function supports(): HasMany
     {
         return $this->hasMany(Support::class);
+    }
+
+    public function user_atributte(): HasOne
+    {
+        return $this->hasOne(User_atributte::class);
+    }
+
+    public function user_address(): HasMany
+    {
+        return $this->hasMany(User_address::class);
+    }
+
+    public function vehicle_user(): HasMany
+    {
+        return $this->hasMany(Vehicle_user::class);
     }
 }
