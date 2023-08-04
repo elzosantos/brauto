@@ -23,8 +23,12 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
+        'cpf',
         'email',
         'password',
+        'genre',
+        'personal_phone',
+        'comercial_phone'
     ];
 
     /**
@@ -49,11 +53,6 @@ class User extends Authenticatable
     public function supports(): HasMany
     {
         return $this->hasMany(Support::class);
-    }
-
-    public function user_atributte(): HasOne
-    {
-        return $this->hasOne(User_atributte::class);
     }
 
     public function user_address(): HasMany
