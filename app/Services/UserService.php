@@ -6,6 +6,7 @@ namespace App\Services;
 use App\Enums\RecordStatus;
 use App\Repositories\Contracts\PaginationInterface;
 use App\Repositories\Contracts\UserRepositoryInterface;
+use Illuminate\Http\Client\Request;
 use Illuminate\Support\Facades\Gate;
 use stdClass;
 
@@ -20,6 +21,8 @@ class UserService
         int $totalPerPage = 15,
         string $filter = null
     ): PaginationInterface {
+
+       
         return  $this->repository->paginate(
             page: $page,
             totalPerPage: $totalPerPage,
@@ -57,7 +60,7 @@ class UserService
         $this->repository->delete($id);
     }
 
-    public function updateStatus(string $id, SupportStatus $status): void
+    public function updateStatus(string $id, RecordStatus $status): void
     {
 
         $this->repository->updateStatus($id, $status);

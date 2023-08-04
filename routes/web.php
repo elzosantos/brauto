@@ -2,8 +2,8 @@
 
 use App\Http\Controllers\Admin\ReplySupportController;
 use App\Http\Controllers\Admin\SupportController;
-use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\Site\SiteController;
+use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\ProfileController; 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
  
@@ -32,6 +32,10 @@ Route::middleware('auth')->group(function () {
     Route::get('/supports/create', [SupportController::class, 'create'])->name('supports.create');
     Route::post('/supports', [SupportController::class, 'store'])->name('supports.store');
     Route::get('/supports', [SupportController::class, 'index'])->name('supports.index');
+
+
+
+    Route::get('/users', [UserController::class, 'index'])->name('users.index');
 });
 
 require __DIR__ . '/auth.php';
