@@ -17,27 +17,27 @@
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('supports.index')" :active="request()->routeIs('supports.index')">
+                    <x-nav-link :href="route('users.index')" :active="request()->routeIs('users.index')">
+                        {{ __('Usuarios') }}
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('supports.index')" :active="request()->routeIs('supports.indexs')">
                         {{ __('Consultoria') }}
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('supports.index')" :active="request()->routeIs('supports.index')">
-                        {{ __('Meus Veiculos') }}
-                    </x-nav-link>
-                </div>
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('supports.index')" :active="request()->routeIs('supports.index')">
+                    <x-nav-link :href="route('supports.index')" :active="request()->routeIs('supports.indexa')">
                         {{ __('Historico Veicular') }}
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('supports.index')" :active="request()->routeIs('supports.index')">
+                    <x-nav-link :href="route('supports.index')" :active="request()->routeIs('supports.indexd')">
                         {{ __('Manutenção') }}
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('supports.index')" :active="request()->routeIs('supports.index')">
+                    <x-nav-link :href="route('supports.index')" :active="request()->routeIs('supports.indwex')">
                         {{ __('FIPE') }}
                     </x-nav-link>
                 </div>
@@ -60,7 +60,7 @@
 
                     <x-slot name="content">
                         <x-dropdown-link :href="route('profile.edit')">
-                            {{ __('Profile') }}
+                            {{ __('Conta') }}
                         </x-dropdown-link>
 
                         <!-- Authentication -->

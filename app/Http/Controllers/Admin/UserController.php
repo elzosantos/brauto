@@ -26,18 +26,14 @@ class UserController extends Controller
         return view('admin.users.index', compact('users', 'filters'));
     }
 
-    public function create()
-    {
-        return  view('admin/supports/create');
-    }
 
     public function show(string|int $id)
     {
 
-        if (!$support = $this->service->findOne($id)) {
+        if (!$user = $this->service->findOne($id)) {
             return back();
         }
-        return view('admin.supports.show', compact('support'));
+        return view('admin.users.show', compact('user'));
     }
 
     public function edit(string|int $id)
