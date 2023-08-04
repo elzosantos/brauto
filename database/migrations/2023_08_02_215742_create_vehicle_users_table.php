@@ -11,9 +11,22 @@ return new class extends Migration
      */
     public function up(): void
     {
+
         Schema::create('vehicle_users', function (Blueprint $table) {
-            $table->id();
+            $table->uuid('id')->primary();
+            $table->uuid('vehicle_id')->index();
+            $table->uuid('user_id')->index();
+            $table->integer('status');
+
             $table->timestamps();
+
+            $table->foreign('vehicle_id')
+                ->references('id')
+                ->on('vehicles');
+
+            $table->foreign('user_id')
+                ->references('id')
+                ->on('users');
         });
     }
 

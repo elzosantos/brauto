@@ -11,8 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
+ 
         Schema::create('groups', function (Blueprint $table) {
-            $table->id();
+            $table->uuid('id')->primary();
+            $table->text('name');
+            $table->integer('status');
             $table->timestamps();
         });
     }

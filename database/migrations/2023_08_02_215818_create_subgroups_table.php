@@ -12,8 +12,15 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('subgroups', function (Blueprint $table) {
-            $table->id();
+            $table->uuid('id')->primary();
+            $table->uuid('group_id');
+            $table->text('name');
+            $table->integer('status');
             $table->timestamps();
+
+            $table->foreign('group_id')
+                ->references('id')
+                ->on('groups');
         });
     }
 

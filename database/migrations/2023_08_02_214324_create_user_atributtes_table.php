@@ -11,9 +11,24 @@ return new class extends Migration
      */
     public function up(): void
     {
+
         Schema::create('user_atributtes', function (Blueprint $table) {
-            $table->id();
+            $table->uuid('id')->primary();
+            $table->uuid('user_id')->index();
+            $table->uuid('address_id')->index();
+            $table->text('genre');
+            $table->text('cpf');
+            $table->text('personal_phone');
+            $table->text('comercial_phone');
+            
             $table->timestamps();
+
+            $table->foreign('user_id')
+                ->references('id')
+                ->on('users');
+            $table->foreign('address_id')
+                ->references('id')
+                ->on('user_addresses');
         });
     }
 

@@ -12,8 +12,15 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('areas', function (Blueprint $table) {
-            $table->id();
+            $table->uuid('id')->primary();
+            $table->uuid('subgroup_id');
+            $table->text('name');
+            $table->integer('status');
             $table->timestamps();
+
+            $table->foreign('subgroup_id')
+                ->references('id')
+                ->on('subgroups');
         });
     }
 

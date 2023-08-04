@@ -9,11 +9,20 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
+   
     public function up(): void
     {
         Schema::create('evaluations', function (Blueprint $table) {
-            $table->id();
+            $table->uuid('id')->primary();
+            $table->uuid('item_id');
+            $table->text('status_item');
+            $table->text('observation');
+            $table->integer('status');
             $table->timestamps();
+
+            $table->foreign('item_id')
+                ->references('id')
+                ->on('items');
         });
     }
 
