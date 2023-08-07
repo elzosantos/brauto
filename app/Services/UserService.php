@@ -3,6 +3,7 @@
 
 namespace App\Services;
  
+use App\DTO\Supports\CreateUserDTO;
 use App\Enums\RecordStatus;
 use App\Repositories\Contracts\PaginationInterface;
 use App\Repositories\Contracts\UserRepositoryInterface;
@@ -38,13 +39,15 @@ class UserService
         return $this->repository->findOne($id);
     }
 
-  /*  public function new(
-        CreateSupportDTO $dto
+   public function new(
+        CreateUserDTO $dto
     ): stdClass {
         return $this->repository->new(
             $dto
         );
     }
+    
+    /*
 
     public function update(
         UpdateSupportDTO $dto

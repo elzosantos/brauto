@@ -34,7 +34,10 @@ Route::middleware('auth')->group(function () {
     Route::get('/supports', [SupportController::class, 'index'])->name('supports.index');
 
 
-
+    Route::post('/users', [UserController::class, 'store'])->name('users.store');
+    Route::get('/users/create', [UserController::class, 'create'])->name('users.create');
+    Route::delete('/users/{id}', [UserController::class, 'destroy'])->name('users.destroy');
+    Route::get('/users/{id}', [UserController::class, 'show'])->name('users.show');
     Route::get('/users', [UserController::class, 'index'])->name('users.index');
 });
 

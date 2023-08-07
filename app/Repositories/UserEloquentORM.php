@@ -2,6 +2,7 @@
 
 namespace App\Repositories;
 
+use App\DTO\Supports\CreateUserDTO;
 use App\Enums\RecordStatus;
 use App\Models\User;
 use App\Repositories\Contracts\PaginationInterface;
@@ -49,27 +50,28 @@ class UserEloquentORM implements UserRepositoryInterface
     public function findOne(string $id): stdClass|null
     {
 
-        $support = $this->model->with('user')->find($id);
+        $user = $this->model->with('user_address')->find($id);
 
-        if (!$support) {
+        if (!$user) {
             return null;
         }
-        return (object) $support->toArray();
+        return (object) $user->toArray();
     }
     public function delete(string $id): void
     {
-        $support = $this->model->findOrFail($id);
-        if (Gate::denies('owner', $support->user->id)) {
+ 
+        $user = $this->model->findOrFail($id);
+        /*if (Gate::denies('owner', $user->user->id)) {
             abort(403, 'Not authorized');
-        }
+        }*/
 
-        $support->delete();
+        $user->delete();
     }
-   /* public function new(CreateSupportDTO  $dto): stdClass
+    public function new(CreateUserDTO  $dto): stdClass
     {
         $support = $this->model->create((array) $dto);
         return (object) $support->toArray();
-    }
+    }/*
     public function update(UpdateSupportDTO  $dto): stdClass|null
     {
         if (!$support = $this->model->find($dto->id)) {

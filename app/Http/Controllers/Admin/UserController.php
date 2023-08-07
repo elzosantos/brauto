@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\DTO\Supports\CreateUserDTO;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\StoreUpdateUser;
 use App\Services\UserService;
 use Illuminate\Http\Request;
 
@@ -33,7 +35,7 @@ class UserController extends Controller
         if (!$user = $this->service->findOne($id)) {
             return back();
         }
-        return view('admin.users.show', compact('user'));
+        return view('admin.users.partials.show', compact('user'));
     }
 
     public function edit(string|int $id)
@@ -44,18 +46,22 @@ class UserController extends Controller
         return view('admin.supports.edit', compact('support'));
     }
 
-
-    /*public function store(StoreUpdateSupport $request)
+    public function create()
+    {
+        return  view('admin/users/create');
+    }
+    public function store(StoreUpdateUser $request)
     {
         $this->service->new(
-            CreateSupportDTO::makeFromRequest($request)
+             CreateUserDTO::makeFromRequest($request)
+          
         );
 
-        return redirect()->route('supports.index')->with('message', 'Cadastrado com sucesso!');
+        return redirect()->route('users.index')->with('message', 'Cadastrado com sucesso!');
     } 
    
 
-    public function update( StoreUpdateSupport $request )
+  /*  public function update( StoreUpdateSupport $request )
     {
         $support = $this->service->update(
             UpdateSupportDTO::makeFromRequest($request)
@@ -70,6 +76,6 @@ class UserController extends Controller
     public function destroy(string $id)
     {
         $this->service->delete($id);
-        return redirect()->route('supports.index')->with('message', 'Deletado com sucesso!');;
+        return redirect()->route('users.index')->with('message', 'Deletado com sucesso!');;
     }
 }
