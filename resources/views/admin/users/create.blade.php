@@ -54,7 +54,7 @@
                 
                             <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
                         </div>
-                        <div style="padding: 2%">
+                        <div style="padding-top: 10px; padding-bottom: 10px;">
                             <h3 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
                                 {{ __('Informações complementares') }}
                             </h3>
