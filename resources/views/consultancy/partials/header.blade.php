@@ -1,11 +1,11 @@
 <div class="sm:flex sm:items-center sm:justify-between">
     <div>
         <div class="flex items-center gap-x-3">
-            <h1 class="text-lg text-black-500" style="color: rgb(255, 255, 255); ">Clientes</h1>
+            <h1 class="text-lg text-black-500" style="color: rgb(255, 255, 255); ">Usuários</h1>
 
             <span
                 class="px-3 py-1 text-xs text-blue-600 bg-blue-100 rounded-full dark:bg-gray-800 dark:text-blue-400">{{ $users->total() }}
-                clientes</span>
+                usuários</span>
         </div>
     </div>
 
@@ -19,7 +19,7 @@
                     d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
 
-            <span>Novo Cliente</span>
+            <span>Novo usuário</span>
         </a>
     </div>
 </div>

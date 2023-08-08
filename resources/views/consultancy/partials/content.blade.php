@@ -36,11 +36,9 @@
                                 <td class="px-4 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
                                     {{ $user->name }}
                                 </td>
-                                  <td class="px-12 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
-                                     {{ App\Enums\Role::fromValue($user->role_id) }}
-                                      
-                                    </td>
-                               
+                                <td class="px-12 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
+                                    Perfil
+                                </td>
                                 <td class="px-4 py-2 text-sm whitespace-nowrap text-gray-500 dark:text-gray-400">
                                     {{ $user->email }}
                                 </td>

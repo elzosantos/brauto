@@ -11,9 +11,9 @@ enum Role: string
 
     public static function fromValue(string $name): string
     {
-        foreach (self::cases() as $status) {
-            if ($name == $status->name) {
-                return $status->value;
+        foreach (self::cases() as $role) {
+            if ($name == $role->name) {
+                return $role->value;
             }
         }
         throw new \ValueError("$name is not valid");

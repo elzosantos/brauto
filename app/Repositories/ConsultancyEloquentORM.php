@@ -4,36 +4,31 @@ namespace App\Repositories;
 
 use App\DTO\Supports\CreateUserDTO;
 use App\Enums\RecordStatus;
+use App\Models\Report;
 use App\Models\User;
+use App\Repositories\Contracts\ConsultancyRepositoryInterface;
 use App\Repositories\Contracts\PaginationInterface;
 use App\Repositories\Contracts\UserRepositoryInterface;
 use App\Repositories\PaginationPresenter;
 use Illuminate\Support\Facades\Gate;
 use stdClass;
 
-class UserEloquentORM implements UserRepositoryInterface
+class ConsultancyEloquentORM implements ConsultancyRepositoryInterface 
 {
 
     public function __construct(
-        protected User $model
+        protected Report $model
     ) {
     }
 
     public function paginate(int $page = 1, int $totalPerPage = 15, string $filter = null): PaginationInterface
     {
         $result =  $this->model
-
-            ->where(function ($query) use ($filter) {
-                if ($filter) {
-                    $query->where('name', $filter);
-                    $query->orWhere('cpf', 'like', "%{$filter}%");
-                }
-            })
             ->paginate($totalPerPage, ['*'], 'page', $page);
 
         return new PaginationPresenter($result);
     }
-
+/*
 
     public function getAll(string $filter = null): array
     {
@@ -63,7 +58,7 @@ class UserEloquentORM implements UserRepositoryInterface
         $user = $this->model->findOrFail($id);
         /*if (Gate::denies('owner', $user->user->id)) {
             abort(403, 'Not authorized');
-        }*/
+        }
 
         $user->delete();
     }
@@ -83,7 +78,7 @@ class UserEloquentORM implements UserRepositoryInterface
         }
         $support->update((array) $dto);
         return (object) $support->toArray();
-    }*/
+    }
 
     public function updateStatus(string $id, RecordStatus $status): void
     {
@@ -91,5 +86,5 @@ class UserEloquentORM implements UserRepositoryInterface
             ['status' => $status->name]
 
         );
-    }
+    }*/
 }

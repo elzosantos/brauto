@@ -14,7 +14,7 @@
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                   
                         @include('admin.users.partials.header', compact('users'))
-                        
+                   
                         @include('admin.users.partials.content')
                         <x-pagination :paginator="$users" :appends="$filters" />
                     

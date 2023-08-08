@@ -15,14 +15,12 @@ return new class extends Migration
  
         Schema::create('report_evaluations', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->uuid('report_id')->index();
+
             $table->uuid('evaluation_id')->index();
             $table->integer('status');
             $table->timestamps();
 
-            $table->foreign('report_id')
-                ->references('id')
-                ->on('reports');
+       
             $table->foreign('evaluation_id')
                 ->references('id')
                 ->on('evaluations');
