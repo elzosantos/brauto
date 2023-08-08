@@ -14,15 +14,20 @@ return new class extends Migration
     {
         Schema::create('evaluations', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->uuid('item_id');
-            $table->text('status_item');
+
+            $table->uuid('report_id');
+            $table->text('grupo');
+            $table->text('subgroup');
+            $table->text('area');
+            $table->text('item'); 
+            $table->text('status_evaluation');
             $table->text('observation');
             $table->integer('status');
             $table->timestamps();
 
-            $table->foreign('item_id')
+            $table->foreign('report_id')
                 ->references('id')
-                ->on('items');
+                ->on('reports');
         });
     }
 
