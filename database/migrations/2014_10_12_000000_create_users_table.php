@@ -17,11 +17,13 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('role_id');
             $table->rememberToken();
             $table->string('cpf')->unique();
             $table->string('personal_phone')->nullable();
             $table->string('comercial_phone')->nullable();
             $table->string('genre')->nullable();
+            $table->string('status');
             $table->timestamps();
         });
     }

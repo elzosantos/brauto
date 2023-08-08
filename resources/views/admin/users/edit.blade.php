@@ -1,14 +1,14 @@
 @extends('admin.layouts.app')
 
-@section('title', 'Editar Tópico')
+@section('title', 'Editar Cliente')
 
 @section('header')
-<h1 class="text-lg text-black-500"  style="color: rgb(255, 255, 255); ">Duvida - {{ $support->id }}</h1>
+<h1 class="text-lg text-black-500"  style="color: rgb(255, 255, 255); ">Cliente - {{ $user->id }}</h1>
 @endsection
 
 @section('content')
-<form action="{{ route('supports.update', $support->id) }}" method="POST">
+<form action="{{ route('users.update', $user->id) }}" method="POST">
     @method('PUT')
-    @include('admin.supports.partials.form', ['support' => $support])
+    @include('admin.user.partials.form', ['user' => $user])
 </form>
 @endsection
