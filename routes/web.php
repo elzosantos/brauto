@@ -4,10 +4,10 @@ use App\Http\Controllers\Admin\ReplySupportController;
 use App\Http\Controllers\Admin\SupportController;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\ConsultancyController;
-use App\Http\Controllers\ProfileController; 
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
- 
+
 
 Route::get('/', function () {
     return view('auth/login');
@@ -34,15 +34,15 @@ Route::middleware('auth')->group(function () {
     Route::post('/supports', [SupportController::class, 'store'])->name('supports.store');
     Route::get('/supports', [SupportController::class, 'index'])->name('supports.index');
 
-//Users
+    //Users
     Route::post('/users', [UserController::class, 'store'])->name('users.store');
     Route::get('/users/create', [UserController::class, 'create'])->name('users.create');
     Route::delete('/users/{id}', [UserController::class, 'destroy'])->name('users.destroy');
     Route::get('/users/{id}', [UserController::class, 'show'])->name('users.show');
     Route::get('/users', [UserController::class, 'index'])->name('users.index');
 
-//Consultancy   
-Route::get('/consultancy', [ConsultancyController::class, 'index'])->name('consultancy.index');
+    //Consultancy   
+    Route::get('/consultancy', [ConsultancyController::class, 'index'])->name('consultancy.index');
 });
 
 require __DIR__ . '/auth.php';
