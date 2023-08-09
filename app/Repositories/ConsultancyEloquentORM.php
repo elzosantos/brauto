@@ -45,17 +45,18 @@ class ConsultancyEloquentORM implements ConsultancyRepositoryInterface
             })
             ->get()
             ->toArray();
-    }
+    }*/
     public function findOne(string $id): stdClass|null
     {
 
-        $user = $this->model->with('user_address')->find($id);
+        $consultant = $this->model->with('consultor')
+        ->with('vehicle_user')->find($id);
 
-        if (!$user) {
+        if (!$consultant) {
             return null;
         }
-        return (object) $user->toArray();
-    }
+        return (object) $consultant->toArray();
+    }/*
     public function delete(string $id): void
     {
  

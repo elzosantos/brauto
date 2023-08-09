@@ -26,16 +26,17 @@ class ConsultancyController extends Controller
 
         return view('consultancy.index', compact('consultancies', 'filters'));
     }
-    /*
+
 
     public function show(string|int $id)
     {
 
-        if (!$user = $this->service->findOne($id)) {
+        if (!$consultancy = $this->service->findOne($id)) {
             return back();
         }
-        return view('admin.users.partials.show', compact('user'));
+        return view('consultancy.partials.show', compact('consultancy'));
     }
+    /*
 
     public function edit(string|int $id)
     {

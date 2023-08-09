@@ -42,6 +42,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/users', [UserController::class, 'index'])->name('users.index');
 
     //Consultancy   
+    Route::get('/consultancy/{id}', [ConsultancyController::class, 'show'])->name('consultancy.show');
     Route::get('/consultancy', [ConsultancyController::class, 'index'])->name('consultancy.index');
 });
 

@@ -2,7 +2,7 @@
 
 
 namespace App\Services;
- 
+
 use App\DTO\Supports\CreateUserDTO;
 use App\Enums\RecordStatus;
 use App\Repositories\Contracts\ConsultancyRepositoryInterface;
@@ -24,21 +24,23 @@ class ConsultancyService
         string $filter = null
     ): PaginationInterface {
 
-       
+
         return  $this->repository->paginate(
             page: $page,
             totalPerPage: $totalPerPage,
             filter: $filter
         );
     }
-/* public function getAll(string $filter = null): array
+    /*public function getAll(string $filter = null): array
     {
         return  $this->repository->getAll($filter);
-    }
+    }*/
     public function findOne(string $id): stdClass|null
     {
         return $this->repository->findOne($id);
     }
+
+    /* 
 
    public function new(
         CreateUserDTO $dto
