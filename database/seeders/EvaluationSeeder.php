@@ -5,7 +5,7 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class VehicleUserSeeder extends Seeder
+class EvaluationSeeder extends Seeder
 {
     /**
      * Seed the application's database.
@@ -13,11 +13,13 @@ class VehicleUserSeeder extends Seeder
     public function run(): void
     {
      //   \App\Models\Report::factory(10)->create();
-
  
-       \App\Models\Vehicle_user::factory()->create([
-            'vehicle_id' => '99d8589e-2d3c-48e2-9a07-1124b6265cad',
-            'user_id' => '99d8584b-f736-40f1-be07-0867957c81bc',
+    
+       \App\Models\Evaluation::factory()->create([
+            'report_id' => '99d859b7-83ad-416c-af65-35bbe88432a7',
+            'item_id' => '99d8544d-cdb7-4f9f-b338-62407893bef5',
+            'status_item' => 'Aprovado',
+            'observation' => 'Com ressalvas', 
             'status' => '1'
         ]);
     }

@@ -15,7 +15,7 @@ class ExemplarSeeder extends Seeder
      //   \App\Models\Report::factory(10)->create();
 
        \App\Models\Exemplar::factory()->create([
-            'brand_id' => '99d67a57-a481-4fd7-9d7c-c885d5c92672',
+            'brand_id' => '99d84eb2-8e93-498f-8feb-bb2971a3bc70',
             'exemplar' => 'i30'
              
         ]);

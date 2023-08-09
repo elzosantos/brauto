@@ -13,14 +13,14 @@ return new class extends Migration
     {
         Schema::create('items', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->uuid('area_id');
+            $table->uuid('subgroup_id');
             $table->text('name');
             $table->integer('status');
             $table->timestamps();
 
-            $table->foreign('area_id')
+            $table->foreign('subgroup_id')
                 ->references('id')
-                ->on('areas');
+                ->on('subgroups');
         });
     }
 

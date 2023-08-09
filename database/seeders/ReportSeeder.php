@@ -13,14 +13,15 @@ class ReportSeeder extends Seeder
     public function run(): void
     {
      //   \App\Models\Report::factory(10)->create();
+ 
+
 
        \App\Models\Report::factory()->create([
-            'consultant_id' => 'Elzo Santos',
-            'client_id' => 'elzo@santos.com',
-            'vehicle_id' => '22233344405',
+            'consultant_id' => '99d84e64-c638-4901-b51d-5ea3b6577e3a',
+            'vehicle_user_id' => '99d858d4-6807-4670-ba62-a7a264adbca8', 
             'report_status' => 'A',
             'status' => 'A',
-            'password' => '$2y$10$czuqpePaG8jGhXHUgaJjMudiTBG4bYgSTk4hwDiXEzVeRKH1nvouW'
+            'observation' => 'Aprovado com ressalvas'
         ]);
     }
 }

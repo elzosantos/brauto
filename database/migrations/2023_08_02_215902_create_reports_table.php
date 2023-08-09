@@ -14,7 +14,6 @@ return new class extends Migration
 
         Schema::create('reports', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->uuid('report_evaluation_id')->index();
             $table->uuid('consultant_id')->index();
             $table->uuid('vehicle_user_id')->index();
             $table->text('report_status')->comment("Status of aprovation or reprovation about the consultancy");
@@ -22,9 +21,7 @@ return new class extends Migration
             $table->text('status');
             $table->timestamps();
 
-            $table->foreign('report_evaluation_id')
-                ->references('id')
-                ->on('report_evaluations');
+   
 
             $table->foreign('consultant_id')
                 ->references('id')

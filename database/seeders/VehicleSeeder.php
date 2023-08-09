@@ -16,11 +16,11 @@ class VehicleSeeder extends Seeder
 
     
        \App\Models\Vehicle::factory()->create([
-            'year' => '2012',
-            'exemplar_id' => '99d67c41-7d55-45bb-bf78-4a43f8d5ac12',
-            'color' => 'Cinza',
-            'version' => '2.0 MT',
-            'renavam' => '999',
+            'year' => '2011',
+            'exemplar_id' => '99d84f00-1df8-4231-9de9-6897d0422060',
+            'color' => 'Branco',
+            'version' => '2.0 AT',
+            'renavam' => '9212199',
             'status' => '1'
         ]);
     }

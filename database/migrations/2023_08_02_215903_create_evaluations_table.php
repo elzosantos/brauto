@@ -9,21 +9,24 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
+
     public function up(): void
     {
-
- 
-        Schema::create('report_evaluations', function (Blueprint $table) {
+        Schema::create('evaluations', function (Blueprint $table) {
             $table->uuid('id')->primary();
-
-            $table->uuid('evaluation_id')->index();
+            $table->uuid('report_id');
+            $table->uuid('item_id');
+            $table->text('status_item');
+            $table->text('observation');
             $table->integer('status');
             $table->timestamps();
-
-       
-            $table->foreign('evaluation_id')
+            
+            $table->foreign('report_id')
                 ->references('id')
-                ->on('evaluations');
+                ->on('reports');
+            $table->foreign('item_id')
+                ->references('id')
+                ->on('items');
         });
     }
 
@@ -32,6 +35,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('report_evaluations');
+        Schema::dropIfExists('evaluations');
     }
 };

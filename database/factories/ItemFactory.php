@@ -8,7 +8,7 @@ use Illuminate\Support\Str;
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\User>
  */
-class ReportFactory extends Factory
+class ItemFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -17,15 +17,14 @@ class ReportFactory extends Factory
      */
     public function definition(): array
     {
- 
         return [
-            'consultant_id' => fake()->uuid(),
-            'vehicle_user_id' => fake()->uuid(),
-            'report_status' => 'A',
-            'status' => 'A',
-            'observation' => fake()->text()
+            'subgroup_id' => '99d8510d-73b2-48db-a28b-78ae5b3b539e',
+            'name' => fake()->name(),
+            'status' => '1'
+
+
         ];
     }
 
-   
+    
 }

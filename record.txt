@@ -5,22 +5,17 @@ Table users {
   email varchar
   password varchar
   role_id varchar
-  status integer
-  created_at timestamp
-  updated_at timestamp
-}
-
-Table user_atributtes {
-  id integer [primary key]
-  user_id integer
   genre varchar
   cpf varchar
   personal_phone varchar
   comercial_phone varchar
   address_id integer
+  status integer
   created_at timestamp
   updated_at timestamp
 }
+
+
 
 Table user_address {
   id integer [primary key]
@@ -72,7 +67,7 @@ Table vehicles {
 
 Table vehicle_users {
   id integer [primary key]
-  vehicle_id integer
+  vehicle_users_id integer
   user_id integer
   status integer
   created_at timestamp
@@ -92,14 +87,6 @@ Table reports {
   updated_at timestamp
 }
 
-Table report_evaluations {
-  id integer [primary key]
-  report_id integer
-  evaluation_id integer
-  status integer
-  created_at timestamp
-  updated_at timestamp
-}
 
 Table groups {
   id integer [primary key]
@@ -117,18 +104,11 @@ Table subgroups {
   updated_at timestamp
 }
 
-Table areas{
-  id integer [primary key]
-  subgroup_id integer
-  name varchar
-  status integer
-  created_at timestamp
-  updated_at timestamp
-}
+
 
 Table items {
   id integer [primary key]
-  area_id integer
+  subgroup_id  integer
   name varchar
   status integer
   created_at timestamp
@@ -137,6 +117,7 @@ Table items {
 
 Table evaluations {
   id integer [primary key]
+  report_id integer
   item_id integer
   status_item varchar
   observation varchar
@@ -145,24 +126,22 @@ Table evaluations {
   updated_at timestamp
 }
 
-Ref: reports.id > report_evaluations.report_id 
-Ref: evaluations.id > report_evaluations.evaluation_id 
+Ref: reports.id < evaluations.report_id 
 
-Ref: groups.id > subgroups.group_id 
-Ref: subgroups.id > areas.subgroup_id 
-Ref: areas.id > items.area_id 
+Ref: groups.id < subgroups.group_id 
+Ref: subgroups.id < items.subgroup_id 
 Ref: items.id > evaluations.item_id 
 
 Ref: brands.id > models.brand_id 
 Ref: models.id > vehicles.model_id 
 Ref: brands.id > vehicles.brand_id 
 Ref: roles.id > users.role_id 
-Ref: vehicles.id > vehicle_users.vehicle_id 
+Ref: vehicles.id > vehicle_users.vehicle_users_id 
 Ref: vehicle_users.id > reports.vehicle_id 
 
-Ref: users.id > vehicle_users.user_id // many-to-one
-Ref: users.id > user_atributtes.user_id 
-Ref: users.id > user_address.user_id 
+Ref: users.id < vehicle_users.user_id // many-to-one
+
+Ref: users.id < user_address.user_id 
 
 Ref: users.id > reports.consultant_id
 Ref: users.id > reports.client_id 
