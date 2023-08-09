@@ -53,7 +53,7 @@
                     </x-dropdown>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('supports.index')" :active="request()->routeIs('supports.indexs')">
+                    <x-nav-link :href="route('consultancy.index')" :active="request()->routeIs('consultancy.index')">
                         {{ __('Consultoria') }}
                     </x-nav-link>
                 </div>

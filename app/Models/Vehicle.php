@@ -12,6 +12,9 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class Vehicle extends Model
 {
     use HasFactory, HasUuids;
+    protected $with = ['exemplar'];
+
+
     public function createdAt(): Attribute
     {
         return Attribute::make(

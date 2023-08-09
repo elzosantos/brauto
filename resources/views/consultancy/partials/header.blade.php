@@ -1,11 +1,10 @@
 <div class="sm:flex sm:items-center sm:justify-between">
     <div>
         <div class="flex items-center gap-x-3">
-            <h1 class="text-lg text-black-500" style="color: rgb(255, 255, 255); ">Usuários</h1>
-
+  
             <span
-                class="px-3 py-1 text-xs text-blue-600 bg-blue-100 rounded-full dark:bg-gray-800 dark:text-blue-400">{{ $users->total() }}
-                usuários</span>
+                class="px-3 py-1 text-xs text-blue-600 bg-blue-100 rounded-full dark:bg-gray-800 dark:text-blue-400">Registros : {{ $consultancies->total() }}
+            </span>
         </div>
     </div>
 
@@ -19,7 +18,7 @@
                     d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
 
-            <span>Novo usuário</span>
+            <span>Nova Consultoria</span>
         </a>
     </div>
 </div>
@@ -35,7 +34,7 @@
             </svg>
         </span>
 
-        <form action="{{ route('users.index') }}" method="get">
+        <form action="{{ route('consultancy.index') }}" method="get">
             <input name="filter" type="text" placeholder="Procurar"
                 class="block w-full py-1.5 pr-5 text-gray-700 bg-white border border-gray-200 rounded-lg md:w-80 placeholder-gray-400/70 pl-11 rtl:pr-11 rtl:pl-5 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
                 value="{{ $filters['filter'] ?? '' }}">

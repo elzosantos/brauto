@@ -23,8 +23,12 @@ class ConsultancyEloquentORM implements ConsultancyRepositoryInterface
 
     public function paginate(int $page = 1, int $totalPerPage = 15, string $filter = null): PaginationInterface
     {
-        $result =  $this->model
-            ->paginate($totalPerPage, ['*'], 'page', $page);
+
+ 
+
+        $result =  $this->model->with('consultor')
+        ->with('vehicle_user')
+        ->paginate($totalPerPage, ['*'], 'page', $page);
 
         return new PaginationPresenter($result);
     }

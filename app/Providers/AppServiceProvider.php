@@ -1,10 +1,12 @@
 <?php
 
 namespace App\Providers;
- 
+
 use App\Models\Support;
 use App\Models\User;
 use App\Observers\SupportObserver;
+use App\Repositories\ConsultancyEloquentORM;
+use App\Repositories\Contracts\ConsultancyRepositoryInterface;
 use App\Repositories\Contracts\ReplyRepositoryInterface;
 use App\Repositories\Contracts\UserRepositoryInterface;
 use App\Repositories\SupportEloquentORM;
@@ -25,7 +27,7 @@ class AppServiceProvider extends ServiceProvider
             UserRepositoryInterface::class,
             UserEloquentORM::class
         );
-        
+
         $this->app->bind(
             SupportRepositoryInterface::class,
             SupportEloquentORM::class
@@ -33,6 +35,10 @@ class AppServiceProvider extends ServiceProvider
         $this->app->bind(
             ReplyRepositoryInterface::class,
             ReplySupportRepository::class
+        );
+        $this->app->bind(
+            ConsultancyRepositoryInterface::class,
+            ConsultancyEloquentORM::class
         );
     }
 

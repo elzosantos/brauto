@@ -14,15 +14,17 @@ class ConsultancyController extends Controller
     public function index(Request $request)
     {
         
-        $consultancy =  $this->service->paginate(
+        $consultancies =  $this->service->paginate(
             page: $request->get('page', 1),
             totalPerPage: $request->get('per_page', 10),
             filter: $request->filter
 
         );
         $filters = ['filter' => $request->get('filter', '')];
+
+      //  dd($consultancies);
  
-        return view('consultancy.index', compact('consultancy', 'filters'));
+        return view('consultancy.index', compact('consultancies', 'filters'));
     }
 /*
 

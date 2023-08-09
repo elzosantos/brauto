@@ -4,7 +4,7 @@
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
             
-            {{ __('Clientes') }}
+            {{ __('Consultorias') }}
         </h2>
     </x-slot>
 
@@ -13,10 +13,10 @@
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                   
-                        @include('admin.users.partials.header', compact('users'))
+                        @include('consultancy.partials.header', compact('consultancies'))
                    
-                        @include('admin.users.partials.content')
-                        <x-pagination :paginator="$users" :appends="$filters" />
+                        @include('consultancy.partials.content')
+                        <x-pagination :paginator="$consultancies" :appends="$filters" />
                     
 
                 </div>

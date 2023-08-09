@@ -9,15 +9,13 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class Report extends Model
 {
     use HasFactory, HasUuids;
 
-    public function vehicle(): BelongsTo
-    {
-        return $this->belongsTo(Vehicle::class);
-    }
+
     public function createdAt(): Attribute
     {
         return Attribute::make(
@@ -25,8 +23,13 @@ class Report extends Model
 
         );
     }
-    public function users(): HasMany
+    public function consultor(): BelongsTo
     {
-        return $this->hasMany(User::class);
+        return $this->belongsTo(User::class, 'consultant_id', 'id');
+    }
+
+    public function vehicle_user(): BelongsTo
+    {
+        return $this->belongsTo(Vehicle_user::class, 'vehicle_user_id', 'id');
     }
 }

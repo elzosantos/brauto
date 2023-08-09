@@ -7,22 +7,25 @@
                         <tr>
                             <th scope="col"
                                 class="py-3.5 px-4 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                Nome
+                                Consultor
                             </th>
 
                             <th scope="col"
                                 class="px-12 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                Perfil
+                                Cliente
                             </th>
 
                             <th scope="col"
                                 class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                E-mail
+                                Veículo
                             </th>
 
                             <th scope="col"
                                 class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                Telefone Celular</th>
+                                Status</th>
+                                <th scope="col"
+                                class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                                Data Consultoria</th>
 
                             <th scope="col"
                                 class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
@@ -31,41 +34,44 @@
                         </tr>
                     </thead>
                     <tbody class="bg-white divide-y divide-gray-200 dark:divide-gray-700 dark:bg-gray-900">
-                        @foreach ($users->items() as $user)
+                        @foreach ($consultancies->items() as $consultancy)
                             <tr>
                                 <td class="px-4 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
-                                    {{ $user->name }}
+                                    {{ $consultancy->consultor['name'] }}
                                 </td>
                                 <td class="px-12 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
-                                    Perfil
+                                    {{ $consultancy->vehicle_user['user']['name'] }}
                                 </td>
-                                <td class="px-4 py-2 text-sm whitespace-nowrap text-gray-500 dark:text-gray-400">
-                                    {{ $user->email }}
+                                <td class="px-12 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
+                                    {{ $consultancy->vehicle_user['vehicle']['exemplar']['exemplar'] }}
                                 </td>
-                                <td class="px-4 py-2 text-sm whitespace-nowrap text-gray-500 dark:text-gray-400">
-                                    {{ $user->personal_phone }}
+                                <td class="px-12 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
+                                    {{ App\Enums\ConsultancyStatus::fromValue($consultancy->status)    }}
+                                </td>
+                                <td class="px-12 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
+                                    {{ $consultancy->created_at }}
                                 </td>
 
                                 <td class="px-4 py-2 text-sm whitespace-nowrap flex">
 
-                                    <a href="{{ route('users.show', $user->id) }}"
+                                    <a href="{{ route('users.show', $consultancy->id) }}"
                                         class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white  rounded-lg gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-700">
                                         <span>Detalhar</span>
                                     </a>
 
-                                    <a href="{{ route('supports.edit', $user->id) }}"
+                                    <a href="{{ route('supports.edit', $consultancy->id) }}"
                                         class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white  rounded-lg gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-700">
                                         <span>Editar</span>
                                     </a>
-                                    <form action="{{ route('users.destroy', $user->id) }}" method="POST">
+                                    <form action="{{ route('users.destroy', $consultancy->id) }}" method="POST">
                                         @csrf()
                                         @method('DELETE')
                                         <button
                                             class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white  rounded-lg gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-700"
                                             type="submit">Deletar</button>
 
-                                            
-                                            
+
+
                                     </form>
 
                                 </td>
