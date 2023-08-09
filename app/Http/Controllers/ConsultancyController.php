@@ -13,7 +13,7 @@ class ConsultancyController extends Controller
     }
     public function index(Request $request)
     {
-        
+
         $consultancies =  $this->service->paginate(
             page: $request->get('page', 1),
             totalPerPage: $request->get('per_page', 10),
@@ -22,11 +22,11 @@ class ConsultancyController extends Controller
         );
         $filters = ['filter' => $request->get('filter', '')];
 
-      //  dd($consultancies);
- 
+        //  dd($consultancies);
+
         return view('consultancy.index', compact('consultancies', 'filters'));
     }
-/*
+    /*
 
     public function show(string|int $id)
     {
