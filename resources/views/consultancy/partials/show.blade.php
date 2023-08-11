@@ -15,6 +15,7 @@
                         <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
                             <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
                                 <div class="overflow-hidden">
+                                    
                                     <table class="min-w-full border  text-sm font-light dark:border-neutral-500">
                                         <thead class="border-b font- dark:border-neutral-500 text-center">
                                             <tr>
@@ -109,14 +110,46 @@
                                                 </td>
 
                                             </tr>
-                                            @include('consultancy.partials.group1' )
-                                            @include('consultancy.partials.group2' )
-                                            @include('consultancy.partials.group3' )
-                                            @include('consultancy.partials.group4' )
-                                            @include('consultancy.partials.group5' )
-                                            @include('consultancy.partials.group6' ) 
+                                            <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                                                 
+                                                
+                                                    
+                                            </tr>
+                                            
+
+                                              
+                                           
                                         </tbody>
                                     </table>
+                                    <table class="py-10 min-w-full border  text-sm font-light dark:border-neutral-500">
+                                        <ul class="flex">
+                                            <li class="mr-3">
+                                              <a class="inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white" href="group1">Historico e Dados</a>
+                                            </li>
+                                            <li class="mr-3">
+                                                <a class="inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white" href="group1">Análise Exterior</a>
+                                              </li>
+                                              <li class="mr-3">
+                                                <a class="inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white" href="group1">Análise Interior</a>
+                                              </li>
+                                              <li class="mr-3">
+                                                <a class="inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white" href="group1">Análise Mecanica</a>
+                                              </li>
+                                              <li class="mr-3">
+                                                <a class="inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white" href="group1">Análise Mecanica - 2 </a>
+                                              </li>
+                                              <li class="mr-3">
+                                                <a class="inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white" href="group1">Avaliação de Mecânica Preventiva</a>
+                                              </li>
+                                         
+                                          </ul>
+                                          
+                                          @include('consultancy.partials.group1' )
+                                        <!--   @ include('consultancy.partials.group2' )
+                                          @ include('consultancy.partials.group3' )
+                                          @ include('consultancy.partials.group4' )
+                                          @i nclude('consultancy.partials.group5' )
+                                          @i nclude('consultancy.partials.group6' )--></table> 
                                 </div>
                             </div>
                         </div>
