@@ -4,6 +4,7 @@ use App\Http\Controllers\Admin\ReplySupportController;
 use App\Http\Controllers\Admin\SupportController;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\ConsultancyController;
+use App\Http\Controllers\FipeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\VehicleController;
 use Illuminate\Support\Facades\Route;
@@ -43,17 +44,21 @@ Route::middleware('auth')->group(function () {
     Route::get('/users', [UserController::class, 'index'])->name('users.index');
 
     //Consultancy 
-    Route::post('/consultancy', [ConsultancyController::class, 'store'])->name('consultancies.store');  
+    Route::post('/consultancy', [ConsultancyController::class, 'store'])->name('consultancies.store');
     Route::get('/consultancy/create/step/{id}', [ConsultancyController::class, 'create'])->name('consultancies.create');
     Route::get('/consultancy/{id}', [ConsultancyController::class, 'show'])->name('consultancies.show');
     Route::get('/consultancy', [ConsultancyController::class, 'index'])->name('consultancies.index');
 
-// Vehicles
+    // Vehicles
     Route::post('/vehicles', [VehicleController::class, 'store'])->name('vehicles.store');
     Route::get('/vehicles/create', [VehicleController::class, 'create'])->name('vehicles.create');
     Route::delete('/vehicles/{id}', [VehicleController::class, 'destroy'])->name('vehicles.destroy');
     Route::get('/vehicles/{id}', [VehicleController::class, 'show'])->name('vehicles.show');
     Route::get('/vehicles', [VehicleController::class, 'index'])->name('vehicles.index');
+
+    Route::get('/fipe', [FipeController::class, 'index'])->name('fipe.index');
+    Route::get('/fipe/brands', [FipeController::class, 'brands'])->name('fipe.brands');
+    Route::get('/fipe/vehicles', [FipeController::class, 'vehicles'])->name('fipe.vehicles');
 });
 
 require __DIR__ . '/auth.php';

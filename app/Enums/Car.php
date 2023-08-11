@@ -3,7 +3,7 @@
 namespace App\Enums;
  
 
-enum CarEnum:int
+enum Car:int
 { 
 
     case CAR = 1;

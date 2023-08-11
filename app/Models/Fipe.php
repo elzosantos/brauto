@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use App\Models\Brand;
-use App\Enums\CarEnum;
+use App\Enums\Car;
 
 class Fipe extends Model
 {
@@ -94,9 +94,9 @@ class Fipe extends Model
     public function getVehiclesYear()
     {
 
-        $ano_modelo = FipeJson("ConsultarAnoModelo", array(
+        $ano_modelo =$this->FipeJson("ConsultarAnoModelo", array(
             "codigoTabelaReferencia" => $this->getReference(),
-            "codigoTipoVeiculo" => CarEnum::CAR,
+            "codigoTipoVeiculo" => Car::CAR,
             "codigoMarca" => 21,
             "codigoModelo" => 4925
         ));
