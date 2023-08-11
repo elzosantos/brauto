@@ -41,9 +41,11 @@ Route::middleware('auth')->group(function () {
     Route::get('/users/{id}', [UserController::class, 'show'])->name('users.show');
     Route::get('/users', [UserController::class, 'index'])->name('users.index');
 
-    //Consultancy   
-    Route::get('/consultancy/{id}', [ConsultancyController::class, 'show'])->name('consultancy.show');
-    Route::get('/consultancy', [ConsultancyController::class, 'index'])->name('consultancy.index');
+    //Consultancy 
+    Route::post('/consultancy', [ConsultancyController::class, 'store'])->name('consultancies.store');  
+    Route::get('/consultancy/create/step/{id}', [ConsultancyController::class, 'create'])->name('consultancies.create');
+    Route::get('/consultancy/{id}', [ConsultancyController::class, 'show'])->name('consultancies.show');
+    Route::get('/consultancy', [ConsultancyController::class, 'index'])->name('consultancies.index');
 });
 
 require __DIR__ . '/auth.php';

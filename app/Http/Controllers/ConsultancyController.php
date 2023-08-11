@@ -36,7 +36,7 @@ class ConsultancyController extends Controller
         }
         return view('consultancy.partials.show', compact('consultancy'));
     }
-    /*
+
 
     public function edit(string|int $id)
     {
@@ -46,11 +46,12 @@ class ConsultancyController extends Controller
         return view('admin.supports.edit', compact('support'));
     }
 
-    public function create()
+    public function create($stepId)
     {
-        return  view('admin/users/create');
+
+        return  view('consultancy/create', compact('stepId'));
     }
-    public function store(StoreUpdateUser $request)
+    /* public function store(StoreUpdateUser $request)
     {
         $this->service->new(
              CreateUserDTO::makeFromRequest($request)

@@ -7,7 +7,7 @@
                 <div class="shrink-0 flex items-center text-gray-200 ">
                     <a href="{{ route('dashboard') }}">
                         <!-- x-application-logo class="block h-9 w-auto fill-current text-gray-800 dark:text-gray-200" /-->
-                        250s - Sistema Automotivo
+                        {{ config('app.name', 'Laravel') }}
                     </a>
                 </div>
 
@@ -54,7 +54,7 @@
                     </x-dropdown>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('consultancy.index')" :active="request()->routeIs('consultancy.index')">
+                    <x-nav-link :href="route('consultancies.index')" :active="request()->routeIs('consultancies.index')">
                         {{ __('Consultoria') }}
                     </x-nav-link>
                 </div>
