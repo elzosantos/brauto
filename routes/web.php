@@ -5,6 +5,7 @@ use App\Http\Controllers\Admin\SupportController;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\ConsultancyController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\VehicleController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 
@@ -46,6 +47,13 @@ Route::middleware('auth')->group(function () {
     Route::get('/consultancy/create/step/{id}', [ConsultancyController::class, 'create'])->name('consultancies.create');
     Route::get('/consultancy/{id}', [ConsultancyController::class, 'show'])->name('consultancies.show');
     Route::get('/consultancy', [ConsultancyController::class, 'index'])->name('consultancies.index');
+
+// Vehicles
+    Route::post('/vehicles', [VehicleController::class, 'store'])->name('vehicles.store');
+    Route::get('/vehicles/create', [VehicleController::class, 'create'])->name('vehicles.create');
+    Route::delete('/vehicles/{id}', [VehicleController::class, 'destroy'])->name('vehicles.destroy');
+    Route::get('/vehicles/{id}', [VehicleController::class, 'show'])->name('vehicles.show');
+    Route::get('/vehicles', [VehicleController::class, 'index'])->name('vehicles.index');
 });
 
 require __DIR__ . '/auth.php';

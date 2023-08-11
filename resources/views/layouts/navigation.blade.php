@@ -59,22 +59,22 @@
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('supports.index')" :active="request()->routeIs('supports.indexa')">
+                    <x-nav-link :href="route('users.index')" :active="request()->routeIs('users.index')">
                         {{ __('Historico Veicular') }}
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('supports.index')" :active="request()->routeIs('supports.indexd')">
+                    <x-nav-link :href="route('users.index')" :active="request()->routeIs('users.indexs')">
                         {{ __('Manutenção') }}
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('supports.index')" :active="request()->routeIs('supports.indwex')">
+                    <x-nav-link :href="route('users.index')" :active="request()->routeIs('users.indexd')">
                         {{ __('FIPE') }}
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('supports.index')" :active="request()->routeIs('supports.indwex')">
+                    <x-nav-link :href="route('users.index')" :active="request()->routeIs('users.inddex')">
                         {{ __('Lojas Parceiras') }}
                     </x-nav-link>
                 </div>
