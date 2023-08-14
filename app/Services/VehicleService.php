@@ -3,11 +3,10 @@
 
 namespace App\Services;
 
-use App\DTO\Supports\CreateUserDTO;
+use App\DTO\Vehicles\CreateVehicleDTO;
 use App\Enums\RecordStatus;
-use App\Repositories\Contracts\ConsultancyRepositoryInterface;
 use App\Repositories\Contracts\PaginationInterface;
-use App\Repositories\Contracts\UserRepositoryInterface;
+use App\Repositories\Contracts\VehicleRepositoryInterface;
 use Illuminate\Http\Client\Request;
 use Illuminate\Support\Facades\Gate;
 use stdClass;
@@ -15,7 +14,7 @@ use stdClass;
 class VehicleService
 {
 
-    public function __construct(protected ConsultancyRepositoryInterface $repository)
+    public function __construct(protected VehicleRepositoryInterface $repository)
     {
     }
     public function paginate(
@@ -40,10 +39,15 @@ class VehicleService
         return $this->repository->findOne($id);
     }
 
-    /* 
+    public function findByUserId(string $id): stdClass|null
+    {
+        return $this->repository->findByUserId($id);
+    }
+
+    
 
    public function new(
-        CreateUserDTO $dto
+        CreateVehicleDTO $dto
     ): stdClass {
         return $this->repository->new(
             $dto

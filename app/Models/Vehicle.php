@@ -12,9 +12,20 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class Vehicle extends Model
 {
     use HasFactory, HasUuids;
-    protected $with = ['exemplar'];
-
-
+    protected $with = ['exemplar', 'brand', 'user'];
+ 
+ 
+    protected $fillable = [
+        'brand_id',
+        'exemplar_id',
+        'user_id',
+        'year',
+        'color',
+        'tag',
+        'renavam',
+        'km',
+        'status'
+    ];
     public function createdAt(): Attribute
     {
         return Attribute::make(
@@ -25,5 +36,15 @@ class Vehicle extends Model
     public function exemplar(): BelongsTo
     {
         return $this->belongsTo(Exemplar::class);
+    }
+
+    public function brand(): BelongsTo
+    {
+        return $this->belongsTo(Brand::class);
+    }
+
+    public function user(): BelongsTo
+    {
+        return $this->belongsTo(User::class);
     }
 }

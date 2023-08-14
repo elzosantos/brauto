@@ -59,7 +59,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/fipe', [FipeController::class, 'index'])->name('fipe.index');
     Route::get('/fipe/brands', [FipeController::class, 'brands'])->name('fipe.brands');
     Route::get('/fipe/vehicles', [FipeController::class, 'vehicles'])->name('fipe.vehicles');
-
+ 
 
    // Route::get('/fipe', [FipeController::class, 'index'])->name('fipe.index');
 });

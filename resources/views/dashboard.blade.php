@@ -11,13 +11,13 @@
                 </div>
 
                 <div class="p-6 text-gray-900 dark:text-gray-100">
-                    {{ __('Você ainda não possui nenhum veículo cadastrado. Deseja adicionar algum?') }}
-                    <p> <a href=""><u>Clique aqui!</u></a></p>
+                    {{ __('Deseja adicionar um veículo?') }}
+                    <p> <a href="{{ route('vehicles.create') }}"><u>Clique aqui!</u></a></p>
                 </div>
 
                 <div class="p-6 text-gray-900 dark:text-gray-100">
-                    {{ __('Você ainda não realizou nenhuma consultoria. Deseja adicionar alguma?') }}
-                    <p> <a href=""><u>Clique aqui!</u></a></p>
+                    {{ __('Deseja adicionar uma consultoria?') }}
+                    <p> <a href="{{ route('consultancies.create',0)}}"><u>Clique aqui!</u></a></p>
                 </div>
 
                 <div class="p-6 text-gray-900 dark:text-gray-100">

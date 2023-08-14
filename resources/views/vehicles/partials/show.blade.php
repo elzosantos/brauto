@@ -2,10 +2,11 @@
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
 
-            {{ __('Consultorias') }}
+            {{ __('Meus Veículos') }}
         </h2>
     </x-slot>
 
+    
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
@@ -14,149 +15,90 @@
                     <div class="flex flex-col">
                         <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
                             <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+                                
                                 <div class="overflow-hidden">
-                                    
+
                                     <table class="min-w-full border  text-sm font-light dark:border-neutral-500">
-                                        <thead class="border-b font- dark:border-neutral-500 text-center">
-                                            <tr>
-                                                <th colspan="6" scope="col"
-                                                    class="border-r px-6 py-4 dark:border-neutral-500 text-xl">
-                                                    Consultaria Veícular - 250s
-                                                </th>
 
-                                            </tr>
-                                        </thead>
                                         <tbody>
-                                            <tr>
-                                                <td colspan="6" scope="col"
-                                                    class="text-center border-b px-6 py-4  transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600 text-lg">
-                                                    Apresentação
-                                                </td>
-                                            </tr>
-                                            <tr
-                                                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                                                <td colspan="4"
-                                                    class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                                                    Assinatura do Técnico Responsável:
-                                                </td>
 
 
-                                                <td colspan="2"
-                                                    class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                                                    Data: _________/_________/__________
-                                                </td>
-
-
-                                            </tr>
                                             <tr>
                                                 <td colspan="6" scope="col"
                                                     class="text-center border-b px-6 py-4  transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                                                    Dados do Veículo
+                                                    Dados do(s) Veículo(s)
                                                 </td>
                                             </tr>
-                                            <tr
-                                                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                                                <td colspan="2"
-                                                    class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                                                    Marca:
-                                                </td>
+                                            @foreach ($vehicles as $v)
+                                                <tr
+                                                    class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                                                    <td colspan="2"
+                                                        class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
+                                                        Marca: {{ $v['brand']['name'] }}
+                                                    </td>
 
-                                                <td colspan="2"
-                                                    class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                                                    Modelo:
-                                                </td>
+                                                    <td colspan="4"
+                                                        class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                                                        Modelo: {{ $v['exemplar']['exemplar'] }}
+                                                    </td>
 
-                                                <td colspan="2"
-                                                    class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                                                    Versão:
-                                                </td>
+                                                  
 
 
-                                            </tr>
-                                            <tr
-                                                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                                                <td colspan="2"
-                                                    class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                                                    Ano:
-                                                </td>
+                                                </tr>
+                                                <tr
+                                                    class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                                                    <td colspan="2"
+                                                        class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
+                                                        Ano: {{ $v['year'] }}
+                                                    </td>
 
-                                                <td colspan="2"
-                                                    class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                                                    Cor:
-                                                </td>
+                                                    <td colspan="2"
+                                                        class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                                                        Cor: {{ $v['color'] }}
+                                                    </td>
 
-                                                <td colspan="2"
-                                                    class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                                                    Cliente:
-                                                </td>
+                                                    <td colspan="2"
+                                                        class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                                                        Proprietário: {{ $v['user']['name'] }}
+                                                    </td>
 
 
-                                            </tr>
-                                            <tr
-                                                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                                                <td colspan="2"
-                                                    class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                                                    Km Atual:
-                                                </td>
+                                                </tr>
+                                                <tr
+                                                    class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                                                    <td colspan="2"
+                                                        class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
+                                                        Km Atual:{{ $v['km'] }}
+                                                    </td>
 
-                                                <td colspan="2"
-                                                    class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                                                    Placa:
-                                                </td>
+                                                    <td colspan="2"
+                                                        class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                                                        Placa: {{ $v['tag'] }}
+                                                    </td>
 
-                                                <td colspan="2"
-                                                    class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                                                    Renavam:
-                                                </td>
+                                                    <td colspan="2"
+                                                        class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                                                        Renavam: {{ $v['renavam'] }}
+                                                    </td>
 
-                                            </tr>
-                                            <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                                                 
-                                                
-                                                    
-                                            </tr>
-                                            
+                                                </tr>
+                                               
+                                            @endforeach
 
-                                              
-                                           
+
                                         </tbody>
                                     </table>
-                                    <table class="py-10 min-w-full border  text-sm font-light dark:border-neutral-500">
-                                        <ul class="flex">
-                                            <li class="mr-3">
-                                              <a class="inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white" href="group1">Historico e Dados</a>
-                                            </li>
-                                            <li class="mr-3">
-                                                <a class="inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white" href="group1">Análise Exterior</a>
-                                              </li>
-                                              <li class="mr-3">
-                                                <a class="inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white" href="group1">Análise Interior</a>
-                                              </li>
-                                              <li class="mr-3">
-                                                <a class="inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white" href="group1">Análise Mecanica</a>
-                                              </li>
-                                              <li class="mr-3">
-                                                <a class="inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white" href="group1">Análise Mecanica - 2 </a>
-                                              </li>
-                                              <li class="mr-3">
-                                                <a class="inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white" href="group1">Avaliação de Mecânica Preventiva</a>
-                                              </li>
-                                         
-                                          </ul>
-                                          
-                                          @include('consultancy.partials.group1' )
-                                        <!--   @ include('consultancy.partials.group2' )
-                                          @ include('consultancy.partials.group3' )
-                                          @ include('consultancy.partials.group4' )
-                                          @i nclude('consultancy.partials.group5' )
-                                          @i nclude('consultancy.partials.group6' )--></table> 
+
+
+
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="p-6 text-gray-900 dark:text-gray-100">
                         <div class="flex items-center">
-                            <form action="{{ route('users.destroy', $consultancy->id) }}" method="POST">
+                            <form action="{{ route('users.destroy', 1) }}" method="POST">
                                 @csrf()
                                 @method('DELETE')
                                 <button class="alert" type="submit">Deletar</button>

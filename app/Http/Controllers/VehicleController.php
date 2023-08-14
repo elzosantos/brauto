@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\DTO\Vehicles\CreateVehicleDTO;
+use App\Enums\VehicleUserStatus;
+use App\Http\Requests\StoreUpdateVehicle;
 use App\Services\VehicleService;
+use App\Services\VehicleUserService;
 use Illuminate\Http\Request;
 
 class VehicleController extends Controller
@@ -14,7 +18,7 @@ class VehicleController extends Controller
     public function index(Request $request)
     {
 
-        $consultancies =  $this->service->paginate(
+        $vehicles =  $this->service->paginate(
             page: $request->get('page', 1),
             totalPerPage: $request->get('per_page', 10),
             filter: $request->filter
@@ -22,19 +26,23 @@ class VehicleController extends Controller
         );
         $filters = ['filter' => $request->get('filter', '')];
 
-        //  dd($consultancies);
+         // dd($vehicles);
 
-        return view('consultancy.index', compact('consultancies', 'filters'));
+        return view('vehicles.index', compact('vehicles', 'filters'));
     }
 
 
     public function show(string|int $id)
     {
 
-        if (!$consultancy = $this->service->findOne($id)) {
+        
+        if (!$vehicles = $this->service->findByUserId($id)) {
+            
             return back();
         }
-        return view('consultancy.partials.show', compact('consultancy'));
+ 
+    
+        return view('vehicles.partials.show', compact('vehicles'));
     }
 
 
@@ -50,5 +58,17 @@ class VehicleController extends Controller
     {
 
         return  view('vehicles/create');
+    }
+
+    public function store(StoreUpdateVehicle $request)
+    {
+ 
+        $vehicle = $this->service->new(
+            CreateVehicleDTO::makeFromRequest($request)
+
+        );
+ 
+
+        return redirect()->route('dashboard')->with('message', 'Cadastrado com sucesso!');
     }
 }

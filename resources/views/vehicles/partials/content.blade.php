@@ -7,25 +7,23 @@
                         <tr>
                             <th scope="col"
                                 class="py-3.5 px-4 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                Consultor
+                                Marca
                             </th>
 
                             <th scope="col"
                                 class="px-12 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                Cliente
+                                Modelo
                             </th>
 
                             <th scope="col"
                                 class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                Veículo
+                                Ano
                             </th>
 
-                            <th scope="col"
-                                class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                Status</th>
+                         
                                 <th scope="col"
                                 class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                Data Consultoria</th>
+                                Placa</th>
 
                             <th scope="col"
                                 class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
@@ -34,43 +32,39 @@
                         </tr>
                     </thead>
                     <tbody class="bg-white divide-y divide-gray-200 dark:divide-gray-700 dark:bg-gray-900">
-                        @foreach ($consultancies->items() as $consultancy)
+                        @foreach ($vehicles->items() as $vehicle)
                             <tr>
                                 <td class="px-4 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
-                                    {{ $consultancy->consultor['name'] }}
+                                    {{ $vehicle->brand['name'] }}
                                 </td>
                                 <td class="px-12 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
-                                    {{ $consultancy->vehicle_user['user']['name'] }}
+                                    {{ $vehicle->exemplar['exemplar'] }}
                                 </td>
                                 <td class="px-12 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
-                                    {{ $consultancy->vehicle_user['vehicle']['exemplar']['exemplar'] }}
+                                    {{ $vehicle->year }}
                                 </td>
+                              
                                 <td class="px-12 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
-                                    {{ App\Enums\ConsultancyStatus::fromValue($consultancy->status)    }}
-                                </td>
-                                <td class="px-12 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
-                                    {{ $consultancy->created_at }}
+                                    {{ $vehicle->tag }}
                                 </td>
 
                                 <td class="px-4 py-2 text-sm whitespace-nowrap flex">
 
-                                    <a href="{{ route('consultancies.show', $consultancy->id) }}"
+                                    <a href="{{ route('consultancies.show', $vehicle->id) }}"
                                         class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white  rounded-lg gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-700">
                                         <span>Detalhar</span>
                                     </a>
 
-                                    <a href="{{ route('supports.edit', $consultancy->id) }}"
+                                    <a href="{{ route('supports.edit', $vehicle->id) }}"
                                         class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white  rounded-lg gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-700">
                                         <span>Editar</span>
                                     </a>
-                                    <form action="{{ route('users.destroy', $consultancy->id) }}" method="POST">
+                                    <form action="{{ route('users.destroy', $vehicle->id) }}" method="POST">
                                         @csrf()
                                         @method('DELETE')
                                         <button
                                             class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white  rounded-lg gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-700"
                                             type="submit">Deletar</button>
-
-
 
                                     </form>
 

@@ -17,8 +17,12 @@ return new class extends Migration
             $table->uuid('id')->primary();
             $table->integer('year');
             $table->integer('exemplar_id');
+            $table->integer('brand_id');
+            $table->uuid('user_id');
             $table->text('color');
             $table->text('tag');
+            $table->text('km');
+            
             $table->integer('renavam');
             $table->integer('status');
             $table->timestamps();
@@ -26,6 +30,14 @@ return new class extends Migration
             $table->foreign('exemplar_id')
                 ->references('id')
                 ->on('exemplars');
+
+                $table->foreign('brand_id')
+                ->references('id')
+                ->on('brands');
+
+                $table->foreign('user_id')
+                ->references('id')
+                ->on('users');
         });
     }
 
