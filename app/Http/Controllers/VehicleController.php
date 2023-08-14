@@ -46,9 +46,9 @@ class VehicleController extends Controller
         return view('admin.supports.edit', compact('support'));
     }
 
-    public function create($stepId)
+    public function create()
     {
 
-        return  view('consultancy/create', compact('stepId'));
+        return  view('vehicles/create');
     }
 }

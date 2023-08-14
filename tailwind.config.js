@@ -19,3 +19,5 @@ export default {
 
     plugins: [forms],
 };
+import { Select, initTE } from "tw-elements";
+initTE({ Select });
