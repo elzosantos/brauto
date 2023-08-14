@@ -16,9 +16,9 @@ return new class extends Migration
         Schema::create('vehicles', function (Blueprint $table) {
             $table->uuid('id')->primary();
             $table->integer('year');
-            $table->uuid('exemplar_id');
+            $table->integer('exemplar_id');
             $table->text('color');
-            $table->text('version');
+            $table->text('tag');
             $table->integer('renavam');
             $table->integer('status');
             $table->timestamps();

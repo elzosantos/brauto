@@ -15,14 +15,13 @@ class DatabaseSeeder extends Seeder
          //\App\Models\User::factory(30)->create();
 
         $user = \App\Models\User::factory()->create([
-            'name' => 'Juwcam Neves',
-            'email' => 'dsddwd@neves.com',
-            'cpf' => '11121233344407',
+            'name' => 'Elzo Santos',
+            'email' => 'elzo@santos.com',
+            'cpf' => '11122233305',
             'status' => 'A',
             'role_id' => 'A',
             'password' => '$2y$10$czuqpePaG8jGhXHUgaJjMudiTBG4bYgSTk4hwDiXEzVeRKH1nvouW'
         ]);
 
-        dd($user->id);
     }
 }

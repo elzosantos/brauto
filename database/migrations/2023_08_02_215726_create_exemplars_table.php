@@ -12,8 +12,8 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('exemplars', function (Blueprint $table) {
-            $table->uuid('id')->primary();
-            $table->uuid('brand_id')->index();
+            $table->integer('id')->index();
+            $table->integer('brand_id')->index();
             $table->text('exemplar');
 
             $table->timestamps();

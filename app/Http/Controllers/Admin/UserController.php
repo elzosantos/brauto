@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreUpdateUser;
 use App\Services\UserService;
 use Illuminate\Http\Request;
+use PDO;
 
 class UserController extends Controller
 {
@@ -16,7 +17,8 @@ class UserController extends Controller
     }
     public function index(Request $request)
     {
-        
+
+       
         $users =  $this->service->paginate(
             page: $request->get('page', 1),
             totalPerPage: $request->get('per_page', 10),
@@ -24,7 +26,7 @@ class UserController extends Controller
 
         );
         $filters = ['filter' => $request->get('filter', '')];
- 
+
         return view('admin.users.index', compact('users', 'filters'));
     }
 
@@ -53,15 +55,15 @@ class UserController extends Controller
     public function store(StoreUpdateUser $request)
     {
         $this->service->new(
-             CreateUserDTO::makeFromRequest($request)
-          
+            CreateUserDTO::makeFromRequest($request)
+
         );
 
         return redirect()->route('users.index')->with('message', 'Cadastrado com sucesso!');
-    } 
-   
+    }
 
-  /*  public function update( StoreUpdateSupport $request )
+
+    /*  public function update( StoreUpdateSupport $request )
     {
         $support = $this->service->update(
             UpdateSupportDTO::makeFromRequest($request)

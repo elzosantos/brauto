@@ -28,11 +28,9 @@
     
                         <x-slot name="content">
                             <x-dropdown-link :href="route('users.index')">
-                                {{ __('Clientes') }}
+                                {{ __('Usuários') }}
                             </x-dropdown-link>
-                            <x-dropdown-link :href="route('users.index')">
-                                {{ __('Consultores') }}
-                            </x-dropdown-link>
+                    
                             <x-dropdown-link :href="route('users.index')">
                                 {{ __('Veículos') }}
                             </x-dropdown-link>
