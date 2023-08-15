@@ -7,12 +7,14 @@ use App\Models\User;
 use App\Observers\SupportObserver;
 use App\Repositories\ConsultancyEloquentORM;
 use App\Repositories\Contracts\ConsultancyRepositoryInterface;
+use App\Repositories\Contracts\MaintenanceRepositoryInterface;
 use App\Repositories\Contracts\ReplyRepositoryInterface;
 use App\Repositories\Contracts\UserRepositoryInterface;
 use App\Repositories\Contracts\VehicleRepositoryInterface; 
 use App\Repositories\SupportEloquentORM;
 use App\Repositories\Contracts\SupportRepositoryInterface;
 use App\Repositories\Eloquent\ReplySupportRepository;
+use App\Repositories\MaintenanceEloquentORM;
 use App\Repositories\UserEloquentORM;
 use App\Repositories\VehicleEloquentORM; 
 use Illuminate\Support\ServiceProvider;
@@ -46,6 +48,11 @@ class AppServiceProvider extends ServiceProvider
         $this->app->bind(
             VehicleRepositoryInterface::class,
             VehicleEloquentORM::class
+        );
+
+        $this->app->bind(
+            MaintenanceRepositoryInterface::class,
+            MaintenanceEloquentORM::class
         );
    
     }

@@ -62,6 +62,12 @@ Route::middleware('auth')->group(function () {
  
 
    // Route::get('/fipe', [FipeController::class, 'index'])->name('fipe.index');
+
+       //Consultancy 
+       Route::post('/maintenance', [MaintenanceController::class, 'store'])->name('maintenances.store');
+       Route::get('/maintenance/create/', [MaintenanceController::class, 'create'])->name('maintenances.create');
+       Route::get('/maintenance/{id}', [MaintenanceController::class, 'show'])->name('maintenances.show');
+       Route::get('/maintenance', [MaintenanceController::class, 'index'])->name('maintenances.index');
 });
 
 require __DIR__ . '/auth.php';

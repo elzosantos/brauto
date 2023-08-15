@@ -19,9 +19,7 @@
                                 <div class="overflow-hidden">
 
                                     <table class="min-w-full border  text-sm font-light dark:border-neutral-500">
-
-                                        <tbody>
-
+                                        <thead>
 
                                             <tr>
                                                 <td colspan="6" scope="col"
@@ -29,80 +27,71 @@
                                                     Dados do(s) Veículo(s)
                                                 </td>
                                             </tr>
+                                        </thead>
+                                        <tbody>
                                             @foreach ($vehicles as $v)
                                                 <tr
                                                     class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                                                     <td colspan="2"
                                                         class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                                                        Marca: {{ $v['brand']['name'] }}
+                                                        Marca : {{ $v['brand']['name'] }}
                                                     </td>
 
                                                     <td colspan="4"
                                                         class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                                                        Modelo: {{ $v['exemplar']['exemplar'] }}
+                                                        Modelo : {{ $v['exemplar']['exemplar'] }}
                                                     </td>
-
-                                                  
-
-
                                                 </tr>
                                                 <tr
                                                     class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                                                     <td colspan="2"
                                                         class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                                                        Ano: {{ $v['year'] }}
+                                                        Ano : {{ $v['year'] }}
                                                     </td>
 
                                                     <td colspan="2"
                                                         class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                                                        Cor: {{ $v['color'] }}
+                                                        Cor : {{ $v['color'] }}
                                                     </td>
 
                                                     <td colspan="2"
                                                         class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                                                        Proprietário: {{ $v['user']['name'] }}
+                                                        Proprietário :  {{ $v['user']['name'] }}
                                                     </td>
-
-
                                                 </tr>
                                                 <tr
                                                     class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                                                     <td colspan="2"
                                                         class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                                                        Km Atual:{{ $v['km'] }}
+                                                        Km Atual : {{ $v['km'] }}
                                                     </td>
 
                                                     <td colspan="2"
                                                         class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                                                        Placa: {{ $v['tag'] }}
+                                                        Placa : {{ $v['tag'] }}
                                                     </td>
 
                                                     <td colspan="2"
                                                         class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                                                        Renavam: {{ $v['renavam'] }}
-                                                    </td>
+                                                        Renavam :  {{ $v['renavam'] }}
+                                                    </td> 
+                                                </tr> 
+                                                <tr>
 
+                                                    <td colspan="6"
+                                                        class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                                                        <form action="{{ route('vehicles.destroy', $v['id']) }}" method="POST">
+                                                            @csrf()
+                                                            @method('DELETE')
+                                                            <button class="alert" type="submit">Deletar</button>
+                                                        </form>
+                                                    </td> 
                                                 </tr>
-                                               
                                             @endforeach
-
-
                                         </tbody>
                                     </table>
-
-
-
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="p-6 text-gray-900 dark:text-gray-100">
-                        <div class="flex items-center">
-                            <form action="{{ route('users.destroy', 1) }}" method="POST">
-                                @csrf()
-                                @method('DELETE')
-                                <button class="alert" type="submit">Deletar</button>
-                            </form>
                         </div>
                     </div>
                 </div>
