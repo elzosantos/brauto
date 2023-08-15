@@ -30,19 +30,29 @@
                             <x-dropdown-link :href="route('users.index')">
                                 {{ __('Usuários') }}
                             </x-dropdown-link>
-
+                            <x-dropdown-link :href="route('users.index')">
+                                {{ __('Consultores') }}
+                            </x-dropdown-link>
+                            <x-dropdown-link :href="route('users.index')">
+                                {{ __('Parceiros') }}
+                            </x-dropdown-link>
                             <x-dropdown-link :href="route('vehicles.index')">
                                 {{ __('Veículos') }}
                             </x-dropdown-link>
-                            <x-dropdown-link :href="route('maintenences.index')">
+                            <x-dropdown-link :href="route('users.index')">
+                                {{ __('Consultorias') }}
+                            </x-dropdown-link>
+                            <x-dropdown-link :href="route('maintenances.index')">
                                 {{ __('Manutenções') }}
                             </x-dropdown-link>
-                            <x-dropdown-link :href="route('users.index')">
-                                {{ __('FIPE') }}
+                            <x-dropdown-link :href="route('maintenances.index')">
+                                {{ __('Historicos') }}
                             </x-dropdown-link>
-                            <x-dropdown-link :href="route('users.index')">
-                                {{ __('Parceria') }}
+                      
+                            <x-dropdown-link :href="route('fipe.index')">
+                                {{ __('Tabela FIPE') }}
                             </x-dropdown-link>
+
                             <x-dropdown-link :href="route('users.index')">
                                 {{ __('Relatórios') }}
                             </x-dropdown-link>
@@ -57,7 +67,7 @@
                         <x-slot name="trigger">
                             <button
                                 class="inline-flex items-center py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-gray-500 dark:text-gray-400 bg-white dark:bg-gray-800 hover:text-gray-700 dark:hover:text-gray-300 focus:outline-none transition ease-in-out duration-150">
-                                <div>Consultor</div>
+                                <div>Consultores</div>
                                 <div class="ml-1">
                                     <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 20 20">
@@ -84,7 +94,7 @@
                                 {{ __('FIPE') }}
                             </x-dropdown-link>
                             <x-dropdown-link :href="route('users.index')">
-                                {{ __('Parceria') }}
+                                {{ __('Parcerias') }}
                             </x-dropdown-link>
                             <x-dropdown-link :href="route('users.index')">
                                 {{ __('Relatórios') }}
@@ -113,14 +123,14 @@
                         </x-slot>
 
                         <x-slot name="content">
-                            <x-dropdown-link :href="route('vehicles.show', Auth::user()->id )">
+                            <x-dropdown-link :href="route('vehicles.show', Auth::user()->id)">
                                 {{ __('Meus Veículos') }}
                             </x-dropdown-link>
                             <x-dropdown-link :href="route('users.index')">
                                 {{ __('Histórico de Manutenção') }}
                             </x-dropdown-link>
                             <x-dropdown-link :href="route('users.index')">
-                                {{ __('FIPE') }}
+                                {{ __('Tabela FIPE') }}
                             </x-dropdown-link>
                             <x-dropdown-link :href="route('users.index')">
                                 {{ __('Lojas Parceria') }}
@@ -132,9 +142,12 @@
                             <x-dropdown-link :href="route('users.index')">
                                 {{ __('Consultores Especializados') }}
                             </x-dropdown-link>
+                            <x-dropdown-link :href="route('users.index')">
+                                {{ __('Consulta Veicular') }}
+                            </x-dropdown-link>
                         </x-slot>
 
-                        
+
                     </x-dropdown>
                 </div>
 
@@ -156,7 +169,7 @@
                         </x-slot>
 
                         <x-slot name="content">
-                            <x-dropdown-link :href="route('vehicles.show', Auth::user()->id )">
+                            <x-dropdown-link :href="route('vehicles.show', Auth::user()->id)">
                                 {{ __('Meus Veículos') }}
                             </x-dropdown-link>
                             <x-dropdown-link :href="route('users.index')">
@@ -177,7 +190,7 @@
                             </x-dropdown-link>
                         </x-slot>
 
-                        
+
                     </x-dropdown>
                 </div>
 
@@ -239,7 +252,7 @@
 
     <!-- Responsive Navigation Menu -->
     <div :class="{ 'block': open, 'hidden': !open }" class="hidden sm:hidden">
-      
+
 
         <!-- Responsive Settings Options -->
         <div class="pt-4 pb-1 border-t border-gray-200 dark:border-gray-600">

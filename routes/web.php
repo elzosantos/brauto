@@ -5,6 +5,7 @@ use App\Http\Controllers\Admin\SupportController;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\ConsultancyController;
 use App\Http\Controllers\FipeController;
+use App\Http\Controllers\MaintenanceCrontroller;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\VehicleController;
 use Illuminate\Support\Facades\Route;
@@ -56,18 +57,17 @@ Route::middleware('auth')->group(function () {
     Route::get('/vehicles/{id}', [VehicleController::class, 'show'])->name('vehicles.show');
     Route::get('/vehicles', [VehicleController::class, 'index'])->name('vehicles.index');
 
+
+
+
+    //Consultancy 
+    Route::post('/maintenance', [MaintenanceController::class, 'store'])->name('maintenances.store');
+    Route::get('/maintenance/create/', [MaintenanceController::class, 'create'])->name('maintenances.create');
+    Route::get('/maintenance/{id}', [MaintenanceController::class, 'show'])->name('maintenances.show');
+    Route::get('/maintenance', [MaintenanceCrontroller::class, 'index'])->name('maintenances.index');
+
+    Route::get('/fipe/{id}', [FipeController::class, 'show'])->name('fipe.show');
     Route::get('/fipe', [FipeController::class, 'index'])->name('fipe.index');
-    Route::get('/fipe/brands', [FipeController::class, 'brands'])->name('fipe.brands');
-    Route::get('/fipe/vehicles', [FipeController::class, 'vehicles'])->name('fipe.vehicles');
- 
-
-   // Route::get('/fipe', [FipeController::class, 'index'])->name('fipe.index');
-
-       //Consultancy 
-       Route::post('/maintenance', [MaintenanceController::class, 'store'])->name('maintenances.store');
-       Route::get('/maintenance/create/', [MaintenanceController::class, 'create'])->name('maintenances.create');
-       Route::get('/maintenance/{id}', [MaintenanceController::class, 'show'])->name('maintenances.show');
-       Route::get('/maintenance', [MaintenanceController::class, 'index'])->name('maintenances.index');
 });
 
 require __DIR__ . '/auth.php';

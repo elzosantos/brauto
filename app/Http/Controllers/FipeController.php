@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Services\FipeService;
 use Illuminate\Http\Request;
 
 
@@ -10,37 +11,29 @@ use Illuminate\Support\Facades\App;
 
 class FipeController extends Controller
 {
-    protected $modelFipe;
-    protected $brandController;
 
-    public function __construct(Fipe $fipe, BrandController $brandController)
+    public function __construct(protected FipeService $service)
     {
-        $this->modelFipe = $fipe;
-        $this->brandController = $brandController;
     }
-    public function index()
+    public function index(Request $request)
     {
-        return view('fipe.crawler');
-    }
-    public function brands()
-    { 
-        $this->modelFipe->getBrands();
-        return view('fipe.index');
-    }
-    public function vehicles()
-    { 
-        $this->modelFipe->getVehicles();
-        return view('fipe.index'); 
-    }
+        $vehicles =  $this->service->paginate(
+            page: $request->get('page', 1),
+            totalPerPage: $request->get('per_page', 15),
+            filter: $request->filter
 
-    public function vehiclesYear()
+        );
+
+     //   dd($vehicles);
+        $filters = ['filter' => $request->get('filter', '')];
+        return view('fipe.index', compact('vehicles', 'filters'));
+    }
+    public function show(string|int $id)
     {
+        if (!$fipe = $this->service->findOne($id)) {
+            return back();
+        }
 
-    }
-
-    public function vehiclesPrice()
-    {
-
-
+        return view('fipe.show', compact('fipe'));
     }
 }
