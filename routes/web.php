@@ -58,8 +58,6 @@ Route::middleware('auth')->group(function () {
     Route::get('/vehicles', [VehicleController::class, 'index'])->name('vehicles.index');
 
 
-
-
     //Consultancy 
     Route::post('/maintenance', [MaintenanceController::class, 'store'])->name('maintenances.store');
     Route::get('/maintenance/create/', [MaintenanceController::class, 'create'])->name('maintenances.create');
