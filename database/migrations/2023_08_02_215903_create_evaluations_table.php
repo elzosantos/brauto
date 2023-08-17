@@ -23,10 +23,7 @@ return new class extends Migration
             
             $table->foreign('report_id')
                 ->references('id')
-                ->on('reports');
-            $table->foreign('item_id')
-                ->references('id')
-                ->on('items');
+                ->on('reports'); 
         });
     }
 

@@ -9,7 +9,6 @@ use App\Http\Controllers\MaintenanceCrontroller;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\VehicleController;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Http\Request;
 
 
 Route::get('/', function () {

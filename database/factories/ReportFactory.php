@@ -20,7 +20,7 @@ class ReportFactory extends Factory
  
         return [
             'consultant_id' => fake()->uuid(),
-            'vehicle_user_id' => fake()->uuid(),
+            'vehicle_id' => fake()->uuid(),
             'report_status' => 'A',
             'status' => 'A',
             'observation' => fake()->text()

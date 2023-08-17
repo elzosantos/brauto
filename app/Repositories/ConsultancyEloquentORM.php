@@ -2,13 +2,11 @@
 
 namespace App\Repositories;
 
-use App\DTO\Supports\CreateUserDTO;
-use App\Enums\RecordStatus;
-use App\Models\Report;
-use App\Models\User;
+use App\DTO\Consultancies\CreateConsultancyDTO;
+ 
+use App\Models\Report; 
 use App\Repositories\Contracts\ConsultancyRepositoryInterface;
 use App\Repositories\Contracts\PaginationInterface;
-use App\Repositories\Contracts\UserRepositoryInterface;
 use App\Repositories\PaginationPresenter;
 use Illuminate\Support\Facades\Gate;
 use stdClass;
@@ -56,7 +54,18 @@ class ConsultancyEloquentORM implements ConsultancyRepositoryInterface
             return null;
         }
         return (object) $consultant->toArray();
-    }/*
+    }
+    
+    
+    public function new(CreateConsultancyDTO  $dto): stdClass
+    {
+ 
+        $consultancy = $this->model->create((array) $dto);
+        return (object) $consultancy->toArray();
+    }
+
+
+    /*
     public function delete(string $id): void
     {
  
@@ -67,11 +76,7 @@ class ConsultancyEloquentORM implements ConsultancyRepositoryInterface
 
         $user->delete();
     }
-    public function new(CreateUserDTO  $dto): stdClass
-    {
-        $support = $this->model->create((array) $dto);
-        return (object) $support->toArray();
-    }/*
+   /*
     public function update(UpdateSupportDTO  $dto): stdClass|null
     {
         if (!$support = $this->model->find($dto->id)) {

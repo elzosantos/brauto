@@ -11,11 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
- 
-        Schema::create('groups', function (Blueprint $table) {
-            $table->uuid('id')->primary();
-            $table->text('name');
-            $table->integer('status');
+        Schema::create('hist_dados', function (Blueprint $table) {
+            $table->id();
             $table->timestamps();
         });
     }
@@ -25,6 +22,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('groups');
+        Schema::dropIfExists('hist_dados');
     }
 };

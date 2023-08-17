@@ -86,7 +86,7 @@
                             <x-input-label for="km" :value="__('Km Atual')" />
                             <x-text-input id="km" class="block mt-1 w-full" type="text" name="km"
                                 :value="old('km')" required autocomplete="km" />
-                            <x-input-error :messages="$errors->get('renakmvam')" class="mt-2" />
+                            <x-input-error :messages="$errors->get('renavam')" class="mt-2" />
                         </div>
 
                         <!-- Password -->

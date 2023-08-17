@@ -14,7 +14,14 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 class Report extends Model
 {
     use HasFactory, HasUuids;
+    protected $fillable = [
+        'consultant_id',
+        'vehicle_id',
+        'observation',
+        'status',
+        'report_status'
 
+    ];
 
     public function createdAt(): Attribute
     {
@@ -30,6 +37,6 @@ class Report extends Model
 
     public function vehicle_user(): BelongsTo
     {
-        return $this->belongsTo(Vehicle_user::class, 'vehicle_user_id', 'id');
+        return $this->belongsTo(Vehicle::class, 'vehicle_id', 'id');
     }
 }

@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\DTO\Consultancies\CreateConsultancyDTO;
+use App\Http\Requests\StoreUpdateConsultancy;
 use App\Services\ConsultancyService;
 use Illuminate\Http\Request;
 
@@ -51,18 +53,19 @@ class ConsultancyController extends Controller
 
         return  view('consultancy/create', compact('stepId'));
     }
-    /* public function store(StoreUpdateUser $request)
+    public function store(StoreUpdateConsultancy $request)
     {
-        $this->service->new(
-             CreateUserDTO::makeFromRequest($request)
-          
+ 
+        $consult = $this->service->new(
+            CreateConsultancyDTO::makeFromRequest($request)
+
         );
 
-        return redirect()->route('users.index')->with('message', 'Cadastrado com sucesso!');
-    } 
-   
+        return redirect()->route('consultancies.create', 1)->with('message', 'Cadastrado com sucesso!');
+    }
 
-  /*  public function update( StoreUpdateSupport $request )
+
+    /*  public function update( StoreUpdateSupport $request )
     {
         $support = $this->service->update(
             UpdateSupportDTO::makeFromRequest($request)

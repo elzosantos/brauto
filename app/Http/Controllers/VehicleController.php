@@ -69,6 +69,6 @@ class VehicleController extends Controller
         );
  
 
-        return redirect()->route('dashboard')->with('message', 'Cadastrado com sucesso!');
+        return redirect()->route('vehicles.index')->with('message', 'Cadastrado com sucesso!');
     }
 }

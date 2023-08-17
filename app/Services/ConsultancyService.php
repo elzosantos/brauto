@@ -3,6 +3,7 @@
 
 namespace App\Services;
 
+use App\DTO\Consultancies\CreateConsultancyDTO;
 use App\DTO\Supports\CreateUserDTO;
 use App\Enums\RecordStatus;
 use App\Repositories\Contracts\ConsultancyRepositoryInterface;
@@ -15,7 +16,8 @@ use stdClass;
 class ConsultancyService
 {
 
-    public function __construct(protected ConsultancyRepositoryInterface $repository)
+    public function __construct(
+        protected ConsultancyRepositoryInterface $repository)
     {
     }
     public function paginate(
@@ -40,10 +42,10 @@ class ConsultancyService
         return $this->repository->findOne($id);
     }
 
-    /* 
+   
 
    public function new(
-        CreateUserDTO $dto
+        CreateConsultancyDTO $dto
     ): stdClass {
         return $this->repository->new(
             $dto
