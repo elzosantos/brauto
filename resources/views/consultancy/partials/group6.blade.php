@@ -73,11 +73,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -92,11 +98,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -111,13 +123,18 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
-
             </tr>
             <tr
                 class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
@@ -130,11 +147,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -149,11 +172,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -168,11 +197,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -187,11 +222,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -206,11 +247,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -225,11 +272,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -245,11 +298,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -264,11 +323,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -283,11 +348,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -302,11 +373,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -321,11 +398,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -349,11 +432,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -369,11 +458,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -389,11 +484,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -409,11 +510,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -429,11 +536,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -449,11 +562,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -469,11 +588,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -489,11 +614,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -510,11 +641,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -530,11 +667,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -550,11 +693,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -570,11 +719,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -590,11 +745,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>
@@ -610,11 +771,17 @@
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                     Conferência física:
                 </td>
-                <td class="whitespace-nowrap px-6 py-4">
-                    Aprovado
+                <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    Reprovado
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                 </td>
 
             </tr>

@@ -3,8 +3,7 @@
 namespace App\Repositories;
 
 use App\DTO\Consultancies\CreateConsultancyDTO;
- 
-use App\Models\Report; 
+use App\Models\Consultancy; 
 use App\Repositories\Contracts\ConsultancyRepositoryInterface;
 use App\Repositories\Contracts\PaginationInterface;
 use App\Repositories\PaginationPresenter;
@@ -15,7 +14,7 @@ class ConsultancyEloquentORM implements ConsultancyRepositoryInterface
 {
 
     public function __construct(
-        protected Report $model
+        protected Consultancy $model
     ) {
     }
 

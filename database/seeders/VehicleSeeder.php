@@ -13,14 +13,16 @@ class VehicleSeeder extends Seeder
     public function run(): void
     {
      //   \App\Models\Report::factory(10)->create();
-
+    
     
        \App\Models\Vehicle::factory()->create([
-            'year' => '2011',
-            'exemplar_id' => '99d84f00-1df8-4231-9de9-6897d0422060',
+            'exemplar_id' => '5071',
+            'user_id' => '99ec13e1-dbc8-4166-b1dc-6acbc15475e4',
+            'year' => '2011', 
             'color' => 'Branco',
-            'version' => '2.0 AT',
+            'tag' => 'PXI4568',
             'renavam' => '9212199',
+            'km' => '112199',
             'status' => '1'
         ]);
     }

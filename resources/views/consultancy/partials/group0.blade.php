@@ -49,7 +49,7 @@
                          <select id="user_id" name="user_id" data-te-select-init
                              class="block mt-1 w-full dark:bg-gray-800">
                              <option value="0">Selecione</option>
-                             <option value="99ea0c7f-8c13-4332-951f-58df388be050">Juca Santos</option>
+                             <option value="99ec13e1-dbc8-4166-b1dc-6acbc15475e4">Juca Santos</option>
                              <option value="26">Tiago</option>
                              <option value="25">Pedro</option>
                       
@@ -69,7 +69,7 @@
                          <select id="vehicle_id" name="vehicle_id" data-te-select-init
                              class="block mt-1 w-full dark:bg-gray-800">
                              <option value="0">Selecione</option>
-                             <option value="99ea0e2d-047e-44c7-a485-3ef13fe15b91">i30</option>
+                             <option value="99ec14be-8157-4cdb-866d-b8b5fc3db925">i30</option>
                              <option value="26">Santa Fé</option> 
 
                          </select>

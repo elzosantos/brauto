@@ -43,10 +43,10 @@
                                     {{ $consultancy->vehicle_user['user']['name'] }}
                                 </td>
                                 <td class="px-12 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
-                                    {{ $consultancy->vehicle_user['vehicle']['exemplar']['exemplar'] }}
+                                    {{ $consultancy->vehicle_user['exemplar']['exemplar'] }}
                                 </td>
                                 <td class="px-12 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
-                                    {{ App\Enums\ConsultancyStatus::fromValue($consultancy->status)    }}
+                                    {{ App\Enums\ConsultancyStatus::fromValue($consultancy->report_status)    }}
                                 </td>
                                 <td class="px-12 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
                                     {{ $consultancy->created_at }}
@@ -63,16 +63,7 @@
                                         class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white  rounded-lg gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-700">
                                         <span>Editar</span>
                                     </a>
-                                    <form action="{{ route('users.destroy', $consultancy->id) }}" method="POST">
-                                        @csrf()
-                                        @method('DELETE')
-                                        <button
-                                            class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white  rounded-lg gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-700"
-                                            type="submit">Deletar</button>
-
-
-
-                                    </form>
+                                    
 
                                 </td>
                             </tr>

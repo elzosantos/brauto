@@ -12,6 +12,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class Exemplar extends Model
 {
     use HasFactory, HasUuids;
+
+    protected $with = ['brand'];
     public function createdAt(): Attribute
     {
 

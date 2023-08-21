@@ -16,8 +16,7 @@ return new class extends Migration
         Schema::create('vehicles', function (Blueprint $table) {
             $table->uuid('id')->primary();
             $table->integer('year');
-            $table->integer('exemplar_id');
-            $table->integer('brand_id');
+            $table->integer('exemplar_id'); 
             $table->uuid('user_id');
             $table->text('color');
             $table->text('tag');
@@ -30,10 +29,7 @@ return new class extends Migration
             $table->foreign('exemplar_id')
                 ->references('id')
                 ->on('exemplars');
-
-                $table->foreign('brand_id')
-                ->references('id')
-                ->on('brands');
+ 
 
                 $table->foreign('user_id')
                 ->references('id')

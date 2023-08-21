@@ -17,26 +17,20 @@ class VehicleFactory extends Factory
      */
     public function definition(): array
     {
+         
         return [
-
-            'year' => fake()->numberBetween('2012', '2024'),
-            'exemplar_id' => '99d67c41-7d55-45bb-bf78-4a43f8d5ac12',
+            'exemplar_id' => '5071',
+            'user_id' => '5071',
+            'year' => fake()->numberBetween('2009', '2012'),
             'color' => fake()->name(),
-            'version' => fake()->name(),
-            'renavam' => fake()->numberBetween('1', '100'),
+            'tag' => fake()->name(),
+            'renavam' => fake()->name(),
+            'km' => fake()->numberBetween('1000', '100000'),
             'status' => '1'
 
              
         ];
     }
 
-    /**
-     * Indicate that the model's email address should be unverified.
-     */
-    public function unverified(): static
-    {
-        return $this->state(fn (array $attributes) => [
-            'email_verified_at' => null,
-        ]);
-    }
+ 
 }

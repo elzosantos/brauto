@@ -49,7 +49,7 @@
                                     {{ $vehicle->user['personal_phone'] }}
                                 </td>
                                 <td class="px-4 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
-                                    {{ $vehicle->brand['name'] }}
+                                    {{ $vehicle->exemplar['brand']['name'] }}
                                 </td>
                                 <td class="px-12 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
                                     {{ $vehicle->exemplar['exemplar'] }}

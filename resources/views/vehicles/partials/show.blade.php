@@ -57,7 +57,7 @@
                                                     class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                                                     <td colspan="2"
                                                         class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                                                        Marca : {{ $v['brand']['name'] }}
+                                                        Marca :  
                                                     </td>
 
                                                     <td colspan="4"

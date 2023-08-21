@@ -23,5 +23,14 @@ class DatabaseSeeder extends Seeder
             'password' => '$2y$10$czuqpePaG8jGhXHUgaJjMudiTBG4bYgSTk4hwDiXEzVeRKH1nvouW'
         ]);
 
+        $user = \App\Models\User::factory()->create([
+            'name' => 'Juca Santos',
+            'email' => 'juca@santos.com',
+            'cpf' => '12322233305',
+            'status' => 'A',
+            'role_id' => 'A',
+            'password' => '$2y$10$czuqpePaG8jGhXHUgaJjMudiTBG4bYgSTk4hwDiXEzVeRKH1nvouW'
+        ]);
+
     }
 }
