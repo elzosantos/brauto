@@ -230,7 +230,7 @@
 
              <tr
                  class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                 <td colspan="4" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
+                 <td colspan="3" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
                      Débitos (Multas e Impostos):
 
                  </td>
@@ -244,13 +244,20 @@
                      <input id="remember_me" type="radio"
                          class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                          name="remember">
+                     <span
+                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Apontamento com solução') }}</span>
+                 </td>
+                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                     <input id="remember_me" type="radio"
+                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                         name="remember">
                      <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                  </td>
 
              </tr>
              <tr
                  class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                 <td colspan="4" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
+                 <td colspan="3" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
                      Alienação:
 
                  </td>
@@ -265,20 +272,33 @@
                      <input id="remember_me" type="radio"
                          class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                          name="remember">
+                     <span
+                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Apontamento com solução') }}</span>
+                 </td>
+                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                     <input id="remember_me" type="radio"
+                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                         name="remember">
                      <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                  </td>
 
              </tr>
              <tr
                  class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                 <td colspan="4" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
+                 <td colspan="3" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
                      Propriedade:
                  </td>
                  <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                      <input id="remember_me" type="radio"
                          class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                          name="remember">
-                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
+                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Física') }}</span>
+                 </td>
+                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                     <input id="remember_me" type="radio"
+                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                         name="remember">
+                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Jurídica') }}</span>
                  </td>
                  <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                      <input id="remember_me" type="radio"
@@ -290,7 +310,7 @@
              </tr>
              <tr
                  class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                 <td colspan="4" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
+                 <td colspan="3" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
                      Contrato social / Inventário:
 
                  </td>
@@ -299,6 +319,12 @@
                          class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                          name="remember">
                      <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
+                 </td>
+                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
+                     <input id="remember_me" type="radio"
+                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                         name="remember">
+                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Sem necessidade') }}</span>
                  </td>
                  <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                      <input id="remember_me" type="radio"
@@ -326,19 +352,18 @@
                          name="remember">
                      <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
                  </td>
-
              </tr>
              <tr
                  class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                 <td colspan="6" 
-                     class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500"">
+                 <td colspan="2" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
                      Observações:
-                     <textarea id="obs"  
-                     class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                     name="obs"rows="3" cols="120">  </textarea>
                  </td>
+                 <td colspan="4" class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500"">
 
-
+                     <textarea id="obs"
+                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                         name="obs"rows="1" cols="100">  </textarea>
+                 </td>
              </tr>
          </tbody>
      </table>
