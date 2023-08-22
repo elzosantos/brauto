@@ -3,64 +3,71 @@
 namespace App\Repositories;
 
 use App\DTO\Consultancies\CreateConsultancyDTO;
-use App\Models\Consultancy; 
+use App\DTO\Consultancies\CreateEvaluationDTO;
+use App\Models\Consultancy;
+use App\Models\Evaluation;
 use App\Repositories\Contracts\ConsultancyRepositoryInterface;
 use App\Repositories\Contracts\PaginationInterface;
 use App\Repositories\PaginationPresenter;
 use Illuminate\Support\Facades\Gate;
 use stdClass;
 
-class ConsultancyEloquentORM implements ConsultancyRepositoryInterface 
+class ConsultancyEloquentORM implements ConsultancyRepositoryInterface
 {
 
     public function __construct(
-        protected Consultancy $model
+        protected Consultancy $model,
+        protected Evaluation $modelEvaluation,
+
     ) {
     }
 
     public function paginate(int $page = 1, int $totalPerPage = 15, string $filter = null): PaginationInterface
     {
 
- 
+
 
         $result =  $this->model->with('consultor')
-        ->with('vehicle_user')
-        ->paginate($totalPerPage, ['*'], 'page', $page);
+            ->with('vehicle_user')
+            ->paginate($totalPerPage, ['*'], 'page', $page);
 
         return new PaginationPresenter($result);
     }
-/*
 
-    public function getAll(string $filter = null): array
-    {
-        return $this->model->with('user')
-            ->where(function ($query) use ($filter) {
-                if ($filter) {
-                    $query->where('subject', $filter);
-                    $query->orWhere('body', 'like', "%{$filter}%");
-                }
-            })
-            ->get()
-            ->toArray();
-    }*/
     public function findOne(string $id): stdClass|null
     {
 
         $consultant = $this->model->with('consultor')
-        ->with('vehicle_user')->find($id);
+            ->with('vehicle_user')->find($id);
 
         if (!$consultant) {
             return null;
         }
         return (object) $consultant->toArray();
     }
-    
-    
+    public function findOneEvaluation(string $id): stdClass|null
+    {
+
+        $consultant = $this->modelEvaluation->find($id);
+
+        if (!$consultant) {
+            return null;
+        }
+        return (object) $consultant->toArray();
+    }
+
+
     public function new(CreateConsultancyDTO  $dto): stdClass
     {
- 
+
         $consultancy = $this->model->create((array) $dto);
         return (object) $consultancy->toArray();
+    }
+    public function newEvaluation(CreateEvaluationDTO $dto): stdClass
+    {
+
+        $evaluation = $this->modelEvaluation->create((array) $dto);
+        return (object) $evaluation->toArray();
     }
 
 

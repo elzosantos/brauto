@@ -12,7 +12,9 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class Evaluation extends Model
 {
     use HasFactory, HasUuids;
-
+    protected $fillable = [
+        'consultancy_id', 'type_consultancy', 'value', 'status'
+    ];
     public function createdAt(): Attribute
     {
         return Attribute::make(
@@ -20,8 +22,13 @@ class Evaluation extends Model
 
         );
     }
-    public function items(): BelongsTo
+
+
+    protected function data(): Attribute
     {
-        return $this->belongsTo(Item::class);
+        return Attribute::make(
+            get: fn ($value) => json_decode($value, true),
+            set: fn ($value) => json_encode($value),
+        );
     }
 }

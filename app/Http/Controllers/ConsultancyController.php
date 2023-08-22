@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\DTO\Consultancies\CreateConsultancyDTO;
+use App\DTO\Consultancies\CreateEvaluationDTO;
 use App\Http\Requests\StoreUpdateConsultancy;
+use App\Http\Requests\StoreUpdateEvaluation;
 use App\Services\ConsultancyService;
 use Illuminate\Http\Request;
 
@@ -39,6 +41,17 @@ class ConsultancyController extends Controller
         return view('consultancy.partials.show', compact('consultancy'));
     }
 
+    public function showEvaluation(string|int $id)
+    {
+
+        if (!$evaluation = $this->service->findOneEvaluation($id)) {
+            return back();
+        }
+     //   dd(json_decode($evaluation->value));
+
+        return view('consultancy.partials.show', compact('consultancy'));
+    }
+
 
     public function edit(string|int $id)
     {
@@ -56,13 +69,24 @@ class ConsultancyController extends Controller
     public function store(StoreUpdateConsultancy $request)
     {
  
-        $consult = $this->service->new(
+       $this->service->new(
             CreateConsultancyDTO::makeFromRequest($request)
 
         );
 
         return redirect()->route('consultancies.create', 2)->with('message', 'Cadastrado com sucesso!');
     }
+
+    public function evaluation(StoreUpdateEvaluation $request)
+    {
+ 
+        $this->service->newEvaluation(
+            
+            CreateEvaluationDTO::makeFromRequest($request));
+
+        return redirect()->route('consultancies.create', 2)->with('message', 'Cadastrado com sucesso!');
+    }
+
 
 
     /*  public function update( StoreUpdateSupport $request )

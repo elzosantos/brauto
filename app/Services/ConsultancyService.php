@@ -4,6 +4,7 @@
 namespace App\Services;
 
 use App\DTO\Consultancies\CreateConsultancyDTO;
+use App\DTO\Consultancies\CreateEvaluationDTO;
 use App\DTO\Supports\CreateUserDTO;
 use App\Enums\RecordStatus;
 use App\Repositories\Contracts\ConsultancyRepositoryInterface;
@@ -41,7 +42,10 @@ class ConsultancyService
     {
         return $this->repository->findOne($id);
     }
-
+    public function findOneEvaluation(string $id): stdClass|null
+    {
+        return $this->repository->findOneEvaluation($id);
+    }
    
 
    public function new(
@@ -51,6 +55,14 @@ class ConsultancyService
             $dto
         );
     }
+    public function newEvaluation(
+          $dto
+    ): stdClass {
+        return $this->repository->newEvaluation(
+            $dto
+        );
+    }
+    
     
     /*
 
