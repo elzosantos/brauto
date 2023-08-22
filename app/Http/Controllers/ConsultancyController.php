@@ -61,7 +61,7 @@ class ConsultancyController extends Controller
 
         );
 
-        return redirect()->route('consultancies.create', 1)->with('message', 'Cadastrado com sucesso!');
+        return redirect()->route('consultancies.create', 2)->with('message', 'Cadastrado com sucesso!');
     }
 
 
