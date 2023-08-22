@@ -117,37 +117,37 @@
 
 
 
-                        <!-- Name -->
-                        @switch($stepId)
-                            @case(0)
-                                @include('consultancy.partials.group0')
-                            @break
+                    <!-- Name -->
+                    @switch($stepId)
+                        @case(1)
+                            @include('consultancy.partials.group1')
+                        @break
 
-                            @case(1)
-                                @include('consultancy.partials.group1')
-                            @break
+                        @case(2)
+                            @include('consultancy.partials.group2')
+                        @break
 
-                            @case(2)
-                                @include('consultancy.partials.group2')
-                            @break
+                        @case(3)
+                            @include('consultancy.partials.group3')
+                        @break
 
-                            @case(3)
-                                @include('consultancy.partials.group3')
-                            @break
+                        @case(4)
+                            @include('consultancy.partials.group4')
+                        @break
 
-                            @case(4)
-                                @include('consultancy.partials.group4')
-                            @break
+                        @case(5)
+                            @include('consultancy.partials.group5')
+                        @break
 
-                            @case(5)
-                                @include('consultancy.partials.group5')
-                            @break
+                        @case(6)
+                            @include('consultancy.partials.group6')
+                        @break
 
-                            @case(6)
-                                @include('consultancy.partials.group6')
-                            @break
-                        @endswitch
-                        
+                        @case(7)
+                            @include('consultancy.partials.group7')
+                        @break
+                    @endswitch
+
                 </div>
             </div>
         </div>

@@ -69,12 +69,13 @@ class ConsultancyController extends Controller
     public function store(StoreUpdateConsultancy $request)
     {
  
-       $this->service->new(
+       $consultancy = $this->service->new(
             CreateConsultancyDTO::makeFromRequest($request)
 
         );
-
-        return redirect()->route('consultancies.create', 2)->with('message', 'Cadastrado com sucesso!');
+        $consultancy = $consultancy->stepId = 2;
+        return  view('consultancy/create', compact('consultancy'));
+      //  return redirect()->route('consultancies.create'. '/step/'. 2, [$consultancy])->with('message', 'Cadastrado com sucesso!');
     }
 
     public function evaluation(StoreUpdateEvaluation $request)

@@ -46,7 +46,7 @@
                                     {{ $consultancy->vehicle_user['exemplar']['exemplar'] }}
                                 </td>
                                 <td class="px-12 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
-                                    {{ App\Enums\ConsultancyStatus::fromValue($consultancy->report_status)    }}
+                                    {{ $consultancy->report_status  }}
                                 </td>
                                 <td class="px-12 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
                                     {{ $consultancy->created_at }}
