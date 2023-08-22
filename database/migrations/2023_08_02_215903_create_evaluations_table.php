@@ -14,14 +14,13 @@ return new class extends Migration
     {
         Schema::create('evaluations', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->uuid('report_id');
-            $table->uuid('item_id');
-            $table->text('status_item');
-            $table->text('observation');
+            $table->uuid('consultancy_id');
+            $table->integer('type_consultancy');
+            $table->json('value'); 
             $table->integer('status');
             $table->timestamps();
             
-            $table->foreign('report_id')
+            $table->foreign('consultancy_id')
                 ->references('id')
                 ->on('consultancies'); 
         });
