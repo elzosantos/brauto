@@ -8,6 +8,7 @@ use App\Http\Requests\StoreUpdateConsultancy;
 use App\Http\Requests\StoreUpdateEvaluation;
 use App\Services\ConsultancyService;
 use Illuminate\Http\Request;
+use stdClass;
 
 class ConsultancyController extends Controller
 {
@@ -47,7 +48,7 @@ class ConsultancyController extends Controller
         if (!$evaluation = $this->service->findOneEvaluation($id)) {
             return back();
         }
-     //   dd(json_decode($evaluation->value));
+        //   dd(json_decode($evaluation->value));
 
         return view('consultancy.partials.show', compact('consultancy'));
     }
@@ -63,29 +64,33 @@ class ConsultancyController extends Controller
 
     public function create($stepId)
     {
-
-        return  view('consultancy/create', compact('stepId'));
+        $consultancy = new stdClass;
+        $consultancy->stepId = $stepId;
+        return  view('consultancy/create', compact('consultancy'));
     }
     public function store(StoreUpdateConsultancy $request)
     {
- 
-       $consultancy = $this->service->new(
+
+        $consultancy = $this->service->new(
             CreateConsultancyDTO::makeFromRequest($request)
 
         );
-        $consultancy = $consultancy->stepId = 2;
+        $consultancy->stepId = 2;
         return  view('consultancy/create', compact('consultancy'));
-      //  return redirect()->route('consultancies.create'. '/step/'. 2, [$consultancy])->with('message', 'Cadastrado com sucesso!');
+        //  return redirect()->route('consultancies.create'. '/step/'. 2, [$consultancy])->with('message', 'Cadastrado com sucesso!');
     }
 
     public function evaluation(StoreUpdateEvaluation $request)
     {
- 
-        $this->service->newEvaluation(
-            
-            CreateEvaluationDTO::makeFromRequest($request));
 
-        return redirect()->route('consultancies.create', 2)->with('message', 'Cadastrado com sucesso!');
+        $consultancy = $this->service->newEvaluation(
+
+            CreateEvaluationDTO::makeFromRequest($request)
+        );
+
+
+        $consultancy->stepId = $consultancy->type_consultancy + 2;
+        return  view('consultancy/create', compact('consultancy'));
     }
 
 

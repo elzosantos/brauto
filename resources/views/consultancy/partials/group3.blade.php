@@ -1,6 +1,9 @@
-<form method="POST" action="{{ route('consultancies.store') }}">
+<form method="POST" action="{{ route('consultancies.evaluations') }}">
     @csrf
-    <x-alert />
+
+    <input type="hidden" name="type_consultancy"
+        value="{{ App\Enums\Reports\Default\TypeConsultancy::ANALISE_EXTERIOR }}">
+    <input type="hidden" name="consultancy_id" value="{{ $consultancy->id }}">
     <table class="min-w-full border  text-sm font-light dark:border-neutral-500">
         <thead class="border-b font- dark:border-neutral-500 text-center">
             <tr>
@@ -57,62 +60,13 @@
             <tr
                 class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                 <td colspan="1" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                    Observações:
+                    <label for="message"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Observações</label>
                 </td>
-                <td colspan="5" class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500"">
-
-                    <textarea id="obs"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="obs"rows="1" cols="100">  </textarea>
-                </td>
-            </tr>
-            <tr
-                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                <td class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                    Teto / Capota:
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span class="ml-1   text-gray-600 dark:text-gray-400">{{ __('Original') }}</span>
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Repintura Simples') }}</span>
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Presença de massa') }}</span>
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span
-                        class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Inconclusivo por conta do material/adesivo') }}</span>
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
-                </td>
-            </tr>
-            <tr
-                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                <td colspan="1" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                    Observações:
-                </td>
-                <td colspan="5" class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500"">
-
-                    <textarea id="obs"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="obs"rows="1" cols="100">  </textarea>
+                <td colspan="5" class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500""> 
+                    <textarea id="obs" rows="1"
+                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder=""></textarea> 
                 </td>
             </tr>
             <tr
@@ -155,62 +109,13 @@
             <tr
                 class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                 <td colspan="1" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                    Observações:
+                    <label for="message"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Observações</label>
                 </td>
-                <td colspan="5" class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500"">
-
-                    <textarea id="obs"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="obs"rows="1" cols="100">  </textarea>
-                </td>
-            </tr>
-            <tr
-                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                <td class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                    Teto / Capota:
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span class="ml-1   text-gray-600 dark:text-gray-400">{{ __('Original') }}</span>
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Repintura Simples') }}</span>
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Presença de massa') }}</span>
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span
-                        class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Inconclusivo por conta do material/adesivo') }}</span>
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
-                </td>
-            </tr>
-            <tr
-                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                <td colspan="1" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                    Observações:
-                </td>
-                <td colspan="5" class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500"">
-
-                    <textarea id="obs"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="obs"rows="1" cols="100">  </textarea>
+                <td colspan="5" class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500""> 
+                    <textarea id="obs" rows="1"
+                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder=""></textarea> 
                 </td>
             </tr>
             <tr
@@ -253,62 +158,13 @@
             <tr
                 class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                 <td colspan="1" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                    Observações:
+                    <label for="message"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Observações</label>
                 </td>
-                <td colspan="5" class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500"">
-
-                    <textarea id="obs"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="obs"rows="1" cols="100">  </textarea>
-                </td>
-            </tr>
-            <tr
-                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                <td class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                    Teto / Capota:
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span class="ml-1   text-gray-600 dark:text-gray-400">{{ __('Original') }}</span>
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Repintura Simples') }}</span>
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Presença de massa') }}</span>
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span
-                        class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Inconclusivo por conta do material/adesivo') }}</span>
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
-                </td>
-            </tr>
-            <tr
-                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                <td colspan="1" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                    Observações:
-                </td>
-                <td colspan="5" class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500"">
-
-                    <textarea id="obs"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="obs"rows="1" cols="100">  </textarea>
+                <td colspan="5" class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500""> 
+                    <textarea id="obs" rows="1"
+                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder=""></textarea> 
                 </td>
             </tr>
             <tr
@@ -351,62 +207,13 @@
             <tr
                 class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                 <td colspan="1" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                    Observações:
+                    <label for="message"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Observações</label>
                 </td>
-                <td colspan="5" class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500"">
-
-                    <textarea id="obs"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="obs"rows="1" cols="100">  </textarea>
-                </td>
-            </tr>
-            <tr
-                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                <td class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                    Teto / Capota:
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span class="ml-1   text-gray-600 dark:text-gray-400">{{ __('Original') }}</span>
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Repintura Simples') }}</span>
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Presença de massa') }}</span>
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span
-                        class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Inconclusivo por conta do material/adesivo') }}</span>
-                </td>
-                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="remember">
-                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
-                </td>
-            </tr>
-            <tr
-                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                <td colspan="1" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                    Observações:
-                </td>
-                <td colspan="5" class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500"">
-
-                    <textarea id="obs"
-                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="obs"rows="1" cols="100">  </textarea>
+                <td colspan="5" class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500""> 
+                    <textarea id="obs" rows="1"
+                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder=""></textarea> 
                 </td>
             </tr>
             <tr
@@ -449,13 +256,209 @@
             <tr
                 class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                 <td colspan="1" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                    Observações:
+                    <label for="message"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Observações</label>
                 </td>
-                <td colspan="5" class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500"">
-
-                    <textarea id="obs"
+                <td colspan="5" class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500""> 
+                    <textarea id="obs" rows="1"
+                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder=""></textarea> 
+                </td>
+            </tr>
+            <tr
+                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                <td class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
+                    Teto / Capota:
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                        name="obs"rows="1" cols="100">  </textarea>
+                        name="remember">
+                    <span class="ml-1   text-gray-600 dark:text-gray-400">{{ __('Original') }}</span>
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Repintura Simples') }}</span>
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Presença de massa') }}</span>
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span
+                        class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Inconclusivo por conta do material/adesivo') }}</span>
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
+                </td>
+            </tr>
+            <tr
+                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                <td colspan="1" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
+                    <label for="message"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Observações</label>
+                </td>
+                <td colspan="5" class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500""> 
+                    <textarea id="obs" rows="1"
+                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder=""></textarea> 
+                </td>
+            </tr>
+            <tr
+                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                <td class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
+                    Teto / Capota:
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-1   text-gray-600 dark:text-gray-400">{{ __('Original') }}</span>
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Repintura Simples') }}</span>
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Presença de massa') }}</span>
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span
+                        class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Inconclusivo por conta do material/adesivo') }}</span>
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
+                </td>
+            </tr>
+            <tr
+                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                <td colspan="1" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
+                    <label for="message"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Observações</label>
+                </td>
+                <td colspan="5" class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500""> 
+                    <textarea id="obs" rows="1"
+                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder=""></textarea> 
+                </td>
+            </tr>
+            <tr
+                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                <td class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
+                    Teto / Capota:
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-1   text-gray-600 dark:text-gray-400">{{ __('Original') }}</span>
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Repintura Simples') }}</span>
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Presença de massa') }}</span>
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span
+                        class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Inconclusivo por conta do material/adesivo') }}</span>
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
+                </td>
+            </tr>
+            <tr
+                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                <td colspan="1" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
+                    <label for="message"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Observações</label>
+                </td>
+                <td colspan="5" class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500""> 
+                    <textarea id="obs" rows="1"
+                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder=""></textarea> 
+                </td>
+            </tr>
+            <tr
+                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                <td class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
+                    Teto / Capota:
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-1   text-gray-600 dark:text-gray-400">{{ __('Original') }}</span>
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Repintura Simples') }}</span>
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Presença de massa') }}</span>
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span
+                        class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Inconclusivo por conta do material/adesivo') }}</span>
+                </td>
+                <td class="whitespace-nowrap border-r px-2 py-4 dark:border-neutral-500">
+                    <input id="remember_me" type="radio"
+                        class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                        name="remember">
+                    <span class="ml-1 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
+                </td>
+            </tr>
+            <tr
+                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                <td colspan="1" class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
+                    <label for="message"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Observações</label>
+                </td>
+                <td colspan="5" class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500""> 
+                    <textarea id="obs" rows="1"
+                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder=""></textarea> 
                 </td>
             </tr>
             <tr
