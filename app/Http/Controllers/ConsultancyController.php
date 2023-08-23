@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\DTO\Consultancies\CreateConsultancyDTO;
 use App\DTO\Consultancies\CreateEvaluationDTO;
-use App\Enums\Reports\Default\TypeConsultancy;
 use App\Http\Requests\StoreUpdateConsultancy;
 use App\Http\Requests\StoreUpdateEvaluation;
 use App\Services\ConsultancyService;
@@ -63,13 +62,11 @@ class ConsultancyController extends Controller
         return view('admin.supports.edit', compact('support'));
     }
 
-    public function create()
+    public function create($stepId)
     {
         $consultancy = new stdClass;
-        $consultancy->stepId = 1;
-
-       
-        return  view('consultancy/create', compact('consultancy'));
+        $consultancy->stepId = $stepId;
+        return  view('consultancy/create', compact('stepId'));
     }
     public function store(StoreUpdateConsultancy $request)
     {
@@ -78,8 +75,7 @@ class ConsultancyController extends Controller
             CreateConsultancyDTO::makeFromRequest($request)
 
         );
- 
-        $consultancy->stepId = $request->type_consultancy + 1;
+        $consultancy->stepId = 2;
         return  view('consultancy/create', compact('consultancy'));
         //  return redirect()->route('consultancies.create'. '/step/'. 2, [$consultancy])->with('message', 'Cadastrado com sucesso!');
     }
@@ -93,8 +89,8 @@ class ConsultancyController extends Controller
         );
 
 
-        $consultancy->stepId = $consultancy->type_consultancy + 1;
-        return  view('consultancy/create', compact('consultancy'));
+        $consultancy->stepId = $consultancy->type_consultancy + 2;
+            return  view('consultancy/create', compact('consultancy'));
     }
 
 

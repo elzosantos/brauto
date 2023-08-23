@@ -2,7 +2,7 @@
 
     <x-slot name="header">
         <ol class="items-center w-full space-y-4 sm:flex sm:space-x-8 sm:space-y-0 py-3">
-            @if ($consultancy->stepId == 1)
+            @if ($stepId == 1)
                 <li class="pl-3 flex items-center text-blue-600 dark:text-blue-500  space-x-2.5 px-2">
                     <span
                         class="flex items-center justify-center w-8 h-8 border border-blue-600 rounded-full shrink-0 dark:border-blue-500">
@@ -18,7 +18,7 @@
 
             </span>
             </li>
-            @if ($consultancy->stepId == 2)
+            @if ($stepId == 2)
                 <li class="pl-3 flex items-center text-blue-600 dark:text-blue-500  space-x-2.5 px-2">
                     <span
                         class="flex items-center justify-center w-8 h-8 border border-blue-600 rounded-full shrink-0 dark:border-blue-500">
@@ -33,7 +33,7 @@
 
             </span>
             </li>
-            @if ($consultancy->stepId == 3)
+            @if ($stepId == 3)
                 <li class="pl-3 flex items-center text-blue-600 dark:text-blue-500  space-x-2.5 px-2">
                     <span
                         class="flex items-center justify-center w-8 h-8 border border-blue-600 rounded-full shrink-0 dark:border-blue-500">
@@ -48,7 +48,7 @@
 
             </span>
             </li>
-            @if ($consultancy->stepId == 4)
+            @if ($stepId == 4)
                 <li class="pl-3 flex items-center text-blue-600 dark:text-blue-500  space-x-2.5 px-2">
                     <span
                         class="flex items-center justify-center w-8 h-8 border border-blue-600 rounded-full shrink-0 dark:border-blue-500">
@@ -63,7 +63,7 @@
             </span>
             </li>
 
-            @if ($consultancy->stepId == 5)
+            @if ($stepId == 5)
                 <li class="pl-3 flex items-center text-blue-600 dark:text-blue-500  space-x-2.5 px-2">
                     <span
                         class="flex items-center justify-center w-8 h-8 border border-blue-600 rounded-full shrink-0 dark:border-blue-500">
@@ -77,7 +77,7 @@
                 <h3 class="pl-3 text-sm leading-tight">Análise Mecânica</h3>
             </span>
             </li>
-            @if ($consultancy->stepId == 6)
+            @if ($stepId == 6)
                 <li class="pl-3 flex items-center text-blue-600 dark:text-blue-500  space-x-2.5 px-2">
                     <span
                         class="flex items-center justify-center w-8 h-8 border border-blue-600 rounded-full shrink-0 dark:border-blue-500">
@@ -91,7 +91,7 @@
                 <h3 class="pl-3  text-sm leading-tight">Análise Mecânica B</h3>
             </span>
             </li>
-            @if ($consultancy->stepId == 7)
+            @if ($stepId == 7)
                 <li class="pl-3 flex items-center text-blue-600 dark:text-blue-500  space-x-2.5 px-2">
                     <span
                         class="flex items-center justify-center w-8 h-8 border border-blue-600 rounded-full shrink-0 dark:border-blue-500">
@@ -118,7 +118,7 @@
 
 
                     <!-- Name -->
-                    @switch($consultancy->stepId)
+                    @switch($stepId)
                         @case(1)
                             @include('consultancy.partials.group1')
                         @break
