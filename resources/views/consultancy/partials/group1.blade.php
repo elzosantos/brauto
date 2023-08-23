@@ -1,4 +1,6 @@
  <form method="POST" action="{{ route('consultancies.store') }}">
+    <input type="hidden" name="type_consultancy"
+         value="{{ App\Enums\Reports\Default\TypeConsultancy::APRESENTACAO }}">
      @csrf
      <x-alert />
      <table class="min-w-full border  text-sm font-light dark:border-neutral-500">
