@@ -8,8 +8,8 @@ enum TypeConsultancy: int
         case APRESENTACAO = 1;
         case HISTORICO_DADOS = 2;
         case ANALISE_EXTERIOR = 3;
-        case BOAT = 4;
-        case MOTORBIKE = 5;
+        case ANALISE_MECANICA = 4;
+        case ANALISE_MECANICA_B = 5;
         case OTHER = 6;
 
         public static function fromValue(string $name): string
