@@ -45,7 +45,7 @@
                                     {{ $maintenance->brand['name'] }}
                                 </td>
                                 <td class="px-12 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
-                                    {{ $maintenance->['exemplar']['exemplar'] }}
+                                    {{ $maintenance->exemplar['exemplar'] }}
                                 </td>
                                 <td class="px-12 py-2 text-sm font-medium whitespace-nowrap dark:text-white">
                                     {{ App\Enums\ConsultancyStatus::fromValue($consultancy->status)    }}
