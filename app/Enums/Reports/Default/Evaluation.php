@@ -7,7 +7,7 @@ enum Evaluation:string
 { 
 
     case UM = '1';
-    case INATIVO = 2; 
+    case INATIVO = '2'; 
     public static function fromValue(int $status): string
     {
         foreach (self::cases() as $role) {

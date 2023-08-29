@@ -17,7 +17,7 @@
 
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                     {{ __('Deseja adicionar uma consultoria?') }}
-                    <p> <a href="{{ route('consultancies.create',0)}}"><u>Clique aqui!</u></a></p>
+                    <p> <a href="{{ route('consultancies.create',[1,0])}}"><u>Clique aqui!</u></a></p>
                 </div>
 
                 <div class="p-6 text-gray-900 dark:text-gray-100">

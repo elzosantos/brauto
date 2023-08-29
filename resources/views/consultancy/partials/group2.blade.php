@@ -1,9 +1,9 @@
  <form method="POST" action="{{ route('consultancies.evaluations') }}">
      @csrf
-
+ 
      <input type="hidden" name="type_consultancy"
          value="{{ App\Enums\Reports\Default\TypeConsultancy::HISTORICO_DADOS }}">
-     <input type="hidden" name="consultancy_id" value="99f265c5-26a8-4eb1-aec6-5248ad4cf0ad">
+     <input type="hidden" name="consultancy_id" value="{{$idConsult}}">
      <x-alert />
      <table class="min-w-full border  text-sm font-light dark:border-neutral-500">
          <thead class="border-b font- dark:border-neutral-500 text-center">

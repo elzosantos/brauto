@@ -3,6 +3,7 @@
 
     <input type="hidden" name="type_consultancy"
         value="{{ App\Enums\Reports\Default\TypeConsultancy::ANALISE_PREVENTIVA }}">
+    <input type="hidden" name="consultancy_id" value="{{ $idConsult }}">
     <x-alert />
     <table class="min-w-full border  text-sm font-light dark:border-neutral-500">
         <thead class="border-b font- dark:border-neutral-500 text-center">

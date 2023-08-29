@@ -3,7 +3,7 @@
 
     <input type="hidden" name="type_consultancy"
         value="{{ App\Enums\Reports\Default\TypeConsultancy::ANALISE_MECANICA }}">
-    <input type="hidden" name="consultancy_id" value=" ">
+    <input type="hidden" name="consultancy_id" value="{{ $idConsult }}">
     <table class="min-w-full border  text-sm font-light dark:border-neutral-500">
         <thead class="border-b font- dark:border-neutral-500 text-center">
             <tr>

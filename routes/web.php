@@ -46,7 +46,8 @@ Route::middleware('auth')->group(function () {
     //Consultancy 
     Route::post('/consultancies', [ConsultancyController::class, 'evaluation'])->name('consultancies.evaluations');
     Route::post('/consultancy', [ConsultancyController::class, 'store'])->name('consultancies.store');
-    Route::get('/consultancy/create/stepId/{id}', [ConsultancyController::class, 'create'])->name('consultancies.create');
+    Route::get('/consultancy/create/stepId/{id}/idConsult/{idConsult}', [ConsultancyController::class, 'create'])->name('consultancies.create');
+ //   Route::get('/consultancy/create/stepId/{id}', [ConsultancyController::class, 'create'])->name('consultancies.create');
     Route::get('/consultancy/evaluation/{id}', [ConsultancyController::class, 'showEvaluation'])->name('consultancies.showEvaluation');
     Route::get('/consultancy/{id}', [ConsultancyController::class, 'show'])->name('consultancies.show');
     Route::get('/consultancy', [ConsultancyController::class, 'index'])->name('consultancies.index');

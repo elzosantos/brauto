@@ -3,7 +3,7 @@
 
     <input type="hidden" name="type_consultancy"
         value="{{ App\Enums\Reports\Default\TypeConsultancy::ANALISE_MECANICA_B }}">
-    <input type="hidden" name="consultancy_id" value=" ">
+    <input type="hidden" name="consultancy_id" value="{{ $idConsult }}">
     <x-alert />
     <table class="min-w-full border  text-sm font-light dark:border-neutral-500">
         <thead class="border-b font- dark:border-neutral-500 text-center">
@@ -2247,7 +2247,7 @@
 
 
             </tr>
-            Estrutura e AgregadosEstrutura e AgregadosEstrutura e AgregadosEstrutura e Agregados
+        
         </tbody>
     </table>
     <div class="flex items-center justify-end mt-4">
