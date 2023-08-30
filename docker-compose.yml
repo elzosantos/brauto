@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
     # image project
-    brauto:
+    app:
         build:
             context: .
             dockerfile: Dockerfile
@@ -23,6 +23,7 @@ services:
             - "80:80"
         volumes:
             - ./:/var/www
+            - /var/www/vendor
             - ./docker/nginx/:/etc/nginx/conf.d/
         networks:
             - laravel
@@ -39,7 +40,7 @@ services:
         volumes:
             - ./.docker/mysql/dbdata:/var/lib/mysql
         ports:
-            - "3306:3306"
+            - "3388:3306"
         networks:
             - laravel
 
