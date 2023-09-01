@@ -10,7 +10,7 @@ enum HistoricoDados:int
     case REPROVADO = 2; 
     case APONTAMENTO_C_SOLUCAO = 3; 
     case FISICA = 4; 
-    case JURIDICA = 5; 
+    case JURIDICA = 5;  
 
 
 

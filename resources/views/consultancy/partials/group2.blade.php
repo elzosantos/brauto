@@ -294,7 +294,7 @@
                      <input id="cont_soc" type="radio"
                          class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                          name="cont_soc" value="5">
-                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Sem necessidade') }}</span>
+                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Sem necessidade') }}</span> 
                  </td>
                  <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                      <input id="cont_soc" type="radio"
