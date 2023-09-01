@@ -1,20 +1,20 @@
 <?php
 
 namespace App\Enums\Reports\Default;
- 
 
-enum AnaliseExterior:int
-{ 
 
-    case ORIGINAL = 1;
-    case REPINTURA_SIMPLES = 2; 
-    case PRESENCA_MASSA = 3; 
-    case INCONC_MAT_ADES = 4; 
-    case REPROVADO = 5; 
-    case APONTAMENTO = 6; 
-    case APROVADO = 7; 
-    case NA = 8; 
-    case ND = 9; 
+enum AnaliseExterior: int
+{
+
+    case REPROVADO = 0;
+    case APROVADO = 1;
+    case ORIGINAL = 2;
+    case REPINTURA_SIMPLES = 3;
+    case PRESENCA_MASSA = 4;
+    case INCONC_MAT_ADES = 5;
+    case APONTAMENTO = 6;
+    case NA = 7;
+    case ND = 8;
 
 
 
@@ -28,4 +28,3 @@ enum AnaliseExterior:int
         throw new \ValueError("$status is not valid");
     }
 }
- 
