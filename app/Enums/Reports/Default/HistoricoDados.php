@@ -5,12 +5,12 @@ namespace App\Enums\Reports\Default;
 
 enum HistoricoDados:int
 { 
-
+    case REPROVADO = 0; 
     case APROVADO = 1;
-    case REPROVADO = 2; 
-    case APONTAMENTO_C_SOLUCAO = 3; 
-    case FISICA = 4; 
-    case JURIDICA = 5; 
+    case APONTAMENTO_C_SOLUCAO = 2; 
+    case FISICA = 3; 
+    case JURIDICA = 4; 
+    case SEM_NECESSIDADE = 5; 
 
 
 

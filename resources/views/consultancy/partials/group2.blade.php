@@ -1,9 +1,9 @@
  <form method="POST" action="{{ route('consultancies.evaluations') }}">
      @csrf
- 
+
      <input type="hidden" name="type_consultancy"
          value="{{ App\Enums\Reports\Default\TypeConsultancy::HISTORICO_DADOS }}">
-     <input type="hidden" name="consultancy_id" value="{{$idConsult}}">
+     <input type="hidden" name="consultancy_id" value="{{ $idConsult }}">
      <x-alert />
      <table class="min-w-full border  text-sm font-light dark:border-neutral-500">
          <thead class="border-b font- dark:border-neutral-500 text-center">
@@ -184,7 +184,8 @@
                      class=" row-span-4 py-3 px-4 whitespace-nowrap border-r font-medium dark:border-neutral-500">
                      Observações:
                      <textarea id="obs_hist"
-                         class="rounded dark:bg-gray-900  border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                         class="rounded dark:bg-gray-900  border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 
+                         dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                          name="obs_hist"rows="1" cols="100">  </textarea>
                  </td>
 
@@ -234,13 +235,15 @@
 
                  <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                      <input id="alien" type="radio"
-                         class="alien dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                         name="remember" value="1">
+                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 
+                         dark:focus:ring-offset-gray-800"
+                         name="alien" value="1">
                      <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                  </td>
                  <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                      <input id="alien" type="radio"
-                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
+                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 
+                         dark:focus:ring-offset-gray-800"
                          name="alien" value="2">
                      <span
                          class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Apontamento com solução') }}</span>
@@ -261,13 +264,13 @@
                  <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                      <input id="prop" type="radio"
                          class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                         name="prop" value="4">
+                         name="prop" value="3">
                      <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Física') }}</span>
                  </td>
                  <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                      <input id="prop" type="radio"
                          class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                         name="prop" value="3">
+                         name="prop" value="4">
                      <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Jurídica') }}</span>
                  </td>
                  <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
