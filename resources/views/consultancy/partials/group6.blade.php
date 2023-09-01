@@ -34,13 +34,13 @@
                     Análise estrutural do pneu
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="anali_est_p_rpfsde" type="radio"
+                    <input id="anali_est_p_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="anali_est_p_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="anali_est_p_rpfsde" type="radio"
+                    <input id="anali_est_p_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="anali_est_p_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -53,13 +53,13 @@
                     Presença de bolhas na parte interna
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pre_bol_part_int_rpfsde" type="radio"
+                    <input id="pre_bol_part_int_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pre_bol_part_int_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pre_bol_part_int_rpfsde" type="radio"
+                    <input id="pre_bol_part_int_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pre_bol_part_int_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -72,13 +72,13 @@
                     Condições internas da roda e originalidade
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="con_int_rod_ori_rpfsde" type="radio"
+                    <input id="con_int_rod_ori_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="con_int_rod_ori_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="con_int_rod_ori_rpfsde" type="radio"
+                    <input id="con_int_rod_ori_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="con_int_rod_ori_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -91,13 +91,13 @@
                     Condição visual de disco / tambor
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="con_vis_dis_rpfsde" type="radio"
+                    <input id="con_vis_dis_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="con_vis_dis_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="con_vis_dis_rpfsde" type="radio"
+                    <input id="con_vis_dis_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="con_vis_dis_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -110,32 +110,32 @@
                     Indíce de vida útil do disco
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfsde" type="radio"
+                    <input id="ind_vid_dis_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfsde">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfsde" type="radio"
+                    <input id="ind_vid_dis_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfsde" type="radio"
+                    <input id="ind_vid_dis_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfsde" type="radio"
+                    <input id="ind_vid_dis_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfsde" type="radio"
+                    <input id="ind_vid_dis_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -149,32 +149,32 @@
                     Indíce de vida útil da pastilha
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfsde" type="radio"
+                    <input id="ind_vid_past_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfsde">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfsde" type="radio"
+                    <input id="ind_vid_past_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfsde" type="radio"
+                    <input id="ind_vid_past_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfsde" type="radio"
+                    <input id="ind_vid_past_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfsde" type="radio"
+                    <input id="ind_vid_past_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -187,32 +187,32 @@
                     Batente / coifa
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfsde" type="radio"
+                    <input id="bat_coifa_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfsde">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfsde" type="radio"
+                    <input id="bat_coifa_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfsde" type="radio"
+                    <input id="bat_coifa_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfsde" type="radio"
+                    <input id="bat_coifa_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfsde" type="radio"
+                    <input id="bat_coifa_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -225,32 +225,32 @@
                     Amortecedor
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfsde" type="radio"
+                    <input id="amort_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfsde">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfsde" type="radio"
+                    <input id="amort_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfsde" type="radio"
+                    <input id="amort_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfsde" type="radio"
+                    <input id="amort_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfsde" type="radio"
+                    <input id="amort_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -263,32 +263,32 @@
                     Mola / Bolsa
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfsde" type="radio"
+                    <input id="mol_bol_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfsde">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfsde" type="radio"
+                    <input id="mol_bol_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfsde" type="radio"
+                    <input id="mol_bol_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfsde" type="radio"
+                    <input id="mol_bol_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfsde" type="radio"
+                    <input id="mol_bol_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -301,32 +301,32 @@
                     Bandejas / braços / bucha
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfsde" type="radio"
+                    <input id="band_bra_bu_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfsde">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfsde" type="radio"
+                    <input id="band_bra_bu_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfsde" type="radio"
+                    <input id="band_bra_bu_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfsde" type="radio"
+                    <input id="band_bra_bu_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfsde" type="radio"
+                    <input id="band_bra_bu_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -339,32 +339,32 @@
                     Bieleta
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfsde" type="radio"
+                    <input id="bieleta_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfsde">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfsde" type="radio"
+                    <input id="bieleta_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfsde" type="radio"
+                    <input id="bieleta_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfsde" type="radio"
+                    <input id="bieleta_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfsde" type="radio"
+                    <input id="bieleta_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -377,32 +377,32 @@
                     Pivôs
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfsde" type="radio"
+                    <input id="pivo_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfsde">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfsde" type="radio"
+                    <input id="pivo_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfsde" type="radio"
+                    <input id="pivo_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfsde" type="radio"
+                    <input id="pivo_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfsde" type="radio"
+                    <input id="pivo_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -415,32 +415,32 @@
                     Bucha da barra est.
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfsde" type="radio"
+                    <input id="bucha_bar_est_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfsde">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfsde" type="radio"
+                    <input id="bucha_bar_est_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfsde" type="radio"
+                    <input id="bucha_bar_est_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfsde" type="radio"
+                    <input id="bucha_bar_est_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfsde" type="radio"
+                    <input id="bucha_bar_est_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -453,32 +453,32 @@
                     Eixo / Homocinética / Trizeta
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfsde" type="radio"
+                    <input id="eixo_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfsde">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfsde" type="radio"
+                    <input id="eixo_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfsde" type="radio"
+                    <input id="eixo_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfsde" type="radio"
+                    <input id="eixo_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfsde" type="radio"
+                    <input id="eixo_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -491,32 +491,32 @@
                     Eixo / Terminal de direção
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfsde" type="radio"
+                    <input id="eixo_ter_dir_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_ter_dir_rpfsde">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfsde" type="radio"
+                    <input id="eixo_ter_dir_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_ter_dir_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfsde" type="radio"
+                    <input id="eixo_ter_dir_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_ter_dir_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfsde" type="radio"
+                    <input id="eixo_ter_dir_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_ter_dir_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfsde" type="radio"
+                    <input id="eixo_ter_dir_rpfsde" type="radio" value="0"
                         class="eixo_ter_dir_rpfsde dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="remember">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -529,32 +529,32 @@
                     Linha hidráulica / elétrica
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfsde" type="radio"
+                    <input id="lin_hid_ele_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfsde">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfsde" type="radio"
+                    <input id="lin_hid_ele_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfsde" type="radio"
+                    <input id="lin_hid_ele_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfsde" type="radio"
+                    <input id="lin_hid_ele_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfsde" type="radio"
+                    <input id="lin_hid_ele_rpfsde" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -590,13 +590,13 @@
                     Análise estrutural do pneu
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="anali_est_p_rpfsdd" type="radio"
+                    <input id="anali_est_p_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="anali_est_p_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="anali_est_p_rpfsdd" type="radio"
+                    <input id="anali_est_p_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="anali_est_p_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -609,13 +609,13 @@
                     Presença de bolhas na parte interna
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pre_bol_part_int_rpfsdd" type="radio"
+                    <input id="pre_bol_part_int_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pre_bol_part_int_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pre_bol_part_int_rpfsdd" type="radio"
+                    <input id="pre_bol_part_int_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pre_bol_part_int_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -628,13 +628,13 @@
                     Condições internas da roda e originalidade
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="con_int_rod_ori_rpfsdd" type="radio"
+                    <input id="con_int_rod_ori_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="con_int_rod_ori_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="con_int_rod_ori_rpfsdd" type="radio"
+                    <input id="con_int_rod_ori_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="con_int_rod_ori_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -647,13 +647,13 @@
                     Condição visual de disco / tambor
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="con_vis_dis_rpfsdd" type="radio"
+                    <input id="con_vis_dis_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="con_vis_dis_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="con_vis_dis_rpfsdd" type="radio"
+                    <input id="con_vis_dis_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="con_vis_dis_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -666,32 +666,32 @@
                     Indíce de vida útil do disco
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfsdd" type="radio"
+                    <input id="ind_vid_dis_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfsdd" type="radio"
+                    <input id="ind_vid_dis_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfsdd" type="radio"
+                    <input id="ind_vid_dis_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfsdd" type="radio"
+                    <input id="ind_vid_dis_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfsdd" type="radio"
+                    <input id="ind_vid_dis_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -705,32 +705,32 @@
                     Indíce de vida útil da pastilha
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfsdd" type="radio"
+                    <input id="ind_vid_past_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfsdd" type="radio"
+                    <input id="ind_vid_past_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfsdd" type="radio"
+                    <input id="ind_vid_past_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfsdd" type="radio"
+                    <input id="ind_vid_past_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfsdd" type="radio"
+                    <input id="ind_vid_past_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -743,32 +743,32 @@
                     Batente / coifa
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfsdd" type="radio"
+                    <input id="bat_coifa_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfsdd" type="radio"
+                    <input id="bat_coifa_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfsdd" type="radio"
+                    <input id="bat_coifa_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfsdd" type="radio"
+                    <input id="bat_coifa_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfsdd" type="radio"
+                    <input id="bat_coifa_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -781,32 +781,32 @@
                     Amortecedor
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfsdd" type="radio"
+                    <input id="amort_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfsdd" type="radio"
+                    <input id="amort_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfsdd" type="radio"
+                    <input id="amort_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfsdd" type="radio"
+                    <input id="amort_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfsdd" type="radio"
+                    <input id="amort_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -819,32 +819,32 @@
                     Mola / Bolsa
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfsdd" type="radio"
+                    <input id="mol_bol_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfsdd" type="radio"
+                    <input id="mol_bol_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfsdd" type="radio"
+                    <input id="mol_bol_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfsdd" type="radio"
+                    <input id="mol_bol_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfsdd" type="radio"
+                    <input id="mol_bol_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -857,32 +857,32 @@
                     Bandejas / braços / bucha
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfsdd" type="radio"
+                    <input id="band_bra_bu_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfsdd" type="radio"
+                    <input id="band_bra_bu_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfsdd" type="radio"
+                    <input id="band_bra_bu_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfsdd" type="radio"
+                    <input id="band_bra_bu_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfsdd" type="radio"
+                    <input id="band_bra_bu_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -895,32 +895,32 @@
                     Bieleta
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfsdd" type="radio"
+                    <input id="bieleta_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfsdd" type="radio"
+                    <input id="bieleta_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfsdd" type="radio"
+                    <input id="bieleta_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfsdd" type="radio"
+                    <input id="bieleta_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfsdd" type="radio"
+                    <input id="bieleta_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -933,32 +933,32 @@
                     Pivôs
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfsdd" type="radio"
+                    <input id="pivo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfsdd" type="radio"
+                    <input id="pivo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfsdd" type="radio"
+                    <input id="pivo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfsdd" type="radio"
+                    <input id="pivo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfsdd" type="radio"
+                    <input id="pivo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -971,32 +971,32 @@
                     Bucha da barra est.
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfsdd" type="radio"
+                    <input id="bucha_bar_est_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfsdd" type="radio"
+                    <input id="bucha_bar_est_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfsdd" type="radio"
+                    <input id="bucha_bar_est_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfsdd" type="radio"
+                    <input id="bucha_bar_est_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfsdd" type="radio"
+                    <input id="bucha_bar_est_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1009,32 +1009,32 @@
                     Eixo / Homocinética / Trizeta
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfsdd" type="radio"
+                    <input id="eixo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfsdd" type="radio"
+                    <input id="eixo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfsdd" type="radio"
+                    <input id="eixo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfsdd" type="radio"
+                    <input id="eixo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfsdd" type="radio"
+                    <input id="eixo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1047,32 +1047,32 @@
                     Eixo / Terminal de direção
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfsdd" type="radio"
+                    <input id="eixo_ter_dir_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_ter_dir_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfsdd" type="radio"
+                    <input id="eixo_ter_dir_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_ter_dir_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfsdd" type="radio"
+                    <input id="eixo_ter_dir_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_ter_dir_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfsdd" type="radio"
+                    <input id="eixo_ter_dir_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_ter_dir_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfsdd" type="radio"
+                    <input id="eixo_ter_dir_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_ter_dir_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1085,32 +1085,32 @@
                     Linha hidráulica / elétrica
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfsdd" type="radio"
+                    <input id="lin_hid_ele_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfsdd" type="radio"
+                    <input id="lin_hid_ele_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfsdd" type="radio"
+                    <input id="lin_hid_ele_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfsdd" type="radio"
+                    <input id="lin_hid_ele_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfsdd" type="radio"
+                    <input id="lin_hid_ele_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1147,13 +1147,13 @@
                     Análise estrutural do pneu
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="anali_est_p_rpfsdd" type="radio"
+                    <input id="anali_est_p_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="anali_est_p_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="anali_est_p_rpfsdd" type="radio"
+                    <input id="anali_est_p_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="anali_est_p_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1166,13 +1166,13 @@
                     Presença de bolhas na parte interna
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pre_bol_part_int_rpfsdd" type="radio"
+                    <input id="pre_bol_part_int_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pre_bol_part_int_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pre_bol_part_int_rpfsdd" type="radio"
+                    <input id="pre_bol_part_int_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pre_bol_part_int_rpfsde">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1185,13 +1185,13 @@
                     Condições internas da roda e originalidade
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="con_int_rod_ori_rpfsdd" type="radio"
+                    <input id="con_int_rod_ori_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="con_int_rod_ori_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="con_int_rod_ori_rpfsdd" type="radio"
+                    <input id="con_int_rod_ori_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="con_int_rod_ori_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1204,13 +1204,13 @@
                     Condição visual de disco / tambor
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="con_vis_dis_rpfsdd" type="radio"
+                    <input id="con_vis_dis_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="con_vis_dis_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="con_vis_dis_rpfsdd" type="radio"
+                    <input id="con_vis_dis_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="con_vis_dis_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1223,32 +1223,32 @@
                     Indíce de vida útil do disco
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfsdd" type="radio"
+                    <input id="ind_vid_dis_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfsdd" type="radio"
+                    <input id="ind_vid_dis_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfsdd" type="radio"
+                    <input id="ind_vid_dis_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfsdd" type="radio"
+                    <input id="ind_vid_dis_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfsdd" type="radio"
+                    <input id="ind_vid_dis_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1262,32 +1262,32 @@
                     Indíce de vida útil da pastilha
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfsdd" type="radio"
+                    <input id="ind_vid_past_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfsdd" type="radio"
+                    <input id="ind_vid_past_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfsdd" type="radio"
+                    <input id="ind_vid_past_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfsdd" type="radio"
+                    <input id="ind_vid_past_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfsdd" type="radio"
+                    <input id="ind_vid_past_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1300,32 +1300,32 @@
                     Batente / coifa
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfsdd" type="radio"
+                    <input id="bat_coifa_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfsdd" type="radio"
+                    <input id="bat_coifa_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfsdd" type="radio"
+                    <input id="bat_coifa_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfsdd" type="radio"
+                    <input id="bat_coifa_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfsdd" type="radio"
+                    <input id="bat_coifa_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1338,32 +1338,32 @@
                     Amortecedor
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfsdd" type="radio"
+                    <input id="amort_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfsdd" type="radio"
+                    <input id="amort_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfsdd" type="radio"
+                    <input id="amort_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfsdd" type="radio"
+                    <input id="amort_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfsdd" type="radio"
+                    <input id="amort_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1376,32 +1376,32 @@
                     Mola / Bolsa
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfsdd" type="radio"
+                    <input id="mol_bol_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfsdd" type="radio"
+                    <input id="mol_bol_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfsdd" type="radio"
+                    <input id="mol_bol_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfsdd" type="radio"
+                    <input id="mol_bol_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfsdd" type="radio"
+                    <input id="mol_bol_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1414,32 +1414,32 @@
                     Bandejas / braços / bucha
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfsdd" type="radio"
+                    <input id="band_bra_bu_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfsdd" type="radio"
+                    <input id="band_bra_bu_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfsdd" type="radio"
+                    <input id="band_bra_bu_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfsdd" type="radio"
+                    <input id="band_bra_bu_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfsdd" type="radio"
+                    <input id="band_bra_bu_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1452,32 +1452,32 @@
                     Bieleta
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfsdd" type="radio"
+                    <input id="bieleta_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfsdd" type="radio"
+                    <input id="bieleta_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfsdd" type="radio"
+                    <input id="bieleta_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfsdd" type="radio"
+                    <input id="bieleta_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfsdd" type="radio"
+                    <input id="bieleta_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1490,32 +1490,32 @@
                     Pivôs
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfsdd" type="radio"
+                    <input id="pivo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfsdd" type="radio"
+                    <input id="pivo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfsdd" type="radio"
+                    <input id="pivo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfsdd" type="radio"
+                    <input id="pivo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfsdd" type="radio"
+                    <input id="pivo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1528,32 +1528,32 @@
                     Bucha da barra est.
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfsdd" type="radio"
+                    <input id="bucha_bar_est_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfsdd" type="radio"
+                    <input id="bucha_bar_est_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfsdd" type="radio"
+                    <input id="bucha_bar_est_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfsdd" type="radio"
+                    <input id="bucha_bar_est_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfsdd" type="radio"
+                    <input id="bucha_bar_est_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1566,32 +1566,32 @@
                     Eixo / Homocinética / Trizeta
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfsdd" type="radio"
+                    <input id="eixo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfsdd" type="radio"
+                    <input id="eixo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfsdd" type="radio"
+                    <input id="eixo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfsdd" type="radio"
+                    <input id="eixo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfsdd" type="radio"
+                    <input id="eixo_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1604,32 +1604,32 @@
                     Eixo / Terminal de direção
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfsdd" type="radio"
+                    <input id="eixo_ter_dir_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_ter_dir_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfsdd" type="radio"
+                    <input id="eixo_ter_dir_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_ter_dir_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfsdd" type="radio"
+                    <input id="eixo_ter_dir_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_ter_dir_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfsdd" type="radio"
+                    <input id="eixo_ter_dir_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_ter_dir_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfsdd" type="radio"
+                    <input id="eixo_ter_dir_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_ter_dir_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1642,32 +1642,32 @@
                     Linha hidráulica / elétrica
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfsdd" type="radio"
+                    <input id="lin_hid_ele_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfsdd">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfsdd" type="radio"
+                    <input id="lin_hid_ele_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfsdd" type="radio"
+                    <input id="lin_hid_ele_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfsdd" type="radio"
+                    <input id="lin_hid_ele_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfsdd" type="radio"
+                    <input id="lin_hid_ele_rpfsdd" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfsdd">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1704,13 +1704,13 @@
                     Análise estrutural do pneu
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="anali_est_p_rpfste" type="radio"
+                    <input id="anali_est_p_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="anali_est_p_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="anali_est_p_rpfste" type="radio"
+                    <input id="anali_est_p_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="anali_est_p_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1723,13 +1723,13 @@
                     Presença de bolhas na parte interna
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pre_bol_part_int_rpfste" type="radio"
+                    <input id="pre_bol_part_int_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pre_bol_part_int_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pre_bol_part_int_rpfste" type="radio"
+                    <input id="pre_bol_part_int_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pre_bol_part_int_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1742,13 +1742,13 @@
                     Condições internas da roda e originalidade
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="con_int_rod_ori_rpfste" type="radio"
+                    <input id="con_int_rod_ori_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="con_int_rod_ori_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="con_int_rod_ori_rpfste" type="radio"
+                    <input id="con_int_rod_ori_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="con_int_rod_ori_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1761,13 +1761,13 @@
                     Condição visual de disco / tambor
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="con_vis_dis_rpfste" type="radio"
+                    <input id="con_vis_dis_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="con_vis_dis_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="con_vis_dis_rpfste" type="radio"
+                    <input id="con_vis_dis_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="con_vis_dis_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1780,32 +1780,32 @@
                     Indíce de vida útil do disco
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfste" type="radio"
+                    <input id="ind_vid_dis_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfste">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfste" type="radio"
+                    <input id="ind_vid_dis_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfste" type="radio"
+                    <input id="ind_vid_dis_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfste" type="radio"
+                    <input id="ind_vid_dis_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_dis_rpfste" type="radio"
+                    <input id="ind_vid_dis_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_dis_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1819,32 +1819,32 @@
                     Indíce de vida útil da pastilha
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfste" type="radio"
+                    <input id="ind_vid_past_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfste">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfste" type="radio"
+                    <input id="ind_vid_past_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfste" type="radio"
+                    <input id="ind_vid_past_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfste" type="radio"
+                    <input id="ind_vid_past_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ind_vid_past_rpfste" type="radio"
+                    <input id="ind_vid_past_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ind_vid_past_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1857,32 +1857,32 @@
                     Batente / coifa
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfste" type="radio"
+                    <input id="bat_coifa_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfste">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfste" type="radio"
+                    <input id="bat_coifa_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfste" type="radio"
+                    <input id="bat_coifa_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfste" type="radio"
+                    <input id="bat_coifa_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bat_coifa_rpfste" type="radio"
+                    <input id="bat_coifa_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bat_coifa_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1895,32 +1895,32 @@
                     Amortecedor
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfste" type="radio"
+                    <input id="amort_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfste">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfste" type="radio"
+                    <input id="amort_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfste" type="radio"
+                    <input id="amort_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfste" type="radio"
+                    <input id="amort_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amort_rpfste" type="radio"
+                    <input id="amort_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amort_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1933,32 +1933,32 @@
                     Mola / Bolsa
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfste" type="radio"
+                    <input id="mol_bol_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfste">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfste" type="radio"
+                    <input id="mol_bol_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfste" type="radio"
+                    <input id="mol_bol_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfste" type="radio"
+                    <input id="mol_bol_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mol_bol_rpfste" type="radio"
+                    <input id="mol_bol_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mol_bol_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1971,32 +1971,32 @@
                     Bandejas / braços / bucha
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfste" type="radio"
+                    <input id="band_bra_bu_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfste">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfste" type="radio"
+                    <input id="band_bra_bu_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfste" type="radio"
+                    <input id="band_bra_bu_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfste" type="radio"
+                    <input id="band_bra_bu_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="band_bra_bu_rpfste" type="radio"
+                    <input id="band_bra_bu_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="band_bra_bu_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2009,32 +2009,32 @@
                     Bieleta
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfste" type="radio"
+                    <input id="bieleta_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfste">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfste" type="radio"
+                    <input id="bieleta_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfste" type="radio"
+                    <input id="bieleta_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfste" type="radio"
+                    <input id="bieleta_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bieleta_rpfste" type="radio"
+                    <input id="bieleta_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bieleta_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2047,32 +2047,32 @@
                     Pivôs
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfste" type="radio"
+                    <input id="pivo_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfste">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfste" type="radio"
+                    <input id="pivo_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfste" type="radio"
+                    <input id="pivo_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfste" type="radio"
+                    <input id="pivo_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pivo_rpfste" type="radio"
+                    <input id="pivo_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pivo_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2085,32 +2085,32 @@
                     Bucha da barra est.
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfste" type="radio"
+                    <input id="bucha_bar_est_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfste">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfste" type="radio"
+                    <input id="bucha_bar_est_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfste" type="radio"
+                    <input id="bucha_bar_est_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfste" type="radio"
+                    <input id="bucha_bar_est_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bucha_bar_est_rpfste" type="radio"
+                    <input id="bucha_bar_est_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bucha_bar_est_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2123,32 +2123,32 @@
                     Eixo / Homocinética / Trizeta
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfste" type="radio"
+                    <input id="eixo_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfste">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfste" type="radio"
+                    <input id="eixo_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfste" type="radio"
+                    <input id="eixo_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfste" type="radio"
+                    <input id="eixo_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_rpfste" type="radio"
+                    <input id="eixo_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2161,32 +2161,32 @@
                     Eixo / Terminal de direção
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfste" type="radio"
+                    <input id="eixo_ter_dir_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_ter_dir_rpfste">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfste" type="radio"
+                    <input id="eixo_ter_dir_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_ter_dir_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfste" type="radio"
+                    <input id="eixo_ter_dir_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_ter_dir_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfste" type="radio"
+                    <input id="eixo_ter_dir_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_ter_dir_rpfsdte">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="eixo_ter_dir_rpfste" type="radio"
+                    <input id="eixo_ter_dir_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="eixo_ter_dir_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2199,32 +2199,32 @@
                     Linha hidráulica / elétrica
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfste" type="radio"
+                    <input id="lin_hid_ele_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfste">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Análise necessita de desmontagem ou n/a') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfste" type="radio"
+                    <input id="lin_hid_ele_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Nova') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfste" type="radio"
+                    <input id="lin_hid_ele_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Meia vida') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfste" type="radio"
+                    <input id="lin_hid_ele_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Troca em breve') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="lin_hid_ele_rpfste" type="radio"
+                    <input id="lin_hid_ele_rpfste" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="lin_hid_ele_rpfste">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>

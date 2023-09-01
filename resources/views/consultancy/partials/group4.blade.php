@@ -31,26 +31,26 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="abert_tampa" type="radio"
+                    <input id="abert_tampa" type="radio" value="2"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="abert_tampa">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Manual') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="abert_tampa" type="radio"
+                    <input id="abert_tampa" type="radio" value="3"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="abert_tampa">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Elétrico') }}</span>
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="abert_tampa" type="radio"
+                    <input id="abert_tampa" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="abert_tampa">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="abert_tampa" type="radio"
+                    <input id="abert_tampa" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="abert_tampa">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -66,20 +66,20 @@
 
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amor_mola_ld_dir" type="radio"
+                    <input id="amor_mola_ld_dir" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amor_mola_ld_dir">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amor_mola_ld_dir" type="radio"
+                    <input id="amor_mola_ld_dir" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amor_mola_ld_dir">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amor_mola_ld_dir" type="radio"
+                    <input id="amor_mola_ld_dir" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amor_mola_ld_dir">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -95,20 +95,20 @@
 
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amor_mola_ld_esq" type="radio"
+                    <input id="amor_mola_ld_esq" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amor_mola_ld_esq">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amor_mola_ld_esq" type="radio"
+                    <input id="amor_mola_ld_esq" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amor_mola_ld_esq">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="amor_mola_ld_esq" type="radio"
+                    <input id="amor_mola_ld_esq" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="amor_mola_ld_esq">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -127,13 +127,13 @@
 
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dobrad" type="radio"
+                    <input id="dobrad" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dobrad">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dobrad" type="radio"
+                    <input id="dobrad" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dobrad">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -151,13 +151,13 @@
 
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="remember_me" type="radio"
+                    <input id="remember_me" type="radio" value="1"
                         class="fecha_mac_inte dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="fecha_mac_inte">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="fecha_mac_inte" type="radio"
+                    <input id="fecha_mac_inte" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="fecha_mac_inte">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -175,13 +175,13 @@
 
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="acab_int_tampa" type="radio"
+                    <input id="acab_int_tampa" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="acab_int_tampa">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="acab_int_tampa" type="radio"
+                    <input id="acab_int_tampa" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="acab_int_tampa">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -199,13 +199,13 @@
 
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="borra_ved" type="radio"
+                    <input id="borra_ved" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="borra_ved">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="borra_ved" type="radio"
+                    <input id="borra_ved" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="borra_ved">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -220,13 +220,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="tape_int_pro_ca" type="radio"
+                    <input id="tape_int_pro_ca" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="tape_int_pro_ca">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="tape_int_pro_ca" type="radio"
+                    <input id="tape_int_pro_ca" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="tape_int_pro_ca">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -244,13 +244,13 @@
 
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="tamp_capota" type="radio"
+                    <input id="tamp_capota" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="tamp_capota">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="tamp_capota" type="radio"
+                    <input id="tamp_capota" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="tamp_capota">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -265,7 +265,7 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ferr_kit_emer" type="radio"
+                    <input id="ferr_kit_emer" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ferr_kit_emer">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
@@ -273,13 +273,13 @@
 
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ferr_kit_emer" type="radio"
+                    <input id="ferr_kit_emer" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ferr_kit_emer">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ferr_kit_emer" type="radio"
+                    <input id="ferr_kit_emer" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ferr_kit_emer">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -317,13 +317,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="estr_cha_dupla" type="radio"
+                    <input id="estr_cha_dupla" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="estr_cha_dupla">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="estr_cha_dupla" type="radio"
+                    <input id="estr_cha_dupla" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="estr_cha_dupla">
                     <span
@@ -331,13 +331,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="estr_cha_dupla" type="radio"
+                    <input id="estr_cha_dupla" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="estr_cha_dupla">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="estr_cha_dupla" type="radio"
+                    <input id="estr_cha_dupla" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="estr_cha_dupla">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -352,13 +352,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="borra_vedaca" type="radio"
+                    <input id="borra_vedaca" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="borra_vedaca">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="borra_vedaca" type="radio"
+                    <input id="borra_vedaca" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="borra_vedaca">
                     <span
@@ -366,13 +366,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="borra_vedaca" type="radio"
+                    <input id="borra_vedaca" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="borra_vedaca">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="borra_vedaca" type="radio"
+                    <input id="borra_vedaca" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="borra_vedaca">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -387,13 +387,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_ext" type="radio"
+                    <input id="mac_ext" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_ext">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_ext" type="radio"
+                    <input id="mac_ext" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_ext">
                     <span
@@ -401,13 +401,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_ext" type="radio"
+                    <input id="mac_ext" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_ext">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_ext" type="radio"
+                    <input id="mac_ext" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_ext">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -422,13 +422,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_interna" type="radio"
+                    <input id="mac_interna" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_interna">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_interna" type="radio"
+                    <input id="mac_interna" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_interna">
                     <span
@@ -436,13 +436,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_interna" type="radio"
+                    <input id="mac_interna" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_interna">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_interna" type="radio"
+                    <input id="mac_interna" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_interna">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -457,13 +457,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_porta" type="radio"
+                    <input id="forro_porta" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_porta">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_porta" type="radio"
+                    <input id="forro_porta" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_porta">
                     <span
@@ -471,13 +471,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_porta" type="radio"
+                    <input id="forro_porta" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_porta">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_porta" type="radio"
+                    <input id="forro_porta" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_porta">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -492,13 +492,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dobra_hab_mot" type="radio"
+                    <input id="dobra_hab_mot" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dobra_hab_mot">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dobra_hab_mot" type="radio"
+                    <input id="dobra_hab_mot" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dobra_hab_mot">
                     <span
@@ -506,13 +506,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dobra_hab_mot" type="radio"
+                    <input id="dobra_hab_mot" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dobra_hab_mot">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dobra_hab_mot" type="radio"
+                    <input id="dobra_hab_mot" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dobra_hab_mot">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -527,13 +527,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vest_para_hab_mot" type="radio"
+                    <input id="vest_para_hab_mot" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vest_para_hab_mot">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vest_para_hab_mot" type="radio"
+                    <input id="vest_para_hab_mot" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vest_para_hab_mot">
                     <span
@@ -541,13 +541,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vest_para_hab_mot" type="radio"
+                    <input id="vest_para_hab_mot" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vest_para_hab_mot">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vest_para_hab_mot" type="radio"
+                    <input id="vest_para_hab_mot" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vest_para_hab_mot">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -562,13 +562,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_hab_mot" type="radio"
+                    <input id="banco_hab_mot" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_hab_mot">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_hab_mot" type="radio"
+                    <input id="banco_hab_mot" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_hab_mot">
                     <span
@@ -576,13 +576,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_hab_mot" type="radio"
+                    <input id="banco_hab_mot" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_hab_mot">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_hab_mot" type="radio"
+                    <input id="banco_hab_mot" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_hab_mot">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -597,13 +597,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajust_banco" type="radio"
+                    <input id="ajust_banco" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajust_banco">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajust_banco" type="radio"
+                    <input id="ajust_banco" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajust_banco">
                     <span
@@ -611,13 +611,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajust_banco" type="radio"
+                    <input id="ajust_banco" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajust_banco">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajust_banco" type="radio"
+                    <input id="ajust_banco" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajust_banco">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -656,13 +656,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="est_cha_dupl_hab_psg" type="radio"
+                    <input id="est_cha_dupl_hab_psg" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="est_cha_dupl_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="est_cha_dupl_hab_psg" type="radio"
+                    <input id="est_cha_dupl_hab_psg" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="est_cha_dupl_hab_psg">
                     <span
@@ -670,13 +670,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="est_cha_dupl_hab_psg" type="radio"
+                    <input id="est_cha_dupl_hab_psg" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="est_cha_dupl_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="est_cha_dupl_hab_psg" type="radio"
+                    <input id="est_cha_dupl_hab_psg" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="est_cha_dupl_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -691,13 +691,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="borra_ved_hab_psg" type="radio"
+                    <input id="borra_ved_hab_psg" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="borra_ved_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="borra_ved_hab_psg" type="radio"
+                    <input id="borra_ved_hab_psg" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="borra_ved_hab_psg">
                     <span
@@ -705,13 +705,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="borra_ved_hab_psg" type="radio"
+                    <input id="borra_ved_hab_psg" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="borra_ved_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="borra_ved_hab_psg" type="radio"
+                    <input id="borra_ved_hab_psg" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="borra_ved_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -726,13 +726,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_ext_hab_mot" type="radio"
+                    <input id="mac_ext_hab_mot" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_ext_hab_mot">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_ext_hab_mot" type="radio"
+                    <input id="mac_ext_hab_mot" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_ext_hab_mot">
                     <span
@@ -740,13 +740,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_ext_hab_mot" type="radio"
+                    <input id="mac_ext_hab_mot" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_ext_hab_mot">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_ext_hab_mot" type="radio"
+                    <input id="mac_ext_hab_mot" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_ext_hab_mot">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -761,13 +761,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_int_hab_psg" type="radio"
+                    <input id="mac_int_hab_psg" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_int_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_int_hab_psg" type="radio"
+                    <input id="mac_int_hab_psg" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_int_hab_psg">
                     <span
@@ -775,13 +775,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_int_hab_psg" type="radio"
+                    <input id="mac_int_hab_psg" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_int_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_int_hab_psg" type="radio"
+                    <input id="mac_int_hab_psg" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_int_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -796,13 +796,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_port_hab_psg" type="radio"
+                    <input id="forro_port_hab_psg" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_port_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_port_hab_psg" type="radio"
+                    <input id="forro_port_hab_psg" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_port_hab_psg">
                     <span
@@ -810,13 +810,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_port_hab_psg" type="radio"
+                    <input id="forro_port_hab_psg" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_port_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_port_hab_psg" type="radio"
+                    <input id="forro_port_hab_psg" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_port_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -831,13 +831,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dobra_hab_psg" type="radio"
+                    <input id="dobra_hab_psg" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dobra_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dobra_hab_psg" type="radio"
+                    <input id="dobra_hab_psg" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dobra_hab_psg">
                     <span
@@ -845,13 +845,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dobra_hab_psg" type="radio"
+                    <input id="dobra_hab_psg" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dobra_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dobra_hab_psg" type="radio"
+                    <input id="dobra_hab_psg" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dobra_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -866,13 +866,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vest_para_hab_psg" type="radio"
+                    <input id="vest_para_hab_psg" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vest_para_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vest_para_hab_psg" type="radio"
+                    <input id="vest_para_hab_psg" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vest_para_hab_psg">
                     <span
@@ -880,13 +880,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vest_para_hab_psg" type="radio"
+                    <input id="vest_para_hab_psg" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vest_para_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vest_para_hab_psg" type="radio"
+                    <input id="vest_para_hab_psg" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vest_para_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -901,13 +901,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_hab_psg" type="radio"
+                    <input id="banco_hab_psg" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_hab_psg" type="radio"
+                    <input id="banco_hab_psg" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_hab_psg">
                     <span
@@ -915,13 +915,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_hab_psg" type="radio"
+                    <input id="banco_hab_psg" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_hab_psg" type="radio"
+                    <input id="banco_hab_psg" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -936,13 +936,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajus_banco_hab_psg" type="radio"
+                    <input id="ajus_banco_hab_psg" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajus_banco_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajus_banco_hab_psg" type="radio"
+                    <input id="ajus_banco_hab_psg" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajus_banco_hab_psg">
                     <span
@@ -950,13 +950,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajus_banco_hab_psg" type="radio"
+                    <input id="ajus_banco_hab_psg" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajus_banco_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajus_banco_hab_psg" type="radio"
+                    <input id="ajus_banco_hab_psg" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajus_banco_hab_psg">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -995,13 +995,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="est_dupla_htlm" type="radio"
+                    <input id="est_dupla_htlm" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="est_dupla_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="est_dupla_htlm" type="radio"
+                    <input id="est_dupla_htlm" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="est_dupla_htlm">
                     <span
@@ -1009,13 +1009,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="est_dupla_htlm" type="radio"
+                    <input id="est_dupla_htlm" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="est_dupla_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="est_dupla_htlm" type="radio"
+                    <input id="est_dupla_htlm" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="est_dupla_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1030,13 +1030,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bor_ved_htlm" type="radio"
+                    <input id="bor_ved_htlm" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bor_ved_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bor_ved_htlm" type="radio"
+                    <input id="bor_ved_htlm" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bor_ved_htlm">
                     <span
@@ -1044,13 +1044,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bor_ved_htlm" type="radio"
+                    <input id="bor_ved_htlm" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bor_ved_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="bor_ved_htlm" type="radio"
+                    <input id="bor_ved_htlm" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="bor_ved_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1065,13 +1065,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_ext_htlm" type="radio"
+                    <input id="mac_ext_htlm" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_ext_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_ext_htlm" type="radio"
+                    <input id="mac_ext_htlm" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_ext_htlm">
                     <span
@@ -1079,13 +1079,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_ext_htlm" type="radio"
+                    <input id="mac_ext_htlm" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_ext_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_ext_htlm" type="radio"
+                    <input id="mac_ext_htlm" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_ext_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1100,13 +1100,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_int_htlm" type="radio"
+                    <input id="mac_int_htlm" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_int_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_int_htlm" type="radio"
+                    <input id="mac_int_htlm" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_int_htlm">
                     <span
@@ -1114,13 +1114,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_int_htlm" type="radio"
+                    <input id="mac_int_htlm" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_int_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_int_htlm" type="radio"
+                    <input id="mac_int_htlm" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_int_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1135,13 +1135,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_port_htlm" type="radio"
+                    <input id="forro_port_htlm" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_port_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_port_htlm" type="radio"
+                    <input id="forro_port_htlm" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_port_htlm">
                     <span
@@ -1149,13 +1149,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_port_htlm" type="radio"
+                    <input id="forro_port_htlm" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_port_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_port_htlm" type="radio"
+                    <input id="forro_port_htlm" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_port_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1170,13 +1170,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dobra_htlm" type="radio"
+                    <input id="dobra_htlm" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dobra_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dobra_htlm" type="radio"
+                    <input id="dobra_htlm" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dobra_htlm">
                     <span
@@ -1184,13 +1184,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dobra_htlm" type="radio"
+                    <input id="dobra_htlm" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dobra_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dobra_htlm" type="radio"
+                    <input id="dobra_htlm" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dobra_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1205,13 +1205,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vest_para_htlm" type="radio"
+                    <input id="vest_para_htlm" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vest_para_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vest_para_htlm" type="radio"
+                    <input id="vest_para_htlm" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vest_para_htlm">
                     <span
@@ -1219,13 +1219,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vest_para_htlm" type="radio"
+                    <input id="vest_para_htlm" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vest_para_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vest_para_htlm" type="radio"
+                    <input id="vest_para_htlm" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vest_para_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1240,13 +1240,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_htlm" type="radio"
+                    <input id="banco_htlm" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_htlm" type="radio"
+                    <input id="banco_htlm" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_htlm">
                     <span
@@ -1254,13 +1254,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_htlm" type="radio"
+                    <input id="banco_htlm" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_htlm" type="radio"
+                    <input id="banco_htlm" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_htlm">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1275,13 +1275,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajust_banco" type="radio"
+                    <input id="ajust_banco" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajust_banco">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajust_banco" type="radio"
+                    <input id="ajust_banco" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajust_banco">
                     <span
@@ -1289,13 +1289,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajust_banco" type="radio"
+                    <input id="ajust_banco" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajust_banco">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajust_banco" type="radio"
+                    <input id="ajust_banco" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajust_banco">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1335,13 +1335,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="est_dupl_htlp" type="radio"
+                    <input id="est_dupl_htlp" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="est_dupl_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="est_dupl_htlp" type="radio"
+                    <input id="est_dupl_htlp" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="est_dupl_htlp">
                     <span
@@ -1349,13 +1349,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="est_dupl_htlp" type="radio"
+                    <input id="est_dupl_htlp" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="est_dupl_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="est_dupl_htlp" type="radio"
+                    <input id="est_dupl_htlp" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="est_dupl_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1370,13 +1370,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="borra_ved_htlp" type="radio"
+                    <input id="borra_ved_htlp" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="borra_ved_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="borra_ved_htlp" type="radio"
+                    <input id="borra_ved_htlp" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="borra_ved_htlp">
                     <span
@@ -1384,13 +1384,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="borra_ved_htlp" type="radio"
+                    <input id="borra_ved_htlp" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="borra_ved_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="borra_ved_htlp" type="radio"
+                    <input id="borra_ved_htlp" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="borra_ved_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1405,13 +1405,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_ext_htlp" type="radio"
+                    <input id="mac_ext_htlp" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_ext_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_ext_htlp" type="radio"
+                    <input id="mac_ext_htlp" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_ext_htlp">
                     <span
@@ -1419,13 +1419,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_ext_htlp" type="radio"
+                    <input id="mac_ext_htlp" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_ext_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_ext_htlp" type="radio"
+                    <input id="mac_ext_htlp" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_ext_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1440,13 +1440,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_int_htlp" type="radio"
+                    <input id="mac_int_htlp" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_int_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_int_htlp" type="radio"
+                    <input id="mac_int_htlp" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_int_htlp">
                     <span
@@ -1454,13 +1454,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_int_htlp" type="radio"
+                    <input id="mac_int_htlp" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_int_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="mac_int_htlp" type="radio"
+                    <input id="mac_int_htlp" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="mac_int_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1475,13 +1475,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_port_htlp" type="radio"
+                    <input id="forro_port_htlp" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_port_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_port_htlp" type="radio"
+                    <input id="forro_port_htlp" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_port_htlp">
                     <span
@@ -1489,13 +1489,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_port_htlp" type="radio"
+                    <input id="forro_port_htlp" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_port_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_port_htlp" type="radio"
+                    <input id="forro_port_htlp" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_port_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1510,13 +1510,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dobra_htlp" type="radio"
+                    <input id="dobra_htlp" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dobra_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dobra_htlp" type="radio"
+                    <input id="dobra_htlp" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dobra_htlp">
                     <span
@@ -1524,13 +1524,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dobra_htlp" type="radio"
+                    <input id="dobra_htlp" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dobra_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dobra_htlp" type="radio"
+                    <input id="dobra_htlp" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dobra_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1543,13 +1543,13 @@
                     Vestígios em parafusos
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vest_para_htlp" type="radio"
+                    <input id="vest_para_htlp" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vest_para_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vest_para_htlp" type="radio"
+                    <input id="vest_para_htlp" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vest_para_htlp">
                     <span
@@ -1557,13 +1557,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vest_para_htlp" type="radio"
+                    <input id="vest_para_htlp" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vest_para_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vest_para_htlp" type="radio"
+                    <input id="vest_para_htlp" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vest_para_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1578,13 +1578,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_htlp" type="radio"
+                    <input id="banco_htlp" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_htlp" type="radio"
+                    <input id="banco_htlp" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_htlp">
                     <span
@@ -1592,13 +1592,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_htlp" type="radio"
+                    <input id="banco_htlp" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_htlp" type="radio"
+                    <input id="banco_htlp" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1613,13 +1613,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajust_banco_htlp" type="radio"
+                    <input id="ajust_banco_htlp" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajust_banco_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajust_banco_htlp" type="radio"
+                    <input id="ajust_banco_htlp" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajust_banco_htlp">
                     <span
@@ -1627,13 +1627,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajust_banco_htlp" type="radio"
+                    <input id="ajust_banco_htlp" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajust_banco_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajust_banco_htlp" type="radio"
+                    <input id="ajust_banco_htlp" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajust_banco_htlp">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1671,26 +1671,26 @@
                     Forro de teto
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_teto_tap" type="radio"
+                    <input id="forro_teto_tap" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_teto_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_teto_tap" type="radio"
+                    <input id="forro_teto_tap" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_teto_tap">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado c/ apontamento') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_teto_tap" type="radio"
+                    <input id="forro_teto_tap" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_teto_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="forro_teto_tap" type="radio"
+                    <input id="forro_teto_tap" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="forro_teto_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1705,26 +1705,26 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="quebrasol_ld_mot_tap" type="radio"
+                    <input id="quebrasol_ld_mot_tap" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="quebrasol_ld_mot_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="quebrasol_ld_mot_tap" type="radio"
+                    <input id="quebrasol_ld_mot_tap" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="quebrasol_ld_mot_tap">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado c/ apontamento') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="quebrasol_ld_mot_tap" type="radio"
+                    <input id="quebrasol_ld_mot_tap" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="quebrasol_ld_mot_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="quebrasol_ld_mot_tap" type="radio"
+                    <input id="quebrasol_ld_mot_tap" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="quebrasol_ld_mot_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1736,26 +1736,26 @@
                     Quebra sol lado passageiro
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="quebrasol_ld_psg_tap" type="radio"
+                    <input id="quebrasol_ld_psg_tap" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="quebrasol_ld_psg_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="quebrasol_ld_psg_tap" type="radio"
+                    <input id="quebrasol_ld_psg_tap" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="quebrasol_ld_psg_tap">
                     <span
                         class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado c/ apontamento') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="quebrasol_ld_psg_tap" type="radio"
+                    <input id="quebrasol_ld_psg_tap" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="quebrasol_ld_psg_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="quebrasol_ld_psg_tap" type="radio"
+                    <input id="quebrasol_ld_psg_tap" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="quebrasol_ld_psg_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1767,13 +1767,13 @@
                     Retrovisor interno
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="retro_int_tap" type="radio"
+                    <input id="retro_int_tap" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="retro_int_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="retro_int_tap" type="radio"
+                    <input id="retro_int_tap" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="retro_int_tap">
                     <span
@@ -1781,13 +1781,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="retro_int_tap" type="radio"
+                    <input id="retro_int_tap" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="retro_int_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="retro_int_tap" type="radio"
+                    <input id="retro_int_tap" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="retro_int_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1802,13 +1802,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="persi_tetosol_tap" type="radio"
+                    <input id="persi_tetosol_tap" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="persi_tetosol_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="persi_tetosol_tap" type="radio"
+                    <input id="persi_tetosol_tap" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="persi_tetosol_tap">
                     <span
@@ -1816,13 +1816,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="persi_tetosol_tap" type="radio"
+                    <input id="persi_tetosol_tap" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="persi_tetosol_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="persi_tetosol_tap" type="radio"
+                    <input id="persi_tetosol_tap" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="remepersi_tetosol_tapmber">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1837,13 +1837,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="consol_teto_tap" type="radio"
+                    <input id="consol_teto_tap" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="consol_teto_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="consol_teto_tap" type="radio"
+                    <input id="consol_teto_tap" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="consol_teto_tap">
                     <span
@@ -1851,13 +1851,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="consol_teto_tap" type="radio"
+                    <input id="consol_teto_tap" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="consol_teto_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="consol_teto_tap" type="radio"
+                    <input id="consol_teto_tap" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="consol_teto_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1872,13 +1872,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="tapetes_tap" type="radio"
+                    <input id="tapetes_tap" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="tapetes_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="tapetes_tap" type="radio"
+                    <input id="tapetes_tap" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="tapetes_tap">
                     <span
@@ -1886,13 +1886,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="tapetes_tap" type="radio"
+                    <input id="tapetes_tap" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="tapetes_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="tapetes_tap" type="radio"
+                    <input id="tapetes_tap" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="tapetes_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1907,13 +1907,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="carpete_tap" type="radio"
+                    <input id="carpete_tap" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="carpete_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="carpete_tap" type="radio"
+                    <input id="carpete_tap" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="carpete_tap">
                     <span
@@ -1921,13 +1921,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="carpete_tap" type="radio"
+                    <input id="carpete_tap" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="carpete_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="carpete_tap" type="radio"
+                    <input id="carpete_tap" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="carpete_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1942,13 +1942,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="coif_manoplaf_tap" type="radio"
+                    <input id="coif_manoplaf_tap" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="coif_manoplaf_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="coif_manoplaf_tap" type="radio"
+                    <input id="coif_manoplaf_tap" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="coif_manoplaf_tap">
                     <span
@@ -1956,13 +1956,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="coif_manoplaf_tap" type="radio"
+                    <input id="coif_manoplaf_tap" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="coif_manoplaf_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="coif_manoplaf_tap" type="radio"
+                    <input id="coif_manoplaf_tap" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="coif_manoplaf_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -1977,13 +1977,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="coif_manoplac_tap" type="radio"
+                    <input id="coif_manoplac_tap" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="coif_manoplac_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="coif_manoplac_tap" type="radio"
+                    <input id="coif_manoplac_tap" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="coif_manoplac_tap">
                     <span
@@ -1991,13 +1991,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="coif_manoplac_tap" type="radio"
+                    <input id="coif_manoplac_tap" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="coif_manoplac_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="coif_manoplac_tap" type="radio"
+                    <input id="coif_manoplac_tap" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="coif_manoplac_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2012,13 +2012,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="volante_tap" type="radio"
+                    <input id="volante_tap" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="volante_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="volante_tap" type="radio"
+                    <input id="volante_tap" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="volante_tap">
                     <span
@@ -2026,13 +2026,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="volante_tap" type="radio"
+                    <input id="volante_tap" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="volante_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="volante_tap" type="radio"
+                    <input id="volante_tap" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="volante_tap">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2072,13 +2072,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ig_bot_func" type="radio"
+                    <input id="ig_bot_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ig_bot_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ig_bot_func" type="radio"
+                    <input id="ig_bot_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ig_bot_func">
                     <span
@@ -2086,13 +2086,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ig_bot_func" type="radio"
+                    <input id="ig_bot_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ig_bot_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ig_bot_func" type="radio"
+                    <input id="ig_bot_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ig_bot_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2107,13 +2107,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="part_motor_func" type="radio"
+                    <input id="part_motor_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="part_motor_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="part_motor_func" type="radio"
+                    <input id="part_motor_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="part_motor_func">
                     <span
@@ -2121,13 +2121,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="part_motor_func" type="radio"
+                    <input id="part_motor_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="part_motor_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="part_motor_func" type="radio"
+                    <input id="part_motor_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="part_motor_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2142,13 +2142,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vid_elet_func" type="radio"
+                    <input id="vid_elet_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vid_elet_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vid_elet_func" type="radio"
+                    <input id="vid_elet_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vid_elet_func">
                     <span
@@ -2156,13 +2156,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vid_elet_func" type="radio"
+                    <input id="vid_elet_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vid_elet_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="vid_elet_func" type="radio"
+                    <input id="vid_elet_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="vid_elet_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2177,13 +2177,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="trav_elet_func" type="radio"
+                    <input id="trav_elet_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="trav_elet_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="trav_elet_func" type="radio"
+                    <input id="trav_elet_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="trav_elet_func">
                     <span
@@ -2191,13 +2191,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="trav_elet_func" type="radio"
+                    <input id="trav_elet_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="trav_elet_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="trav_elet_func" type="radio"
+                    <input id="trav_elet_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="trav_elet_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2212,13 +2212,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="teto_solar_func" type="radio"
+                    <input id="teto_solar_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="teto_solar_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="teto_solar_func" type="radio"
+                    <input id="teto_solar_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="teto_solar_func">
                     <span
@@ -2226,13 +2226,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="teto_solar_func" type="radio"
+                    <input id="teto_solar_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="teto_solar_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="teto_solar_func" type="radio"
+                    <input id="teto_solar_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="teto_solar_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2247,13 +2247,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajust_retro_func" type="radio"
+                    <input id="ajust_retro_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajust_retro_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajust_retro_func" type="radio"
+                    <input id="ajust_retro_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajust_retro_func">
                     <span
@@ -2261,13 +2261,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajust_retro_func" type="radio"
+                    <input id="ajust_retro_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajust_retro_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajust_retro_func" type="radio"
+                    <input id="ajust_retro_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajust_retro_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2282,13 +2282,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="rebat_retro_func" type="radio"
+                    <input id="rebat_retro_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="rebat_retro_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="rebat_retro_func" type="radio"
+                    <input id="rebat_retro_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="rebat_retro_func">
                     <span
@@ -2296,13 +2296,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="rebat_retro_func" type="radio"
+                    <input id="rebat_retro_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="rebat_retro_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="rebat_retro_func" type="radio"
+                    <input id="rebat_retro_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="rebat_retro_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2317,13 +2317,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="radio_mult_func" type="radio"
+                    <input id="radio_mult_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="radio_mult_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="radio_mult_func" type="radio"
+                    <input id="radio_mult_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="radio_mult_func">
                     <span
@@ -2331,13 +2331,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="radio_mult_func" type="radio"
+                    <input id="radio_mult_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="radio_mult_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="radio_mult_func" type="radio"
+                    <input id="radio_mult_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="radio_mult_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2352,13 +2352,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="reg_col_dir_func" type="radio"
+                    <input id="reg_col_dir_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="reg_col_dir_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="reg_col_dir_func" type="radio"
+                    <input id="reg_col_dir_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="reg_col_dir_func">
                     <span
@@ -2366,13 +2366,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="reg_col_dir_func" type="radio"
+                    <input id="reg_col_dir_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="reg_col_dir_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="reg_col_dir_func" type="radio"
+                    <input id="reg_col_dir_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="reg_col_dir_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2387,13 +2387,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="control_vol_func" type="radio"
+                    <input id="control_vol_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="control_vol_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="control_vol_func" type="radio"
+                    <input id="control_vol_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="control_vol_func">
                     <span
@@ -2401,13 +2401,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="control_vol_func" type="radio"
+                    <input id="control_vol_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="control_vol_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="control_vol_func" type="radio"
+                    <input id="control_vol_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="control_vol_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2422,13 +2422,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ala_comando_func" type="radio"
+                    <input id="ala_comando_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ala_comando_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ala_comando_func" type="radio"
+                    <input id="ala_comando_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ala_comando_func">
                     <span
@@ -2436,13 +2436,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ala_comando_func" type="radio"
+                    <input id="ala_comando_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ala_comando_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ala_comando_func" type="radio"
+                    <input id="ala_comando_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ala_comando_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2457,13 +2457,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="venti_func" type="radio"
+                    <input id="venti_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="venti_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="venti_func" type="radio"
+                    <input id="venti_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="venti_func">
                     <span
@@ -2471,13 +2471,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="venti_func" type="radio"
+                    <input id="venti_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="venti_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="venti_func" type="radio"
+                    <input id="venti_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="venti_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2492,13 +2492,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="recircu_func" type="radio"
+                    <input id="recircu_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="recircu_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="recircu_func" type="radio"
+                    <input id="recircu_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="recircu_func">
                     <span
@@ -2506,13 +2506,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="recircu_func" type="radio"
+                    <input id="recircu_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="recircu_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="recircu_func" type="radio"
+                    <input id="recircu_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="recircu_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2529,13 +2529,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ar_cond_func" type="radio"
+                    <input id="ar_cond_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ar_cond_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ar_cond_func" type="radio"
+                    <input id="ar_cond_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ar_cond_func">
                     <span
@@ -2543,13 +2543,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ar_cond_func" type="radio"
+                    <input id="ar_cond_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ar_cond_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ar_cond_func" type="radio"
+                    <input id="ar_cond_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ar_cond_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2564,13 +2564,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dif_ar_cond_func" type="radio"
+                    <input id="dif_ar_cond_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dif_ar_cond_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dif_ar_cond_func" type="radio"
+                    <input id="dif_ar_cond_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dif_ar_cond_func">
                     <span
@@ -2578,13 +2578,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dif_ar_cond_func" type="radio"
+                    <input id="dif_ar_cond_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dif_ar_cond_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="dif_ar_cond_func" type="radio"
+                    <input id="dif_ar_cond_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="dif_ar_cond_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2599,13 +2599,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="esg_vid_dia_func" type="radio"
+                    <input id="esg_vid_dia_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="esg_vid_dia_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="esg_vid_dia_func" type="radio"
+                    <input id="esg_vid_dia_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="esg_vid_dia_func">
                     <span
@@ -2613,13 +2613,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="esg_vid_dia_func" type="radio"
+                    <input id="esg_vid_dia_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="esg_vid_dia_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="esg_vid_dia_func" type="radio"
+                    <input id="esg_vid_dia_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="esg_vid_dia_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2634,13 +2634,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="esg_vid_tra_func" type="radio"
+                    <input id="esg_vid_tra_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="esg_vid_tra_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="esg_vid_tra_func" type="radio"
+                    <input id="esg_vid_tra_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="esg_vid_tra_func">
                     <span
@@ -2648,13 +2648,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="esg_vid_tra_func" type="radio"
+                    <input id="esg_vid_tra_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="esg_vid_tra_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="esg_vid_tra_func" type="radio"
+                    <input id="esg_vid_tra_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="esg_vid_tra_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2669,13 +2669,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="esg_far_func" type="radio"
+                    <input id="esg_far_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="esg_far_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="esg_far_func" type="radio"
+                    <input id="esg_far_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="esg_far_func">
                     <span
@@ -2683,13 +2683,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="esg_far_func" type="radio"
+                    <input id="esg_far_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="esg_far_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="esg_far_func" type="radio"
+                    <input id="esg_far_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="esg_far_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2704,13 +2704,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="said_ar_func" type="radio"
+                    <input id="said_ar_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="said_ar_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="said_ar_func" type="radio"
+                    <input id="said_ar_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="said_ar_func">
                     <span
@@ -2718,13 +2718,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="said_ar_func" type="radio"
+                    <input id="said_ar_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="said_ar_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="said_ar_func" type="radio"
+                    <input id="said_ar_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="said_ar_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2739,13 +2739,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pai_inst_func" type="radio"
+                    <input id="pai_inst_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pai_inst_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pai_inst_func" type="radio"
+                    <input id="pai_inst_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pai_inst_func">
                     <span
@@ -2753,13 +2753,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pai_inst_func" type="radio"
+                    <input id="pai_inst_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pai_inst_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="pai_inst_func" type="radio"
+                    <input id="pai_inst_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="pai_inst_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2774,13 +2774,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ilumi_func" type="radio"
+                    <input id="ilumi_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ilumi_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ilumi_func" type="radio"
+                    <input id="ilumi_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ilumi_func">
                     <span
@@ -2788,13 +2788,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ilumi_func" type="radio"
+                    <input id="ilumi_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ilumi_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ilumi_func" type="radio"
+                    <input id="ilumi_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ilumi_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2809,13 +2809,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="port_cons_func" type="radio"
+                    <input id="port_cons_func" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="port_cons_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="port_cons_func" type="radio"
+                    <input id="port_cons_func" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="port_cons_func">
                     <span
@@ -2823,13 +2823,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="port_cons_func" type="radio"
+                    <input id="port_cons_func" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="port_cons_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="port_cons_func" type="radio"
+                    <input id="port_cons_func" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="port_cons_func">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2870,13 +2870,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_terf" type="radio"
+                    <input id="banco_terf" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_terf">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_terf" type="radio"
+                    <input id="banco_terf" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_terf">
                     <span
@@ -2884,13 +2884,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_terf" type="radio"
+                    <input id="banco_terf" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_terf">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="banco_terf" type="radio"
+                    <input id="banco_terf" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="banco_terf">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2905,13 +2905,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajus_terf" type="radio"
+                    <input id="ajus_terf" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajus_terf">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajus_terf" type="radio"
+                    <input id="ajus_terf" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajus_terf">
                     <span
@@ -2919,13 +2919,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajus_terf" type="radio"
+                    <input id="ajus_terf" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajus_terf">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="ajus_terf" type="radio"
+                    <input id="ajus_terf" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="ajus_terf">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2940,13 +2940,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="carpete_terf" type="radio"
+                    <input id="carpete_terf" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="carpete_terf">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="carpete_terf" type="radio"
+                    <input id="carpete_terf" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="carpete_terf">
                     <span
@@ -2954,13 +2954,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="carpete_terf" type="radio"
+                    <input id="carpete_terf" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="carpete_terf">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="carpete_terf" type="radio"
+                    <input id="carpete_terf" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="carpete_terf">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -2975,13 +2975,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="tapete_terf" type="radio"
+                    <input id="tapete_terf" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="tapete_terf">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="tapete_terf" type="radio"
+                    <input id="tapete_terf" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="tapete_terf">
                     <span
@@ -2989,13 +2989,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="tapete_terf" type="radio"
+                    <input id="tapete_terf" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="tapete_terf">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="tapete_terf" type="radio"
+                    <input id="tapete_terf" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="tapete_terf">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>
@@ -3010,13 +3010,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="rebat_terf" type="radio"
+                    <input id="rebat_terf" type="radio" value="4"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="rebat_terf">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('N / A') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="rebat_terf" type="radio"
+                    <input id="rebat_terf" type="radio" value="5"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="rebat_terf">
                     <span
@@ -3024,13 +3024,13 @@
                 </td>
 
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="rebat_terf" type="radio"
+                    <input id="rebat_terf" type="radio" value="1"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="rebat_terf">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Aprovado') }}</span>
                 </td>
                 <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                    <input id="rebat_terf" type="radio"
+                    <input id="rebat_terf" type="radio" value="0"
                         class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
                         name="rebat_terf">
                     <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Reprovado') }}</span>

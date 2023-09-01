@@ -1,17 +1,17 @@
 <?php
 
 namespace App\Enums\Reports\Default;
- 
 
-enum AnaliseInterior:int
-{ 
 
-    case MANUAL = 1;
-    case ELETRICO = 2; 
-    case APROVADO = 3; 
-    case REPROVADO = 4; 
-    case NA = 5; 
-    case APROVADO_C_APONTAMENTO = 6; 
+enum AnaliseInterior: int
+{
+
+    case REPROVADO = 0;
+    case APROVADO = 1;
+    case MANUAL = 2;
+    case ELETRICO = 3;
+    case NA = 4;
+    case APROVADO_C_APONTAMENTO = 5;
 
 
 
@@ -25,4 +25,3 @@ enum AnaliseInterior:int
         throw new \ValueError("$status is not valid");
     }
 }
- 

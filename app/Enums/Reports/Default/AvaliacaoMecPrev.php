@@ -6,14 +6,16 @@ namespace App\Enums\Reports\Default;
 enum AvaliacaoMecPrev: int
 {
 
-    case    MANUAL_CARIMBADO = 1;
-    case NOTA_FISCAL = 2;
-    case REPROVADO = 3;
+
+    case REPROVADO = 0;
+    case APROVADO = 1;
+
+    case    MANUAL_CARIMBADO = 2;
+    case NOTA_FISCAL = 3; 
     case CVC = 4;
     case EFB = 5;
-    case AGM = 6;
-    case APROVADO = 7;
-    case NA = 8;
+    case AGM = 6;  
+    case NA = 7;
 
 
 
