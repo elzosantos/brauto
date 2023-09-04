@@ -15,13 +15,13 @@
                         <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
                             <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
                                 <div class="overflow-hidden">
-                                    
-                                    <table class="min-w-full border  text-sm font-light dark:border-neutral-500">
-                                        <thead class="border-b font- dark:border-neutral-500 text-center">
+
+                                    <table class="min-w-full   text-sm font-light dark:border-neutral-500">
+                                        <thead class="font- dark:border-neutral-500 text-left">
                                             <tr>
                                                 <th colspan="6" scope="col"
-                                                    class="border-r px-6 py-4 dark:border-neutral-500 text-xl">
-                                                    Consultaria Veícular - 250s
+                                                    class=" px-6 py-4 dark:border-neutral-500 text-xl">
+                                                    LOGOTIPO
                                                 </th>
 
                                             </tr>
@@ -29,137 +29,136 @@
                                         <tbody>
                                             <tr>
                                                 <td colspan="6" scope="col"
-                                                    class="text-center border-b px-6 py-4  transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600 text-lg">
-                                                    Apresentação
+                                                    class="text-center   px-6 py-4  transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600 text-lg">
+                                                    RELATÓRIO DE AVALIAÇÃO TÉCNICA
+
                                                 </td>
                                             </tr>
                                             <tr
-                                                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                                                <td colspan="4"
-                                                    class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                                                    Assinatura do Técnico Responsável:
+                                                class="text-center py-4 transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                                                <td colspan="6"
+                                                    class="whitespace-nowrap   font-small dark:border-neutral-500">
+                                                    CLIENTE: Elzo dos Santos
                                                 </td>
-
-
-                                                <td colspan="2"
-                                                    class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                                                    Data: _________/_________/__________
-                                                </td>
-
 
                                             </tr>
                                             <tr>
                                                 <td colspan="6" scope="col"
-                                                    class="text-center border-b px-6 py-4  transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                                                    Dados do Veículo
+                                                    class="text-justify border-b px-6 py-4  transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                                                    Este é um relatório informativo que traz informações técnicas sobre
+                                                    o veículo
+                                                    analisado, bem como testes de funcionalidades e percepções gerais do
+                                                    veículo. As
+                                                    informações presentes no relatório servem de embasamento e
+                                                    conhecimento para
+                                                    compradores e vendedores do veículo com o intuito da demonstração e
+                                                    aplicação no
+                                                    processo de compra e venda, para que ele seja o mais transparente
+                                                    possível.
                                                 </td>
                                             </tr>
                                             <tr
-                                                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                                                <td colspan="2"
+                                                class="border  py-4 text-center transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                                                <td colspan="6"
                                                     class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                                                    Marca:
+                                                    INFORMAÇÕES INICIAIS
+
                                                 </td>
-
-                                                <td colspan="2"
-                                                    class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                                                    Modelo:
-                                                </td>
-
-                                                <td colspan="2"
-                                                    class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                                                    Versão:
-                                                </td>
-
-
                                             </tr>
                                             <tr
-                                                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                                                <td colspan="2"
-                                                    class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                                                    Ano:
+                                                class=" py-6 text-center transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                                                <td colspan="6"
+                                                    class="whitespace-nowrap   font-medium dark:border-neutral-500">
+                                                    VEÍCULO: VW TIGUAN ALLSPACE RLINE
                                                 </td>
-
-                                                <td colspan="2"
-                                                    class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                                                    Cor:
-                                                </td>
-
-                                                <td colspan="2"
-                                                    class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                                                    Cliente:
-                                                </td>
-
-
                                             </tr>
                                             <tr
-                                                class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                                                <td colspan="2"
+                                                class="  text-center  transition duration-300 ease-in-out hover:bg-neutral-100   dark:hover:bg-neutral-600">
+                                                <td colspan="6"
+                                                    class="whitespace-nowrap font-medium dark:border-neutral-500">
+                                                    ANO FAB/MODELO: 2018/2018
+
+                                                </td>
+                                            </tr>
+                                            <tr
+                                                class=" text-center  transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                                                <td colspan="6"
+                                                    class="whitespace-nowrap   font-medium dark:border-neutral-500">
+                                                    COR: BRANCA
+
+                                                </td>
+                                            </tr>
+                                            <tr
+                                                class="  text-center  transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                                                <td colspan="6"
+                                                    class="whitespace-nowrap   font-medium dark:border-neutral-500">
+                                                    Placa: QPG0D50/DF
+
+                                                </td>
+                                            </tr>
+                                            <tr
+                                                class="  text-center  transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                                                <td colspan="6"
+                                                    class="whitespace-nowrap   font-medium dark:border-neutral-500">
+                                                    Km: 28.129 KM
+
+                                                </td>
+                                            </tr>
+                                            <tr
+                                                class="border  py-4 text-center transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                                                <td colspan="6"
                                                     class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
-                                                    Km Atual:
-                                                </td>
+                                                    OBSERVAÇÕES INICIAIS
 
-                                                <td colspan="2"
-                                                    class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                                                    Placa:
-                                                </td>
 
-                                                <td colspan="2"
-                                                    class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
-                                                    Renavam:
                                                 </td>
-
                                             </tr>
-                                            <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
-                                                 
-                                                
-                                                    
-                                            </tr>
-                                            
+                                            <tr
+                                                class="border  py-4 text-center transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                                                <td colspan="6"
+                                                    class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
+                                                    IDENTIFICAÇÃO VEICULAR E DOCUMENTAÇÃO
 
-                                              
-                                           
+                                                </td>
+                                            </tr>
+                                            <tr
+                                                class="border  py-4 text-center transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                                                <td colspan="6"
+                                                    class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
+                                                    ESTRUTURA E SEGURANÇA
+
+                                                </td>
+                                            </tr>
+                                            <tr
+                                                class="border  py-4 text-center transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                                                <td colspan="6"
+                                                    class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
+                                                    CONJUNTO RODA/PNEUS
+
+                                                </td>
+                                            </tr>
+                                            <tr
+                                                class="border  py-4 text-center transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+                                                <td colspan="6"
+                                                    class="whitespace-nowrap border-r font-medium dark:border-neutral-500">
+                                                    AVALIAÇÃO DE PORTA-MALAS
+
+                                                </td>
+                                            </tr>
+
                                         </tbody>
                                     </table>
-                                    <table class="py-10 min-w-full border  text-sm font-light dark:border-neutral-500">
-                                        <ul class="flex">
-                                            <li class="mr-3">
-                                              <a class="inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white" href="group1">Historico e Dados</a>
-                                            </li>
-                                            <li class="mr-3">
-                                                <a class="inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white" href="group1">Análise Exterior</a>
-                                              </li>
-                                              <li class="mr-3">
-                                                <a class="inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white" href="group1">Análise Interior</a>
-                                              </li>
-                                              <li class="mr-3">
-                                                <a class="inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white" href="group1">Análise Mecanica</a>
-                                              </li>
-                                              <li class="mr-3">
-                                                <a class="inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white" href="group1">Análise Mecanica - 2 </a>
-                                              </li>
-                                              <li class="mr-3">
-                                                <a class="inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white" href="group1">Avaliação de Mecânica Preventiva</a>
-                                              </li>
-                                         
-                                          </ul>
-                                          
-                                          @include('consultancy.partials.group1' )
-                                        <!--   @ include('consultancy.partials.group2' )
-                                          @ include('consultancy.partials.group3' )
-                                          @ include('consultancy.partials.group4' )
-                                          @i nclude('consultancy.partials.group5' )
-                                          @i nclude('consultancy.partials.group6' )--></table> 
+
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="p-6 text-gray-900 dark:text-gray-100">
+                    <div class="p-6 text-gray-900 dark:text-gray-100 ">
                         <div class="flex items-center">
                             <form action="{{ route('users.destroy', $consultancy->id) }}" method="POST">
                                 @csrf()
                                 @method('DELETE')
-                                <button class="alert" type="submit">Deletar</button>
+                                <button class="rounded-full " type="submit">Deletar</button>
                             </form>
                         </div>
                     </div>
