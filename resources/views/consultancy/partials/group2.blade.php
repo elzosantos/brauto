@@ -261,13 +261,13 @@
                  <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                      <input id="prop" type="radio"
                          class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                         name="prop" value="4">
+                         name="prop" value="3">
                      <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Física') }}</span>
                  </td>
                  <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">
                      <input id="prop" type="radio"
                          class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800"
-                         name="prop" value="3">
+                         name="prop" value="4">
                      <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Jurídica') }}</span>
                  </td>
                  <td class="whitespace-nowrap border-r px-6 py-4 dark:border-neutral-500">

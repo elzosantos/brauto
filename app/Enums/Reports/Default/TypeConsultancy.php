@@ -12,7 +12,6 @@ enum TypeConsultancy: int
         case ANALISE_MECANICA  = 5;
         case ANALISE_MECANICA_B = 6;
         case ANALISE_PREVENTIVA = 7;
-
         case RESULTADO_FINAL = 8;
 
         public static function fromValue(string $name): string

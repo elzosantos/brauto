@@ -8,17 +8,11 @@ enum AnaliseMecanicaB: int
 
     case REPROVADO = 0;
     case APROVADO = 1;
-
-    case APROVADO = 1;
     case ANALISE_NECE_DESMO_NA = 2;
-    case NOVA = 3;
-    case ORIGINAL = 4;
-    case MEIA_VIDA = 5;
-    case TROCA_BREVE = 6;
-    case NA = 7;
-
-
-
+    case NOVA = 3;     
+    case MEIA_VIDA = 4;
+    case TROCA_BREVE = 5;
+    case NA = 6;
 
     public static function fromValue(int $status): string
     {

@@ -9,12 +9,11 @@ enum AvaliacaoMecPrev: int
 
     case REPROVADO = 0;
     case APROVADO = 1;
-
-    case    MANUAL_CARIMBADO = 2;
-    case NOTA_FISCAL = 3; 
+    case MANUAL_CARIMBADO = 2;
+    case NOTA_FISCAL = 3;
     case CVC = 4;
     case EFB = 5;
-    case AGM = 6;  
+    case AGM = 6;
     case NA = 7;
 
 

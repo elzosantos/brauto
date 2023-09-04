@@ -8,7 +8,6 @@ enum AnaliseMecanica: int
 
     case REPROVADO = 0;
     case APROVADO = 1;
-
     case PRIMEIRA_LINHA = 2;
     case SEGUNDA_LINHA = 3;
     case MENOR_5_ANOS = 4;

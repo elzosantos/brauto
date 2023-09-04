@@ -6,7 +6,7 @@ namespace App\Enums\Reports\Default;
 enum Evaluation:string
 { 
 
-    case UM = '1';
+    case ATIVO = '1';
     case INATIVO = '2'; 
     public static function fromValue(int $status): string
     {
