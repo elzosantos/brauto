@@ -40,6 +40,7 @@ class ConsultancyController extends Controller
         if (!$consultancy = $this->service->findOne($id)) {
             return back();
         }
+       // dd($consultancy);
         return view('consultancy.partials.show', compact('consultancy'));
     }
 

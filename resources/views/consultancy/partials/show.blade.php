@@ -38,7 +38,8 @@
                                                 class="text-center py-4 transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                                                 <td colspan="6"
                                                     class="whitespace-nowrap   font-small dark:border-neutral-500">
-                                                    CLIENTE: Elzo dos Santos
+                                                    CLIENTE:  {{$consultancy->vehicle_user['user']['name']}}
+                                                </td>
                                                 </td>
 
                                             </tr>
@@ -69,14 +70,14 @@
                                                 class=" py-6 text-center transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                                                 <td colspan="6"
                                                     class="whitespace-nowrap   font-medium dark:border-neutral-500">
-                                                    VEÍCULO: VW TIGUAN ALLSPACE RLINE
+                                                    VEÍCULO: {{$consultancy->vehicle_user['exemplar']['exemplar']}}
                                                 </td>
                                             </tr>
                                             <tr
                                                 class="  text-center  transition duration-300 ease-in-out hover:bg-neutral-100   dark:hover:bg-neutral-600">
                                                 <td colspan="6"
                                                     class="whitespace-nowrap font-medium dark:border-neutral-500">
-                                                    ANO FAB/MODELO: 2018/2018
+                                                    ANO FAB/MODELO:  {{$consultancy->vehicle_user['year'] }}
 
                                                 </td>
                                             </tr>
@@ -84,7 +85,7 @@
                                                 class=" text-center  transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                                                 <td colspan="6"
                                                     class="whitespace-nowrap   font-medium dark:border-neutral-500">
-                                                    COR: BRANCA
+                                                    COR:  {{$consultancy->vehicle_user['color'] }}
 
                                                 </td>
                                             </tr>
@@ -92,7 +93,7 @@
                                                 class="  text-center  transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                                                 <td colspan="6"
                                                     class="whitespace-nowrap   font-medium dark:border-neutral-500">
-                                                    Placa: QPG0D50/DF
+                                                    Placa: {{$consultancy->vehicle_user['tag'] }}
 
                                                 </td>
                                             </tr>
@@ -100,7 +101,7 @@
                                                 class="  text-center  transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                                                 <td colspan="6"
                                                     class="whitespace-nowrap   font-medium dark:border-neutral-500">
-                                                    Km: 28.129 KM
+                                                    Km: {{$consultancy->vehicle_user['km'] }} km
 
                                                 </td>
                                             </tr>
